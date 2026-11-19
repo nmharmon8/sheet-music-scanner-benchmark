@@ -1,0 +1,18 @@
+{
+ "id": "samples/6986302/p1-s2",
+ "scorer": 1,
+ "predicted": true,
+ "predLmx": "measure key:fifths:0 time beats:3 beat-type:4 clef:G2 staff:1 clef:F4 staff:2 D4 voice:1 half dot stem:up staff:1 slur:start chord D5 half dot backup half backup quarter rest voice:2 quarter staff:1 E4 quarter stem:down chord G4 quarter E4 quarter chord G4 quarter backup half backup quarter C2 voice:5 quarter stem:up staff:2 chord C3 quarter rest quarter rest quarter measure C4 voice:1 half stem:up staff:1 chord C5 half E4 quarter chord E5 quarter backup half backup quarter rest voice:2 quarter staff:1 E4 quarter stem:down chord G4 quarter rest quarter backup half backup quarter G1 voice:5 quarter stem:up staff:2 chord G2 quarter rest quarter rest quarter measure B3 voice:1 half dot stem:up staff:1 chord B4 half dot backup half backup quarter rest voice:2 quarter staff:1 E4 quarter stem:down chord G4 quarter E4 quarter chord G4 quarter backup half backup quarter C2 voice:5 quarter stem:up staff:2 chord C3 quarter rest quarter rest quarter measure A3 voice:1 half dot stem:up staff:1 slur:stop chord A4 half dot backup half backup quarter rest voice:2 quarter staff:1 E4 quarter stem:down chord G4 quarter E4 quarter chord G4 quarter backup half backup quarter G1 voice:5 quarter stem:up staff:2 chord G2 quarter rest quarter rest quarter measure B3 voice:1 half dot stem:up staff:1 slur:start chord B4 half dot backup half backup quarter rest voice:2 quarter staff:1 E4 quarter stem:down chord G4 quarter E4 quarter chord G4 quarter backup half backup quarter C2 voice:5 quarter stem:up staff:2 chord C3 quarter rest quarter rest quarter measure A3 voice:1 half stem:up staff:1 chord A4 half E3 quarter slur:stop chord E4 quarter backup half backup quarter rest voice:2 quarter staff:1 E4 quarter stem:down chord G4 quarter rest quarter backup half backup quarter G1 voice:5 quarter stem:up staff:2 chord G2 quarter rest quarter rest quarter",
+ "linearizer_warnings": "",
+ "ser_edits": 5,
+ "ser_gold": 283,
+ "full": {
+  "edit": 18,
+  "gold": 515
+ },
+ "lmx": {
+  "edit": 7,
+  "gold": 504
+ },
+ "seconds": 6.7
+}

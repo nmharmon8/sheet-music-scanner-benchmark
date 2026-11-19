@@ -1,0 +1,13 @@
+cff-version: 1.2.0
+title: "Sheet music scanner benchmark: piano OMR accuracy, 7 apps, 17 uploads"
+message: "If you use these results or files, please cite them as below."
+type: dataset
+authors:
+  - name: "Ozni Apps LLC (PlayableNotes)"
+    email: support@playablenotes.com
+date-released: 2026-11-18
+version: "2026-11-18"
+url: "https://playablenotes.com/sheet-music-scanner-benchmark"
+repository-code: "https://github.com/nmharmon8/sheet-music-scanner-benchmark"
+license: CC-BY-4.0
+keywords: [optical music recognition, OMR, sheet music scanner, piano, benchmark, MusicXML, OLiMPiC]

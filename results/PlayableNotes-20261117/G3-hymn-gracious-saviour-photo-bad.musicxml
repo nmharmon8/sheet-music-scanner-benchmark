@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE score-partwise PUBLIC "-//Recordare//DTD MusicXML 4.0 Partwise//EN" "http://www.musicxml.org/dtds/partwise.dtd">
+<score-partwise version="4.0">
+<work><work-title></work-title></work>
+<part-list><score-part id="P1"><part-name>Piano</part-name></score-part></part-list>
+<part id="P1">
+<measure number="1">
+<attributes><divisions>6720</divisions><key><fifths>2</fifths></key><time><beats>9</beats><beat-type>8</beat-type></time><staves>2</staves><clef number="1"><sign>G</sign><line>2</line></clef><clef number="2"><sign>F</sign><line>4</line></clef></attributes>
+<note><pitch><step>F</step><alter>1</alter><octave>4</octave></pitch><duration>10080</duration><voice>1</voice><type>quarter</type><dot/><staff>1</staff><lyric number="1"><syllabic>begin</syllabic><text>an</text></lyric></note>
+<note><chord/><pitch><step>D</step><octave>5</octave></pitch><duration>10080</duration><voice>1</voice><type>quarter</type><dot/><staff>1</staff></note>
+<note><pitch><step>F</step><alter>1</alter><octave>4</octave></pitch><duration>10080</duration><voice>1</voice><type>quarter</type><dot/><staff>1</staff><lyric number="1"><syllabic>end</syllabic><text>chor</text></lyric></note>
+<note><chord/><pitch><step>A</step><octave>4</octave></pitch><duration>10080</duration><voice>1</voice><type>quarter</type><dot/><staff>1</staff></note>
+<note><pitch><step>G</step><octave>4</octave></pitch><duration>3360</duration><voice>1</voice><type>eighth</type><staff>1</staff><beam number="1">begin</beam><lyric number="1"><syllabic>single</syllabic><text>in</text></lyric></note>
+<note><chord/><pitch><step>B</step><octave>4</octave></pitch><duration>3360</duration><voice>1</voice><type>eighth</type><staff>1</staff></note>
+<note><pitch><step>B</step><octave>4</octave></pitch><duration>3360</duration><voice>1</voice><type>eighth</type><staff>1</staff><beam number="1">continue</beam><lyric number="1"><syllabic>single</syllabic><text>the</text></lyric></note>
+<note><chord/><pitch><step>D</step><octave>5</octave></pitch><duration>3360</duration><voice>1</voice><type>eighth</type><staff>1</staff></note>
+<note><pitch><step>G</step><octave>4</octave></pitch><duration>3360</duration><voice>1</voice><type>eighth</type><staff>1</staff><beam number="1">end</beam><lyric number="1"><syllabic>single</syllabic><text>safe</text></lyric></note>
+<note><chord/><pitch><step>B</step><octave>4</octave></pitch><duration>3360</duration><voice>1</voice><type>eighth</type><staff>1</staff></note>
+<backup><duration>30240</duration></backup>
+<note><pitch><step>D</step><octave>3</octave></pitch><duration>10080</duration><voice>5</voice><type>quarter</type><dot/><staff>2</staff></note>
+<note><chord/><pitch><step>A</step><octave>3</octave></pitch><duration>10080</duration><voice>5</voice><type>quarter</type><dot/><staff>2</staff></note>
+<note><pitch><step>D</step><octave>3</octave></pitch><duration>10080</duration><voice>5</voice><type>quarter</type><dot/><staff>2</staff></note>
+<note><chord/><pitch><step>D</step><octave>4</octave></pitch><duration>10080</duration><voice>5</voice><type>quarter</type><dot/><staff>2</staff></note>
+<note><pitch><step>G</step><octave>3</octave></pitch><duration>3360</duration><voice>5</voice><type>eighth</type><staff>2</staff><beam number="1">begin</beam></note>
+<note><chord/><pitch><step>D</step><octave>4</octave></pitch><duration>3360</duration><voice>5</voice><type>eighth</type><staff>2</staff></note>
+<note><pitch><step>G</step><octave>3</octave></pitch><duration>3360</duration><voice>5</voice><type>eighth</type><staff>2</staff><beam number="1">continue</beam></note>
+<note><chord/><pitch><step>D</step><octave>4</octave></pitch><duration>3360</duration><voice>5</voice><type>eighth</type><staff>2</staff></note>
+<note><pitch><step>G</step><octave>3</octave></pitch><duration>3360</duration><voice>5</voice><type>eighth</type><staff>2</staff><beam number="1">end</beam></note>
+<note><chord/><pitch><step>D</step><octave>4</octave></pitch><duration>3360</duration><voice>5</voice><type>eighth</type><staff>2</staff></note>
+</measure>
+<measure number="2">
+<note><pitch><step>F</step><alter>1</alter><octave>4</octave></pitch><duration>10080</duration><voice>1</voice><type>quarter</type><dot/><staff>1</staff><lyric number="1"><syllabic>begin</syllabic><text>har</text></lyric></note>
+<note><chord/><pitch><step>A</step><octave>4</octave></pitch><duration>10080</duration><voice>1</voice><type>quarter</type><dot/><staff>1</staff></note>
+<note><pitch><step>D</step><octave>4</octave></pitch><duration>10080</duration><voice>1</voice><type>quarter</type><dot/><staff>1</staff><lyric number="1"><syllabic>end</syllabic><text>bor,</text></lyric></note>
+<note><chord/><pitch><step>F</step><alter>1</alter><octave>4</octave></pitch><duration>10080</duration><voice>1</voice><type>quarter</type><dot/><staff>1</staff></note>
+<note><pitch><step>F</step><alter>1</alter><octave>4</octave></pitch><duration>3360</duration><voice>1</voice><type>eighth</type><staff>1</staff><beam number="1">begin</beam><lyric number="1"><syllabic>begin</syllabic><text>Glo</text></lyric></note>
+<note><pitch><step>E</step><octave>4</octave></pitch><duration>3360</duration><voice>1</voice><type>eighth</type><staff>1</staff><beam number="1">continue</beam><lyric number="1"><syllabic>end</syllabic><text>ry</text></lyric></note>
+<note><pitch><step>D</step><octave>4</octave></pitch><duration>3360</duration><voice>1</voice><type>eighth</type><staff>1</staff><beam number="1">end</beam><lyric number="1"><syllabic>single</syllabic><text>to</text></lyric></note>
+<backup><duration>30240</duration></backup>
+<note><pitch><step>D</step><octave>3</octave></pitch><duration>10080</duration><voice>5</voice><type>quarter</type><dot/><staff>2</staff></note>
+<note><chord/><pitch><step>D</step><octave>4</octave></pitch><duration>10080</duration><voice>5</voice><type>quarter</type><dot/><staff>2</staff></note>
+<note><pitch><step>D</step><octave>3</octave></pitch><duration>10080</duration><voice>5</voice><type>quarter</type><dot/><staff>2</staff></note>
+<note><chord/><pitch><step>A</step><octave>3</octave></pitch><duration>10080</duration><voice>5</voice><type>quarter</type><dot/><staff>2</staff></note>
+<note><pitch><step>F</step><alter>1</alter><octave>3</octave></pitch><duration>3360</duration><voice>5</voice><type>eighth</type><staff>2</staff><beam number="1">begin</beam></note>
+<note><pitch><step>E</step><octave>3</octave></pitch><duration>3360</duration><voice>5</voice><type>eighth</type><staff>2</staff><beam number="1">continue</beam></note>
+<note><pitch><step>D</step><octave>3</octave></pitch><duration>3360</duration><voice>5</voice><type>eighth</type><staff>2</staff><beam number="1">end</beam></note>
+</measure>
+<measure number="3">
+<note><pitch><step>F</step><alter>1</alter><octave>4</octave></pitch><duration>10080</duration><voice>1</voice><type>quarter</type><dot/><staff>1</staff><lyric number="1"><syllabic>single</syllabic><text>God,</text></lyric></note>
+<note><chord/><pitch><step>D</step><octave>5</octave></pitch><duration>10080</duration><voice>1</voice><type>quarter</type><dot/><staff>1</staff></note>
+<note><pitch><step>F</step><alter>1</alter><octave>4</octave></pitch><duration>10080</duration><voice>1</voice><type>quarter</type><dot/><staff>1</staff><lyric number="1"><syllabic>single</syllabic><text>you'll</text></lyric></note>
+<note><chord/><pitch><step>A</step><octave>4</octave></pitch><duration>10080</duration><voice>1</voice><type>quarter</type><dot/><staff>1</staff></note>
+<note><pitch><step>A</step><octave>4</octave></pitch><duration>3360</duration><voice>1</voice><type>eighth</type><staff>1</staff><beam number="1">begin</beam><lyric number="1"><syllabic>begin</syllabic><text>sor</text></lyric></note>
+<note><pitch><step>G</step><octave>4</octave></pitch><duration>3360</duration><voice>1</voice><type>eighth</type><staff>1</staff><beam number="1">continue</beam><lyric number="1"><syllabic>end</syllabic><text>row</text></lyric></note>
+<note><chord/><pitch><step>B</step><octave>4</octave></pitch><duration>3360</duration><voice>1</voice><type>eighth</type><staff>1</staff></note>
+<note><pitch><step>G</step><octave>4</octave></pitch><duration>3360</duration><voice>1</voice><type>eighth</type><staff>1</staff><beam number="1">end</beam><lyric number="1"><syllabic>single</syllabic><text>no</text></lyric></note>
+<note><chord/><pitch><step>D</step><octave>5</octave></pitch><duration>3360</duration><voice>1</voice><type>eighth</type><staff>1</staff></note>
+<backup><duration>30240</duration></backup>
+<forward><duration>20160</duration><voice>2</voice><staff>1</staff></forward>
+<note><pitch><step>G</step><octave>4</octave></pitch><duration>3360</duration><voice>2</voice><type>eighth</type><staff>1</staff></note>
+<forward><duration>6720</duration><voice>2</voice><staff>1</staff></forward>
+<backup><duration>30240</duration></backup>
+<note><pitch><step>D</step><octave>3</octave></pitch><duration>10080</duration><voice>5</voice><type>quarter</type><dot/><staff>2</staff></note>
+<note><chord/><pitch><step>A</step><octave>3</octave></pitch><duration>10080</duration><voice>5</voice><type>quarter</type><dot/><staff>2</staff></note>
+<note><pitch><step>F</step><alter>1</alter><octave>3</octave></pitch><duration>10080</duration><voice>5</voice><type>quarter</type><dot/><staff>2</staff></note>
+<note><chord/><pitch><step>D</step><octave>4</octave></pitch><duration>10080</duration><voice>5</voice><type>quarter</type><dot/><staff>2</staff></note>
+<note><pitch><step>A</step><octave>3</octave></pitch><duration>3360</duration><voice>5</voice><type>eighth</type><staff>2</staff><beam number="1">begin</beam></note>
+<note><chord/><pitch><step>C</step><alter>1</alter><octave>4</octave></pitch><duration>3360</duration><voice>5</voice><type>eighth</type><staff>2</staff></note>
+<note><pitch><step>A</step><octave>3</octave></pitch><duration>3360</duration><voice>5</voice><type>eighth</type><staff>2</staff><beam number="1">continue</beam></note>
+<note><chord/><pitch><step>D</step><octave>4</octave></pitch><duration>3360</duration><voice>5</voice><type>eighth</type><staff>2</staff></note>
+<note><pitch><step>A</step><octave>3</octave></pitch><duration>3360</duration><voice>5</voice><type>eighth</type><staff>2</staff><beam number="1">end</beam></note>
+<note><chord/><pitch><step>E</step><octave>4</octave></pitch><duration>3360</duration><voice>5</voice><type>eighth</type><staff>2</staff></note>
+</measure>
+<measure number="4">
+<note><pitch><step>F</step><alter>1</alter><octave>4</octave></pitch><duration>10080</duration><tie type="start"/><voice>1</voice><type>quarter</type><dot/><staff>1</staff><notations><tied type="start"/></notations><lyric number="1"><syllabic>single</syllabic><text>more.</text><extend type="start"/></lyric></note>
+<note><chord/><pitch><step>D</step><octave>5</octave></pitch><duration>10080</duration><tie type="start"/><voice>1</voice><type>quarter</type><dot/><staff>1</staff><notations><tied type="start"/></notations></note>
+<note><pitch><step>F</step><alter>1</alter><octave>4</octave></pitch><duration>10080</duration><tie type="stop"/><voice>1</voice><type>quarter</type><dot/><staff>1</staff><notations><tied type="stop"/></notations><lyric number="1"><extend type="stop"/></lyric></note>
+<note><chord/><pitch><step>D</step><octave>5</octave></pitch><duration>10080</duration><tie type="stop"/><voice>1</voice><type>quarter</type><dot/><staff>1</staff><notations><tied type="stop"/></notations></note>
+<backup><duration>20160</duration></backup>
+<note><pitch><step>D</step><octave>3</octave></pitch><duration>10080</duration><tie type="start"/><voice>5</voice><type>quarter</type><dot/><staff>2</staff><notations><tied type="start"/></notations></note>
+<note><chord/><pitch><step>D</step><octave>4</octave></pitch><duration>10080</duration><tie type="start"/><voice>5</voice><type>quarter</type><dot/><staff>2</staff><notations><tied type="start"/></notations></note>
+<note><pitch><step>D</step><octave>3</octave></pitch><duration>10080</duration><tie type="stop"/><voice>5</voice><type>quarter</type><dot/><staff>2</staff><notations><tied type="stop"/></notations></note>
+<note><chord/><pitch><step>D</step><octave>4</octave></pitch><duration>10080</duration><tie type="stop"/><voice>5</voice><type>quarter</type><dot/><staff>2</staff><notations><tied type="stop"/></notations></note>
+<barline location="right"><bar-style>light-heavy</bar-style></barline>
+</measure>
+<measure number="5">
+<attributes><key><fifths>1</fifths></key><time><beats>4</beats><beat-type>4</beat-type></time></attributes>
+<note><pitch><step>G</step><octave>4</octave></pitch><duration>6720</duration><voice>1</voice><type>quarter</type><staff>1</staff><lyric number="1"><syllabic>begin</syllabic><text>Gra</text></lyric><lyric number="2"><syllabic>begin</syllabic><text>Ten</text></lyric><lyric number="3"><syllabic>single</syllabic><text>Let</text></lyric><lyric number="4"><syllabic>single</syllabic><text>Taught</text></lyric></note>
+<note><chord/><pitch><step>D</step><octave>5</octave></pitch><duration>6720</duration><voice>1</voice><type>quarter</type><staff>1</staff></note>
+<note><pitch><step>G</step><octave>4</octave></pitch><duration>6720</duration><voice>1</voice><type>quarter</type><staff>1</staff><lyric number="1"><syllabic>end</syllabic><text>cious</text></lyric><lyric number="2"><syllabic>end</syllabic><text>der</text></lyric><lyric number="3"><syllabic>single</syllabic><text>Thy</text></lyric><lyric number="4"><syllabic>single</syllabic><text>to</text></lyric></note>
+<note><chord/><pitch><step>B</step><octave>4</octave></pitch><duration>6720</duration><voice>1</voice><type>quarter</type><staff>1</staff></note>
+<note><pitch><step>E</step><octave>4</octave></pitch><duration>6720</duration><voice>1</voice><type>quarter</type><staff>1</staff><lyric number="1"><syllabic>begin</syllabic><text>Sav</text></lyric><lyric number="2"><syllabic>begin</syllabic><text>Shep</text></lyric><lyric number="3"><syllabic>begin</syllabic><text>ho</text></lyric><lyric number="4"><syllabic>single</syllabic><text>lisp</text></lyric></note>
+<note><chord/><pitch><step>A</step><octave>4</octave></pitch><duration>6720</duration><voice>1</voice><type>quarter</type><staff>1</staff></note>
+<note><pitch><step>D</step><octave>4</octave></pitch><duration>6720</duration><voice>1</voice><type>quarter</type><staff>1</staff><lyric number="1"><syllabic>end</syllabic><text>iour,</text></lyric><lyric number="2"><syllabic>end</syllabic><text>herd,</text></lyric><lyric number="3"><syllabic>end</syllabic><text>ly</text></lyric><lyric number="4"><syllabic>single</syllabic><text>the</text></lyric></note>
+<note><chord/><pitch><step>G</step><octave>4</octave></pitch><duration>6720</duration><voice>1</voice><type>quarter</type><staff>1</staff></note>
+<backup><duration>26880</duration></backup>
+<note><pitch><step>G</step><octave>3</octave></pitch><duration>6720</duration><voice>5</voice><type>quarter</type><staff>2</staff></note>
+<note><chord/><pitch><step>B</step><octave>3</octave></pitch><duration>6720</duration><voice>5</voice><type>quarter</type><staff>2</staff></note>
+<note><pitch><step>G</step><octave>3</octave></pitch><duration>6720</duration><voice>5</voice><type>quarter</type><staff>2</staff></note>
+<note><chord/><pitch><step>D</step><octave>4</octave></pitch><duration>6720</duration><voice>5</voice><type>quarter</type><staff>2</staff></note>
+<note><pitch><step>G</step><octave>3</octave></pitch><duration>6720</duration><voice>5</voice><type>quarter</type><staff>2</staff></note>
+<note><chord/><pitch><step>C</step><octave>4</octave></pitch><duration>6720</duration><voice>5</voice><type>quarter</type><staff>2</staff></note>
+<note><pitch><step>G</step><octave>3</octave></pitch><duration>6720</duration><voice>5</voice><type>quarter</type><staff>2</staff></note>
+<note><chord/><pitch><step>B</step><octave>3</octave></pitch><duration>6720</duration><voice>5</voice><type>quarter</type><staff>2</staff></note>
+</measure>
+<measure number="6">
+<note><pitch><step>E</step><octave>4</octave></pitch><duration>6720</duration><voice>1</voice><type>quarter</type><staff>1</staff><lyric number="1"><syllabic>begin</syllabic><text>gen</text></lyric><lyric number="2"><syllabic>begin</syllabic><text>nev</text></lyric><lyric number="3"><syllabic>single</syllabic><text>Word</text></lyric><lyric number="4"><syllabic>begin</syllabic><text>ho</text></lyric></note>
+<note><pitch><step>D</step><octave>4</octave></pitch><duration>6720</duration><voice>1</voice><type>quarter</type><staff>1</staff><lyric number="1"><syllabic>end</syllabic><text>tle</text></lyric><lyric number="2"><syllabic>end</syllabic><text>er</text></lyric><lyric number="3"><syllabic>begin</syllabic><text>in</text></lyric><lyric number="4"><syllabic>end</syllabic><text>ly</text></lyric></note>
+<note><chord/><pitch><step>G</step><octave>4</octave></pitch><duration>6720</duration><voice>1</voice><type>quarter</type><staff>1</staff></note>
+<note><pitch><step>D</step><octave>4</octave></pitch><duration>6720</duration><voice>1</voice><type>quarter</type><staff>1</staff><lyric number="1"><syllabic>begin</syllabic><text>Shep</text></lyric><lyric number="2"><syllabic>single</syllabic><text>leave</text></lyric><lyric number="3"><syllabic>end</syllabic><text>struct</text></lyric><lyric number="4"><syllabic>begin</syllabic><text>prais</text></lyric></note>
+<note><chord/><pitch><step>A</step><octave>4</octave></pitch><duration>6720</duration><voice>1</voice><type>quarter</type><staff>1</staff></note>
+<note><pitch><step>D</step><octave>4</octave></pitch><duration>6720</duration><voice>1</voice><type>quarter</type><staff>1</staff><lyric number="1"><syllabic>end</syllabic><text>herd,</text></lyric><lyric number="2"><syllabic>single</syllabic><text>us</text></lyric><lyric number="3"><syllabic>single</syllabic><text>us;</text></lyric><lyric number="4"><syllabic>end</syllabic><text>es</text></lyric></note>
+<note><chord/><pitch><step>G</step><octave>4</octave></pitch><duration>6720</duration><voice>1</voice><type>quarter</type><staff>1</staff></note>
+<backup><duration>26880</duration></backup>
+<note><pitch><step>G</step><octave>3</octave></pitch><duration>6720</duration><voice>5</voice><type>quarter</type><staff>2</staff></note>
+<note><chord/><pitch><step>C</step><octave>4</octave></pitch><duration>6720</duration><voice>5</voice><type>quarter</type><staff>2</staff></note>
+<note><pitch><step>G</step><octave>3</octave></pitch><duration>6720</duration><voice>5</voice><type>quarter</type><staff>2</staff></note>
+<note><chord/><pitch><step>B</step><octave>3</octave></pitch><duration>6720</duration><voice>5</voice><type>quarter</type><staff>2</staff></note>
+<note><pitch><step>D</step><octave>3</octave></pitch><duration>6720</duration><voice>5</voice><type>quarter</type><staff>2</staff></note>
+<note><chord/><pitch><step>C</step><octave>4</octave></pitch><duration>6720</duration><voice>5</voice><type>quarter</type><staff>2</staff></note>
+<note><pitch><step>G</step><octave>3</octave></pitch><duration>6720</duration><voice>5</voice><type>quarter</type><staff>2</staff></note>
+<note><chord/><pitch><step>B</step><octave>3</octave></pitch><duration>6720</duration><voice>5</voice><type>quarter</type><staff>2</staff></note>
+</measure>
+<measure number="7">
+<note><pitch><step>E</step><octave>4</octave></pitch><duration>10080</duration><voice>1</voice><type>quarter</type><dot/><staff>1</staff><lyric number="1"><syllabic>begin</syllabic><text>Lit</text></lyric><lyric number="2"><syllabic>single</syllabic><text>From</text></lyric><lyric number="3"><syllabic>single</syllabic><text>Fill</text></lyric><lyric number="4"><syllabic>single</syllabic><text>Which</text></lyric></note>
+<note><chord/><pitch><step>G</step><octave>4</octave></pitch><duration>10080</duration><voice>1</voice><type>quarter</type><dot/><staff>1</staff></note>
+<note><pitch><step>E</step><octave>4</octave></pitch><duration>3360</duration><voice>1</voice><type>eighth</type><staff>1</staff><lyric number="1"><syllabic>end</syllabic><text>tle</text></lyric><lyric number="2"><syllabic>single</syllabic><text>Thy</text></lyric><lyric number="3"><syllabic>single</syllabic><text>our</text></lyric><lyric number="4"><syllabic>single</syllabic><text>on</text></lyric></note>
+<note><chord/><pitch><step>G</step><octave>4</octave></pitch><duration>3360</duration><voice>1</voice><type>eighth</type><staff>1</staff></note>
+<note><pitch><step>D</step><alter>1</alter><octave>4</octave></pitch><duration>6720</duration><voice>1</voice><type>quarter</type><accidental>sharp</accidental><staff>1</staff><lyric number="1"><syllabic>single</syllabic><text>ones</text></lyric><lyric number="2"><syllabic>single</syllabic><text>fold</text></lyric><lyric number="3"><syllabic>single</syllabic><text>minds</text></lyric><lyric number="4"><syllabic>single</syllabic><text>earth</text></lyric></note>
+<note><chord/><pitch><step>B</step><octave>4</octave></pitch><duration>6720</duration><voice>1</voice><type>quarter</type><staff>1</staff></note>
+<note><pitch><step>F</step><alter>1</alter><octave>4</octave></pitch><duration>6720</duration><voice>1</voice><type>quarter</type><staff>1</staff><lyric number="1"><syllabic>single</syllabic><text>are</text></lyric><lyric number="2"><syllabic>single</syllabic><text>to</text></lyric><lyric number="3"><syllabic>single</syllabic><text>with</text></lyric><lyric number="4"><syllabic>single</syllabic><text>Thy</text></lyric></note>
+<note><chord/><pitch><step>A</step><octave>4</octave></pitch><duration>6720</duration><voice>1</voice><type>quarter</type><staff>1</staff></note>
+<backup><duration>26880</duration></backup>
+<note><pitch><step>E</step><octave>3</octave></pitch><duration>10080</duration><voice>5</voice><type>quarter</type><dot/><staff>2</staff></note>
+<note><chord/><pitch><step>B</step><octave>3</octave></pitch><duration>10080</duration><voice>5</voice><type>quarter</type><dot/><staff>2</staff></note>
+<note><pitch><step>E</step><octave>3</octave></pitch><duration>3360</duration><voice>5</voice><type>eighth</type><staff>2</staff></note>
+<note><chord/><pitch><step>B</step><octave>3</octave></pitch><duration>3360</duration><voice>5</voice><type>eighth</type><staff>2</staff></note>
+<note><pitch><step>B</step><octave>2</octave></pitch><duration>6720</duration><voice>5</voice><type>quarter</type><staff>2</staff></note>
+<note><chord/><pitch><step>B</step><octave>3</octave></pitch><duration>6720</duration><voice>5</voice><type>quarter</type><staff>2</staff></note>
+<note><pitch><step>D</step><alter>1</alter><octave>3</octave></pitch><duration>6720</duration><voice>5</voice><type>quarter</type><accidental>sharp</accidental><staff>2</staff></note>
+<note><chord/><pitch><step>B</step><octave>3</octave></pitch><duration>6720</duration><voice>5</voice><type>quarter</type><staff>2</staff></note>
+</measure>
+<measure number="8">
+<note><pitch><step>E</step><octave>4</octave></pitch><duration>6720</duration><voice>1</voice><type>quarter</type><staff>1</staff><lyric number="1"><syllabic>single</syllabic><text>dear</text></lyric><lyric number="2"><syllabic>single</syllabic><text>go</text></lyric><lyric number="3"><syllabic>begin</syllabic><text>heav'</text></lyric><lyric number="4"><syllabic>begin</syllabic><text>chil</text></lyric></note>
+<note><chord/><pitch><step>G</step><octave>4</octave></pitch><duration>6720</duration><voice>1</voice><type>quarter</type><staff>1</staff></note>
+<note><pitch><step>E</step><octave>4</octave></pitch><duration>6720</duration><voice>1</voice><type>quarter</type><staff>1</staff><lyric number="1"><syllabic>single</syllabic><text>to</text></lyric><lyric number="2"><syllabic>begin</syllabic><text>a</text></lyric><lyric number="3"><syllabic>end</syllabic><text>nly</text></lyric><lyric number="4"><syllabic>end</syllabic><text>dren</text></lyric></note>
+<note><pitch><step>D</step><alter>1</alter><octave>4</octave></pitch><duration>13440</duration><voice>1</voice><type>half</type><accidental>sharp</accidental><staff>1</staff><lyric number="1"><syllabic>single</syllabic><text>Thee;</text></lyric><lyric number="2"><syllabic>end</syllabic><text>stray;</text></lyric><lyric number="3"><syllabic>single</syllabic><text>light;</text></lyric><lyric number="4"><syllabic>single</syllabic><text>sing,</text></lyric></note>
+<note><chord/><pitch><step>F</step><alter>1</alter><octave>4</octave></pitch><duration>13440</duration><voice>1</voice><type>half</type><staff>1</staff></note>
+<backup><duration>26880</duration></backup>
+<note><pitch><step>E</step><octave>3</octave></pitch><duration>6720</duration><voice>5</voice><type>quarter</type><staff>2</staff></note>
+<note><chord/><pitch><step>B</step><octave>3</octave></pitch><duration>6720</duration><voice>5</voice><type>quarter</type><staff>2</staff></note>
+<note><pitch><step>C</step><octave>3</octave></pitch><duration>6720</duration><voice>5</voice><type>quarter</type><staff>2</staff></note>
+<note><chord/><pitch><step>A</step><alter>1</alter><octave>3</octave></pitch><duration>6720</duration><voice>5</voice><type>quarter</type><accidental>sharp</accidental><staff>2</staff></note>
+<note><pitch><step>B</step><octave>2</octave></pitch><duration>13440</duration><voice>5</voice><type>half</type><staff>2</staff></note>
+<note><chord/><pitch><step>B</step><octave>3</octave></pitch><duration>13440</duration><voice>5</voice><type>half</type><staff>2</staff></note>
+</measure>
+<measure number="9">
+<note><pitch><step>E</step><octave>4</octave></pitch><duration>10080</duration><voice>1</voice><type>quarter</type><dot/><staff>1</staff><lyric number="1"><syllabic>begin</syllabic><text>Gath</text></lyric><lyric number="2"><syllabic>single</syllabic><text>By</text></lyric><lyric number="3"><syllabic>single</syllabic><text>Let</text></lyric><lyric number="4"><syllabic>single</syllabic><text>Both</text></lyric></note>
+<note><chord/><pitch><step>G</step><octave>4</octave></pitch><duration>10080</duration><voice>1</voice><type>quarter</type><dot/><staff>1</staff></note>
+<note><pitch><step>E</step><octave>4</octave></pitch><duration>3360</duration><voice>1</voice><type>eighth</type><staff>1</staff><lyric number="1"><syllabic>end</syllabic><text>ered</text></lyric><lyric number="2"><syllabic>single</syllabic><text>Thy</text></lyric><lyric number="3"><syllabic>single</syllabic><text>Thy</text></lyric><lyric number="4"><syllabic>single</syllabic><text>with</text></lyric></note>
+<note><chord/><pitch><step>G</step><octave>4</octave></pitch><duration>3360</duration><voice>1</voice><type>eighth</type><staff>1</staff></note>
+<note><pitch><step>D</step><octave>4</octave></pitch><duration>10080</duration><voice>1</voice><type>quarter</type><dot/><accidental>natural</accidental><staff>1</staff><lyric number="1"><syllabic>single</syllabic><text>with</text></lyric><lyric number="2"><syllabic>single</syllabic><text>look</text></lyric><lyric number="3"><syllabic>single</syllabic><text>love</text></lyric><lyric number="4"><syllabic>single</syllabic><text>lips</text></lyric></note>
+<note><chord/><pitch><step>A</step><octave>4</octave></pitch><duration>10080</duration><voice>1</voice><type>quarter</type><dot/><staff>1</staff></note>
+<note><pitch><step>D</step><octave>4</octave></pitch><duration>3360</duration><voice>1</voice><type>eighth</type><staff>1</staff><lyric number="1"><syllabic>single</syllabic><text>Thine</text></lyric><lyric number="2"><syllabic>single</syllabic><text>of</text></lyric><lyric number="3"><syllabic>single</syllabic><text>and</text></lyric><lyric number="4"><syllabic>single</syllabic><text>and</text></lyric></note>
+<note><chord/><pitch><step>A</step><octave>4</octave></pitch><duration>3360</duration><voice>1</voice><type>eighth</type><staff>1</staff></note>
+<backup><duration>26880</duration></backup>
+<note><pitch><step>E</step><octave>3</octave></pitch><duration>10080</duration><voice>5</voice><type>quarter</type><dot/><staff>2</staff></note>
+<note><chord/><pitch><step>B</step><octave>3</octave></pitch><duration>10080</duration><voice>5</voice><type>quarter</type><dot/><staff>2</staff></note>
+<note><pitch><step>E</step><octave>3</octave></pitch><duration>3360</duration><voice>5</voice><type>eighth</type><staff>2</staff></note>
+<note><chord/><pitch><step>B</step><octave>3</octave></pitch><duration>3360</duration><voice>5</voice><type>eighth</type><staff>2</staff></note>
+<note><pitch><step>F</step><alter>1</alter><octave>3</octave></pitch><duration>10080</duration><voice>5</voice><type>quarter</type><dot/><staff>2</staff></note>
+<note><chord/><pitch><step>A</step><octave>3</octave></pitch><duration>10080</duration><voice>5</voice><type>quarter</type><dot/><accidental>natural</accidental><staff>2</staff></note>
+<note><pitch><step>F</step><alter>1</alter><octave>3</octave></pitch><duration>3360</duration><voice>5</voice><type>eighth</type><staff>2</staff></note>
+<note><chord/><pitch><step>D</step><octave>4</octave></pitch><duration>3360</duration><voice>5</voice><type>eighth</type><staff>2</staff></note>
+</measure>
+<measure number="10">
+<note><pitch><step>D</step><octave>4</octave></pitch><duration>6720</duration><voice>1</voice><type>quarter</type><staff>1</staff><lyric number="1"><syllabic>single</syllabic><text>arms,</text></lyric><lyric number="2"><syllabic>single</syllabic><text>love</text></lyric><lyric number="3"><syllabic>single</syllabic><text>grace</text></lyric><lyric number="4"><syllabic>single</syllabic><text>hearts</text></lyric></note>
+<note><chord/><pitch><step>B</step><octave>4</octave></pitch><duration>6720</duration><voice>1</voice><type>quarter</type><staff>1</staff></note>
+<note><pitch><step>G</step><octave>4</octave></pitch><duration>6720</duration><voice>1</voice><type>quarter</type><staff>1</staff><lyric number="1"><syllabic>single</syllabic><text>and</text></lyric><lyric number="2"><syllabic>begin</syllabic><text>di</text></lyric><lyric number="3"><syllabic>begin</syllabic><text>con</text></lyric><lyric number="4"><syllabic>begin</syllabic><text>un</text></lyric></note>
+<note><chord/><pitch><step>D</step><octave>5</octave></pitch><duration>6720</duration><voice>1</voice><type>quarter</type><staff>1</staff></note>
+<note><pitch><step>F</step><alter>1</alter><octave>4</octave></pitch><duration>6720</duration><voice>1</voice><type>quarter</type><staff>1</staff><lyric number="1"><syllabic>begin</syllabic><text>car</text></lyric><lyric number="2"><syllabic>middle</syllabic><text>rect</text></lyric><lyric number="3"><syllabic>end</syllabic><text>strain</text></lyric><lyric number="4"><syllabic>middle</syllabic><text>feign</text></lyric></note>
+<note><chord/><pitch><step>C</step><octave>5</octave></pitch><duration>6720</duration><voice>1</voice><type>quarter</type><staff>1</staff></note>
+<note><pitch><step>G</step><octave>4</octave></pitch><duration>6720</duration><voice>1</voice><type>quarter</type><staff>1</staff><lyric number="1"><syllabic>end</syllabic><text>ried</text></lyric><lyric number="2"><syllabic>end</syllabic><text>ed</text></lyric><lyric number="3"><syllabic>single</syllabic><text>us</text></lyric><lyric number="4"><syllabic>end</syllabic><text>ed</text></lyric></note>
+<note><chord/><pitch><step>B</step><octave>4</octave></pitch><duration>6720</duration><voice>1</voice><type>quarter</type><staff>1</staff></note>
+<backup><duration>26880</duration></backup>
+<note><pitch><step>G</step><octave>3</octave></pitch><duration>6720</duration><voice>5</voice><type>quarter</type><staff>2</staff></note>
+<note><chord/><pitch><step>D</step><octave>4</octave></pitch><duration>6720</duration><voice>5</voice><type>quarter</type><staff>2</staff></note>
+<note><pitch><step>B</step><octave>3</octave></pitch><duration>6720</duration><voice>5</voice><type>quarter</type><staff>2</staff></note>
+<note><chord/><pitch><step>D</step><octave>4</octave></pitch><duration>6720</duration><voice>5</voice><type>quarter</type><staff>2</staff></note>
+<note><pitch><step>A</step><octave>3</octave></pitch><duration>6720</duration><voice>5</voice><type>quarter</type><staff>2</staff></note>
+<note><chord/><pitch><step>D</step><octave>4</octave></pitch><duration>6720</duration><voice>5</voice><type>quarter</type><staff>2</staff></note>
+<note><pitch><step>G</step><octave>3</octave></pitch><duration>6720</duration><voice>5</voice><type>quarter</type><staff>2</staff></note>
+<note><chord/><pitch><step>D</step><octave>4</octave></pitch><duration>6720</duration><voice>5</voice><type>quarter</type><staff>2</staff></note>
+</measure>
+<measure number="11">
+<note><pitch><step>F</step><alter>1</alter><octave>4</octave></pitch><duration>10080</duration><voice>1</voice><type>quarter</type><dot/><staff>1</staff><lyric number="1"><syllabic>single</syllabic><text>In</text></lyric><lyric number="2"><syllabic>single</syllabic><text>May</text></lyric><lyric number="3"><syllabic>single</syllabic><text>To</text></lyric><lyric number="4"><syllabic>single</syllabic><text>May</text></lyric></note>
+<note><chord/><pitch><step>A</step><octave>4</octave></pitch><duration>10080</duration><voice>1</voice><type>quarter</type><dot/><staff>1</staff></note>
+<note><pitch><step>F</step><alter>1</alter><octave>4</octave></pitch><duration>3360</duration><voice>1</voice><type>eighth</type><staff>1</staff><lyric number="1"><syllabic>single</syllabic><text>Thy</text></lyric><lyric number="2"><syllabic>single</syllabic><text>we</text></lyric><lyric number="3"><syllabic>begin</syllabic><text>ap</text></lyric><lyric number="4"><syllabic>single</syllabic><text>we</text></lyric></note>
+<note><chord/><pitch><step>A</step><octave>4</octave></pitch><duration>3360</duration><voice>1</voice><type>eighth</type><staff>1</staff></note>
+<note><pitch><step>F</step><alter>1</alter><octave>4</octave></pitch><duration>6720</duration><voice>1</voice><type>quarter</type><staff>1</staff><lyric number="1"><syllabic>begin</syllabic><text>bo</text></lyric><lyric number="2"><syllabic>single</syllabic><text>walk</text></lyric><lyric number="3"><syllabic>end</syllabic><text>prove</text></lyric><lyric number="4"><syllabic>single</syllabic><text>our</text></lyric></note>
+<note><chord/><pitch><step>D</step><octave>5</octave></pitch><duration>6720</duration><voice>1</voice><type>quarter</type><staff>1</staff></note>
+<note><pitch><step>D</step><octave>4</octave></pitch><duration>6720</duration><voice>1</voice><type>quarter</type><staff>1</staff><lyric number="1"><syllabic>end</syllabic><text>som</text></lyric><lyric number="2"><syllabic>single</syllabic><text>the</text></lyric><lyric number="3"><syllabic>begin</syllabic><text>what</text></lyric><lyric number="4"><syllabic>begin</syllabic><text>thank</text></lyric></note>
+<note><chord/><pitch><step>F</step><alter>1</alter><octave>4</octave></pitch><duration>6720</duration><voice>1</voice><type>quarter</type><staff>1</staff></note>
+<backup><duration>26880</duration></backup>
+<note><pitch><step>A</step><octave>3</octave></pitch><duration>10080</duration><voice>5</voice><type>quarter</type><dot/><staff>2</staff></note>
+<note><chord/><pitch><step>D</step><octave>4</octave></pitch><duration>10080</duration><voice>5</voice><type>quarter</type><dot/><staff>2</staff></note>
+<note><pitch><step>A</step><octave>3</octave></pitch><duration>3360</duration><voice>5</voice><type>eighth</type><staff>2</staff></note>
+<note><chord/><pitch><step>D</step><octave>4</octave></pitch><duration>3360</duration><voice>5</voice><type>eighth</type><staff>2</staff></note>
+<note><pitch><step>A</step><octave>3</octave></pitch><duration>6720</duration><voice>5</voice><type>quarter</type><staff>2</staff></note>
+<note><chord/><pitch><step>D</step><octave>4</octave></pitch><duration>6720</duration><voice>5</voice><type>quarter</type><staff>2</staff></note>
+<note><pitch><step>A</step><octave>3</octave></pitch><duration>6720</duration><voice>5</voice><type>quarter</type><staff>2</staff></note>
+</measure>
+<measure number="12">
+<note><pitch><step>C</step><alter>1</alter><octave>4</octave></pitch><duration>10080</duration><voice>1</voice><type>quarter</type><dot/><accidental>sharp</accidental><staff>1</staff><lyric number="1"><syllabic>single</syllabic><text>may</text></lyric><lyric number="2"><syllabic>begin</syllabic><text>nar</text></lyric><lyric number="3"><syllabic>end</syllabic><text>e'er</text></lyric><lyric number="4"><syllabic>middle</syllabic><text>off'</text></lyric></note>
+<note><chord/><pitch><step>E</step><octave>4</octave></pitch><duration>10080</duration><voice>1</voice><type>quarter</type><dot/><staff>1</staff></note>
+<note><pitch><step>D</step><octave>4</octave></pitch><duration>3360</duration><voice>1</voice><type>eighth</type><staff>1</staff><lyric number="1"><syllabic>single</syllabic><text>we</text></lyric><lyric number="2"><syllabic>end</syllabic><text>row</text></lyric><lyric number="3"><syllabic>single</syllabic><text>is</text></lyric><lyric number="4"><syllabic>end</syllabic><text>rings</text></lyric></note>
+<note><pitch><step>D</step><octave>4</octave></pitch><duration>13440</duration><voice>1</voice><type>half</type><staff>1</staff><lyric number="1"><syllabic>single</syllabic><text>be;</text></lyric><lyric number="2"><syllabic>single</syllabic><text>way;</text></lyric><lyric number="3"><syllabic>single</syllabic><text>right,</text></lyric><lyric number="4"><syllabic>single</syllabic><text>bring;</text></lyric></note>
+<backup><duration>26880</duration></backup>
+<note><pitch><step>A</step><octave>2</octave></pitch><duration>10080</duration><voice>5</voice><type>quarter</type><dot/><staff>2</staff></note>
+<note><chord/><pitch><step>G</step><octave>3</octave></pitch><duration>10080</duration><voice>5</voice><type>quarter</type><dot/><staff>2</staff></note>
+<note><pitch><step>D</step><octave>3</octave></pitch><duration>3360</duration><voice>5</voice><type>eighth</type><staff>2</staff></note>
+<note><chord/><pitch><step>F</step><alter>1</alter><octave>3</octave></pitch><duration>3360</duration><voice>5</voice><type>eighth</type><staff>2</staff></note>
+<note><pitch><step>D</step><octave>3</octave></pitch><duration>13440</duration><voice>5</voice><type>half</type><staff>2</staff></note>
+<note><chord/><pitch><step>F</step><alter>1</alter><octave>3</octave></pitch><duration>13440</duration><voice>5</voice><type>half</type><staff>2</staff></note>
+</measure>
+<measure number="13">
+<note><pitch><step>B</step><octave>4</octave></pitch><duration>6720</duration><voice>1</voice><type>quarter</type><staff>1</staff><lyric number="1"><syllabic>begin</syllabic><text>Sweet</text></lyric><lyric number="2"><syllabic>single</syllabic><text>Thus</text></lyric><lyric number="3"><syllabic>single</syllabic><text>Take</text></lyric><lyric number="4"><syllabic>single</syllabic><text>Then,</text></lyric></note>
+<note><chord/><pitch><step>D</step><octave>5</octave></pitch><duration>6720</duration><voice>1</voice><type>quarter</type><staff>1</staff></note>
+<note><pitch><step>G</step><octave>4</octave></pitch><duration>6720</duration><voice>1</voice><type>quarter</type><staff>1</staff><lyric number="1"><syllabic>end</syllabic><text>ly,</text></lyric><lyric number="2"><syllabic>begin</syllabic><text>di</text></lyric><lyric number="3"><syllabic>single</syllabic><text>Thine</text></lyric><lyric number="4"><syllabic>single</syllabic><text>with</text></lyric></note>
+<note><chord/><pitch><step>B</step><octave>4</octave></pitch><duration>6720</duration><voice>1</voice><type>quarter</type><staff>1</staff></note>
+<note><pitch><step>F</step><alter>1</alter><octave>4</octave></pitch><duration>3360</duration><voice>1</voice><type>eighth</type><staff>1</staff><beam number="1">begin</beam><lyric number="1"><syllabic>begin</syllabic><text>fond</text><extend type="start"/></lyric><lyric number="2"><syllabic>end</syllabic><text>rect</text><extend type="start"/></lyric><lyric number="3"><syllabic>begin</syllabic><text>eas</text><extend type="start"/></lyric><lyric number="4"><syllabic>single</syllabic><text>all</text><extend type="start"/></lyric></note>
+<note><chord/><pitch><step>A</step><octave>4</octave></pitch><duration>3360</duration><voice>1</voice><type>eighth</type><staff>1</staff></note>
+<note><pitch><step>D</step><octave>4</octave></pitch><duration>3360</duration><voice>1</voice><type>eighth</type><staff>1</staff><beam number="1">end</beam><lyric number="1"><extend type="stop"/></lyric><lyric number="2"><extend type="stop"/></lyric><lyric number="3"><extend type="stop"/></lyric><lyric number="4"><extend type="stop"/></lyric></note>
+<note><chord/><pitch><step>B</step><octave>4</octave></pitch><duration>3360</duration><voice>1</voice><type>eighth</type><staff>1</staff></note>
+<note><pitch><step>D</step><octave>4</octave></pitch><duration>6720</duration><voice>1</voice><type>quarter</type><staff>1</staff><notations><fermata type="upright"/></notations><lyric number="1"><syllabic>end</syllabic><text>ly,</text></lyric><lyric number="2"><syllabic>single</syllabic><text>us,</text></lyric><lyric number="3"><syllabic>end</syllabic><text>y</text></lyric><lyric number="4"><syllabic>single</syllabic><text>the</text></lyric></note>
+<note><chord/><pitch><step>G</step><octave>4</octave></pitch><duration>6720</duration><voice>1</voice><type>quarter</type><staff>1</staff></note>
+<backup><duration>26880</duration></backup>
+<note><pitch><step>G</step><octave>3</octave></pitch><duration>6720</duration><voice>5</voice><type>quarter</type><staff>2</staff></note>
+<note><chord/><pitch><step>D</step><octave>4</octave></pitch><duration>6720</duration><voice>5</voice><type>quarter</type><staff>2</staff></note>
+<note><pitch><step>G</step><octave>3</octave></pitch><duration>6720</duration><voice>5</voice><type>quarter</type><staff>2</staff></note>
+<note><chord/><pitch><step>D</step><octave>4</octave></pitch><duration>6720</duration><voice>5</voice><type>quarter</type><staff>2</staff></note>
+<note><pitch><step>D</step><octave>4</octave></pitch><duration>3360</duration><voice>5</voice><type>eighth</type><staff>2</staff><beam number="1">begin</beam></note>
+<note><pitch><step>C</step><octave>4</octave></pitch><duration>3360</duration><voice>5</voice><type>eighth</type><staff>2</staff><beam number="1">end</beam></note>
+<note><pitch><step>G</step><octave>3</octave></pitch><duration>6720</duration><voice>5</voice><type>quarter</type><staff>2</staff><notations><fermata type="upright"/></notations></note>
+<note><chord/><pitch><step>B</step><octave>3</octave></pitch><duration>6720</duration><voice>5</voice><type>quarter</type><staff>2</staff></note>
+<backup><duration>26880</duration></backup>
+<forward><duration>13440</duration><voice>6</voice><staff>2</staff></forward>
+<note><pitch><step>D</step><octave>3</octave></pitch><duration>6720</duration><voice>6</voice><type>quarter</type><staff>2</staff></note>
+<forward><duration>6720</duration><voice>6</voice><staff>2</staff></forward>
+</measure>
+<measure number="14">
+<note><pitch><step>G</step><octave>4</octave></pitch><duration>6720</duration><voice>1</voice><type>quarter</type><staff>1</staff><lyric number="1"><syllabic>begin</syllabic><text>safe</text></lyric><lyric number="2"><syllabic>single</syllabic><text>and</text></lyric><lyric number="3"><syllabic>single</syllabic><text>yoke</text></lyric><lyric number="4"><syllabic>single</syllabic><text>saints</text></lyric></note>
+<note><chord/><pitch><step>B</step><octave>4</octave></pitch><duration>6720</duration><voice>1</voice><type>quarter</type><staff>1</staff></note>
+<note><pitch><step>E</step><octave>4</octave></pitch><duration>6720</duration><voice>1</voice><type>quarter</type><staff>1</staff><lyric number="1"><syllabic>end</syllabic><text>ly</text></lyric><lyric number="2"><syllabic>begin</syllabic><text>pro</text></lyric><lyric number="3"><syllabic>single</syllabic><text>and</text></lyric><lyric number="4"><syllabic>single</syllabic><text>in</text></lyric></note>
+<note><chord/><pitch><step>G</step><octave>4</octave></pitch><duration>6720</duration><voice>1</voice><type>quarter</type><staff>1</staff></note>
+<note><pitch><step>D</step><alter>1</alter><octave>4</octave></pitch><duration>3360</duration><voice>1</voice><type>eighth</type><accidental>sharp</accidental><staff>1</staff><beam number="1">begin</beam><lyric number="1"><syllabic>begin</syllabic><text>tend</text><extend type="start"/></lyric><lyric number="2"><syllabic>end</syllabic><text>tect</text><extend type="start"/></lyric><lyric number="3"><syllabic>single</syllabic><text>wear</text><extend type="start"/></lyric><lyric number="4"><syllabic>begin</syllabic><text>glo</text><extend type="start"/></lyric></note>
+<note><chord/><pitch><step>F</step><alter>1</alter><octave>4</octave></pitch><duration>3360</duration><voice>1</voice><type>eighth</type><staff>1</staff></note>
+<note><pitch><step>B</step><octave>3</octave></pitch><duration>3360</duration><voice>1</voice><type>eighth</type><staff>1</staff><beam number="1">end</beam><lyric number="1"><extend type="stop"/></lyric><lyric number="2"><extend type="stop"/></lyric><lyric number="3"><extend type="stop"/></lyric><lyric number="4"><extend type="stop"/></lyric></note>
+<note><chord/><pitch><step>G</step><octave>4</octave></pitch><duration>3360</duration><voice>1</voice><type>eighth</type><staff>1</staff></note>
+<note><pitch><step>B</step><octave>3</octave></pitch><duration>6720</duration><voice>1</voice><type>quarter</type><staff>1</staff><notations><fermata type="upright"/></notations><lyric number="1"><syllabic>end</syllabic><text>ed,</text></lyric><lyric number="2"><syllabic>single</syllabic><text>us,</text></lyric><lyric number="3"><syllabic>single</syllabic><text>it,</text></lyric><lyric number="4"><syllabic>end</syllabic><text>ry,</text></lyric></note>
+<note><chord/><pitch><step>E</step><octave>4</octave></pitch><duration>6720</duration><voice>1</voice><type>quarter</type><staff>1</staff></note>
+<backup><duration>26880</duration></backup>
+<note><pitch><step>E</step><octave>3</octave></pitch><duration>6720</duration><voice>5</voice><type>quarter</type><staff>2</staff></note>
+<note><chord/><pitch><step>B</step><octave>3</octave></pitch><duration>6720</duration><voice>5</voice><type>quarter</type><staff>2</staff></note>
+<note><pitch><step>E</step><octave>3</octave></pitch><duration>6720</duration><voice>5</voice><type>quarter</type><staff>2</staff></note>
+<note><chord/><pitch><step>B</step><octave>3</octave></pitch><duration>6720</duration><voice>5</voice><type>quarter</type><staff>2</staff></note>
+<note><pitch><step>B</step><octave>3</octave></pitch><duration>3360</duration><voice>5</voice><type>eighth</type><staff>2</staff><beam number="1">begin</beam></note>
+<note><pitch><step>A</step><octave>3</octave></pitch><duration>3360</duration><voice>5</voice><type>eighth</type><staff>2</staff><beam number="1">end</beam></note>
+<note><pitch><step>E</step><octave>3</octave></pitch><duration>6720</duration><voice>5</voice><type>quarter</type><staff>2</staff><notations><fermata type="upright"/></notations></note>
+<note><chord/><pitch><step>G</step><octave>3</octave></pitch><duration>6720</duration><voice>5</voice><type>quarter</type><staff>2</staff></note>
+<backup><duration>26880</duration></backup>
+<forward><duration>13440</duration><voice>6</voice><staff>2</staff></forward>
+<note><pitch><step>B</step><octave>2</octave></pitch><duration>6720</duration><voice>6</voice><type>quarter</type><staff>2</staff></note>
+<forward><duration>6720</duration><voice>6</voice><staff>2</staff></forward>
+</measure>
+<measure number="15">
+<note><pitch><step>E</step><octave>4</octave></pitch><duration>6720</duration><voice>1</voice><type>quarter</type><staff>1</staff><lyric number="1"><syllabic>single</syllabic><text>From</text></lyric><lyric number="2"><syllabic>single</syllabic><text>Lest</text></lyric><lyric number="3"><syllabic>single</syllabic><text>And</text></lyric><lyric number="4"><syllabic>single</syllabic><text>Join</text></lyric></note>
+<note><chord/><pitch><step>E</step><octave>5</octave></pitch><duration>6720</duration><voice>1</voice><type>quarter</type><staff>1</staff></note>
+<note><pitch><step>E</step><octave>4</octave></pitch><duration>6720</duration><voice>1</voice><type>quarter</type><staff>1</staff><lyric number="1"><syllabic>single</syllabic><text>all</text></lyric><lyric number="2"><syllabic>single</syllabic><text>we</text></lyric><lyric number="3"><syllabic>single</syllabic><text>to</text></lyric><lyric number="4"><syllabic>single</syllabic><text>to</text></lyric></note>
+<note><chord/><pitch><step>E</step><octave>5</octave></pitch><duration>6720</duration><voice>1</voice><type>quarter</type><staff>1</staff></note>
+<note><pitch><step>G</step><octave>4</octave></pitch><duration>6720</duration><voice>1</voice><type>quarter</type><staff>1</staff><lyric number="1"><syllabic>single</syllabic><text>want</text></lyric><lyric number="2"><syllabic>single</syllabic><text>fall</text></lyric><lyric number="3"><syllabic>single</syllabic><text>prove</text></lyric><lyric number="4"><syllabic>single</syllabic><text>praise</text></lyric></note>
+<note><chord/><pitch><step>D</step><octave>5</octave></pitch><duration>6720</duration><voice>1</voice><type>quarter</type><staff>1</staff></note>
+<note><pitch><step>G</step><octave>4</octave></pitch><duration>6720</duration><voice>1</voice><type>quarter</type><staff>1</staff><lyric number="1"><syllabic>single</syllabic><text>and</text></lyric><lyric number="2"><syllabic>single</syllabic><text>an</text></lyric><lyric number="3"><syllabic>single</syllabic><text>Thy</text></lyric><lyric number="4"><syllabic>single</syllabic><text>our</text></lyric></note>
+<note><chord/><pitch><step>B</step><octave>4</octave></pitch><duration>6720</duration><voice>1</voice><type>quarter</type><staff>1</staff></note>
+<backup><duration>26880</duration></backup>
+<note><pitch><step>C</step><alter>1</alter><octave>3</octave></pitch><duration>6720</duration><voice>5</voice><type>quarter</type><accidental>sharp</accidental><staff>2</staff></note>
+<note><chord/><pitch><step>G</step><octave>3</octave></pitch><duration>6720</duration><voice>5</voice><type>quarter</type><staff>2</staff></note>
+<note><pitch><step>C</step><alter>1</alter><octave>3</octave></pitch><duration>6720</duration><voice>5</voice><type>quarter</type><staff>2</staff></note>
+<note><chord/><pitch><step>A</step><alter>1</alter><octave>3</octave></pitch><duration>6720</duration><voice>5</voice><type>quarter</type><accidental>sharp</accidental><staff>2</staff></note>
+<note><pitch><step>D</step><octave>3</octave></pitch><duration>6720</duration><voice>5</voice><type>quarter</type><staff>2</staff></note>
+<note><chord/><pitch><step>B</step><octave>3</octave></pitch><duration>6720</duration><voice>5</voice><type>quarter</type><staff>2</staff></note>
+<note><pitch><step>D</step><octave>3</octave></pitch><duration>6720</duration><voice>5</voice><type>quarter</type><staff>2</staff></note>
+<note><chord/><pitch><step>D</step><octave>4</octave></pitch><duration>6720</duration><voice>5</voice><type>quarter</type><staff>2</staff></note>
+</measure>
+<measure number="16">
+<note><pitch><step>F</step><alter>1</alter><octave>4</octave></pitch><duration>10080</duration><voice>1</voice><type>quarter</type><dot/><staff>1</staff><lyric number="1"><syllabic>begin</syllabic><text>an</text></lyric><lyric number="2"><syllabic>begin</syllabic><text>eas</text></lyric><lyric number="3"><syllabic>begin</syllabic><text>bur</text></lyric><lyric number="4"><syllabic>single</syllabic><text>Lord</text></lyric></note>
+<note><chord/><pitch><step>A</step><octave>4</octave></pitch><duration>10080</duration><voice>1</voice><type>quarter</type><dot/><staff>1</staff></note>
+<note><pitch><step>D</step><octave>4</octave></pitch><duration>3360</duration><voice>1</voice><type>eighth</type><staff>1</staff><lyric number="1"><syllabic>end</syllabic><text>ger</text></lyric><lyric number="2"><syllabic>end</syllabic><text>y</text></lyric><lyric number="3"><syllabic>end</syllabic><text>den</text></lyric><lyric number="4"><syllabic>single</syllabic><text>and</text></lyric></note>
+<note><chord/><pitch><step>G</step><octave>4</octave></pitch><duration>3360</duration><voice>1</voice><type>eighth</type><staff>1</staff></note>
+<note><pitch><step>D</step><octave>4</octave></pitch><duration>13440</duration><voice>1</voice><type>half</type><staff>1</staff><lyric number="1"><syllabic>single</syllabic><text>free.</text></lyric><lyric number="2"><syllabic>single</syllabic><text>prey.</text></lyric><lyric number="3"><syllabic>single</syllabic><text>light.</text></lyric><lyric number="4"><syllabic>single</syllabic><text>King.</text></lyric></note>
+<note><chord/><pitch><step>G</step><octave>4</octave></pitch><duration>13440</duration><voice>1</voice><type>half</type><staff>1</staff></note>
+<backup><duration>26880</duration></backup>
+<note><pitch><step>D</step><octave>3</octave></pitch><duration>10080</duration><voice>5</voice><type>quarter</type><dot/><staff>2</staff></note>
+<note><chord/><pitch><step>C</step><octave>4</octave></pitch><duration>10080</duration><voice>5</voice><type>quarter</type><dot/><staff>2</staff></note>
+<note><pitch><step>G</step><octave>3</octave></pitch><duration>3360</duration><voice>5</voice><type>eighth</type><staff>2</staff></note>
+<note><chord/><pitch><step>B</step><octave>3</octave></pitch><duration>3360</duration><voice>5</voice><type>eighth</type><staff>2</staff></note>
+<note><pitch><step>G</step><octave>3</octave></pitch><duration>13440</duration><voice>5</voice><type>half</type><staff>2</staff></note>
+<note><chord/><pitch><step>B</step><octave>3</octave></pitch><duration>13440</duration><voice>5</voice><type>half</type><staff>2</staff></note>
+<barline location="right"><bar-style>light-heavy</bar-style></barline>
+</measure>
+</part>
+</score-partwise>

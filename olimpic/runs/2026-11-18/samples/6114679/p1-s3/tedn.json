@@ -1,0 +1,18 @@
+{
+ "id": "samples/6114679/p1-s3",
+ "scorer": 1,
+ "predicted": true,
+ "predLmx": "measure key:fifths:3 time beats:2 beat-type:4 clef:G2 staff:1 clef:F4 staff:2 B4 voice:1 16th stem:up staff:1 beam:begin slur:start E4 16th D4 16th E4 16th beam:end F4 16th beam:begin E4 16th C4 16th E4 16th beam:end slur:stop backup half A2 voice:5 16th stem:down staff:2 beam:begin slur:start E3 16th G3 16th E3 16th beam:end A2 16th beam:begin E3 16th A3 16th E3 16th beam:end slur:stop measure G4 voice:1 16th stem:up staff:1 beam:begin E4 16th B3 16th E4 16th beam:end B4 16th beam:begin E4 16th B3 16th E4 16th beam:end backup half E2 voice:5 16th stem:up staff:2 beam:begin B2 16th G3 16th B2 16th beam:end G2 16th beam:begin E3 16th G3 16th E3 16th beam:end measure F4 voice:1 16th stem:up staff:1 beam:begin B3 16th B4 16th B3 16th beam:end E4 16th beam:begin chord F4 16th double-sharp A3 16th sharp E4 16th chord G4 16th B3 16th beam:end backup half B2 voice:5 16th stem:down staff:2 beam:begin F3 16th D3 16th F3 16th beam:end E2 16th stem:up beam:begin chord C3 16th E3 16th B2 16th E3 16th beam:end",
+ "linearizer_warnings": "",
+ "ser_edits": 29,
+ "ser_gold": 191,
+ "full": {
+  "edit": 88,
+  "gold": 457
+ },
+ "lmx": {
+  "edit": 61,
+  "gold": 430
+ },
+ "seconds": 4.5
+}

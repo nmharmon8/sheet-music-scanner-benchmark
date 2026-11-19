@@ -1,0 +1,18 @@
+{
+ "id": "samples/6570255/p2-s5",
+ "scorer": 1,
+ "predicted": true,
+ "predLmx": "measure key:fifths:3 time beats:4 beat-type:4 clef:G2 staff:1 clef:G2 staff:2 rest voice:1 16th staff:1 G6 32nd sharp stem:down beam:begin slur:start E6 32nd beam:end slur:stop rest 16th E6 32nd beam:begin slur:start C6 32nd natural beam:end slur:stop rest 16th C6 32nd stem:up beam:begin slur:start G5 32nd beam:end slur:stop rest 16th G5 32nd beam:begin slur:start E5 32nd beam:end slur:stop rest 16th E6 32nd flat stem:down beam:begin slur:start chord G6 32nd natural C6 32nd beam:end slur:stop rest 16th E6 32nd beam:begin slur:start chord G6 32nd chord C7 32nd C6 32nd beam:end slur:stop rest 16th E6 32nd beam:begin slur:start chord A6 32nd C6 32nd beam:end slur:stop rest 16th C6 32nd beam:begin slur:start chord G6 32nd A5 32nd beam:end slur:stop backup whole E5 voice:5 eighth stem:up staff:2 beam:begin chord G5 eighth C5 eighth natural chord E5 eighth G4 eighth sharp chord C5 eighth E4 eighth beam:end chord G4 eighth G5 eighth natural beam:begin accent A5 eighth tenuto G5 eighth tenuto E5 eighth beam:end tenuto backup whole forward half A4 voice:6 half stem:down staff:2 chord C5 half natural chord E5 half flat measure rest voice:1 16th staff:1 A5 32nd stem:down beam:begin slur:start chord E6 32nd flat G5 32nd natural beam:end slur:stop rest 16th G5 32nd beam:begin slur:start chord C6 32nd natural E5 32nd flat beam:end slur:stop rest 16th E5 32nd beam:begin slur:start chord A5 32nd C5 32nd natural beam:end slur:stop rest 16th C5 32nd beam:begin slur:start chord G5 32nd A4 32nd beam:end slur:stop rest 16th C5 32nd beam:begin slur:start chord F5 32nd sharp A4 32nd beam:end slur:stop rest 16th C5 32nd beam:begin slur:start chord G5 32nd A4 32nd beam:end slur:stop rest 16th C5 32nd beam:begin slur:start chord F5 32nd A4 32nd beam:end slur:stop rest 16th C5 32nd beam:begin slur:start chord G5 32nd A4 32nd beam:end slur:stop backup whole C5 voice:5 eighth natural stem:up staff:2 beam:begin slur:start staccato A4 eighth staccato G4 eighth natural staccato E4 eighth flat beam:end slur:stop staccato D4 eighth beam:begin slur:start staccato E4 eighth staccato D4 eighth staccato E4 eighth beam:end slur:stop staccato",
+ "linearizer_warnings": "",
+ "ser_edits": 176,
+ "ser_gold": 451,
+ "full": {
+  "edit": 350,
+  "gold": 1022
+ },
+ "lmx": {
+  "edit": 320,
+  "gold": 992
+ },
+ "seconds": 87.7
+}

@@ -1,0 +1,18 @@
+{
+ "id": "samples/6378337/p3-s3",
+ "scorer": 1,
+ "predicted": true,
+ "predLmx": "measure key:fifths:-2 time beats:4 beat-type:4 clef:G2 staff:1 clef:F4 staff:2 rest voice:1 half staff:1 G4 quarter stem:down chord B4 quarter chord D5 quarter chord E5 quarter natural rest quarter backup whole rest voice:5 half staff:2 G3 quarter stem:down chord B3 quarter chord D4 quarter chord E4 quarter natural rest quarter measure A4 voice:1 quarter stem:down staff:1 chord C5 quarter chord F5 quarter rest quarter rest half backup whole A3 voice:5 quarter stem:down staff:2 chord C4 quarter chord F4 quarter rest quarter rest half measure rest voice:1 half staff:1 F4 quarter stem:up chord A4 quarter rest quarter backup whole rest voice:5 half staff:2 C4 quarter stem:down chord D4 quarter rest quarter measure rest voice:1 rest:measure staff:1 backup whole rest voice:5 rest:measure staff:2",
+ "linearizer_warnings": "",
+ "ser_edits": 12,
+ "ser_gold": 126,
+ "full": {
+  "edit": 63,
+  "gold": 302
+ },
+ "lmx": {
+  "edit": 21,
+  "gold": 260
+ },
+ "seconds": 1.3
+}

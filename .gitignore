@@ -1,0 +1,5 @@
+__pycache__/
+*.pyc
+olimpic/.venv/
+olimpic/data/
+olimpic/vendor/

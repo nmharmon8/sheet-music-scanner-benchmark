@@ -1,0 +1,18 @@
+{
+ "id": "samples/6209605/p2-s1",
+ "scorer": 1,
+ "predicted": true,
+ "predLmx": "measure key:fifths:3 time beats:4 beat-type:4 clef:G2 staff:1 clef:F4 staff:2 C5 voice:1 quarter stem:up staff:1 staccato chord A5 quarter chord E6 quarter C6 quarter staccato F5 quarter staccato chord A5 quarter F5 quarter staccato backup whole A3 voice:2 quarter stem:down staff:1 chord E4 quarter chord A4 quarter rest quarter D4 quarter chord A4 quarter B3 quarter backup whole A1 voice:5 quarter stem:up staff:2 chord E2 quarter rest quarter rest half measure grace G5 voice:1 32nd staff:1 grace A5 32nd G5 eighth stem:up beam:begin staccato F5 eighth staccato G5 eighth staccato A5 eighth beam:end staccato D5 quarter fermata chord E5 quarter chord B5 quarter rest quarter backup whole B4 voice:2 half dot stem:down staff:1 forward quarter backup whole E4 voice:3 quarter stem:down staff:1 F4 quarter G4 quarter fermata F4 eighth beam:begin G4 eighth beam:end backup whole rest voice:5 rest:measure staff:2 measure C5 voice:1 half stem:up staff:1 chord E5 half chord A5 half chord C6 half C6 quarter D6 quarter backup whole A4 voice:2 half stem:down staff:1 B3 half chord F4 half chord A4 half backup whole forward half D5 voice:3 half stem:down staff:1 chord F5 half backup whole rest voice:5 rest:measure staff:2",
+ "linearizer_warnings": "",
+ "ser_edits": 66,
+ "ser_gold": 202,
+ "full": {
+  "edit": 99,
+  "gold": 398
+ },
+ "lmx": {
+  "edit": 88,
+  "gold": 387
+ },
+ "seconds": 2.9
+}

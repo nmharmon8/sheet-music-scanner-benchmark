@@ -1,0 +1,18 @@
+{
+ "id": "samples/6725782/p2-s4",
+ "scorer": 1,
+ "predicted": true,
+ "predLmx": "measure key:fifths:0 time beats:4 beat-type:4 clef:G2 staff:1 clef:F4 staff:2 rest voice:1 16th staff:1 D4 16th flat stem:up beam:begin slur:start C5 16th natural A4 16th flat beam:end slur:stop rest 16th forward eighth forward 16th rest eighth dot F5 16th sharp stem:down slur:start C5 16th 5in4 natural stem:up beam:begin tuplet:start G4 16th 5in4 natural C4 16th 5in4 sharp beam:end forward 16th forward 32nd forward 256th forward 512th backup whole B3 voice:5 16th flat stem:up staff:2 beam:begin slur:start F3 16th natural beam:end slur:stop rest eighth rest 16th E3 eighth dot flat chord G3 eighth dot natural chord C4 eighth dot natural rest quarter forward eighth forward 64th forward 128th forward 1024th A3 16th 5in4 natural beam:begin slur:start A2 16th 5in4 flat beam:end tuplet:stop slur:stop backup whole forward quarter forward 16th C2 voice:6 eighth dot sharp stem:down staff:2 chord A2 eighth dot natural forward half measure rest voice:1 eighth staff:1 D4 quarter natural stem:up E4 eighth natural tied:start E4 quarter 3in2 tied:stop tuplet:start slur:stop rest eighth 3in2 tuplet:stop rest quarter backup whole forward eighth B3 voice:2 quarter dot flat stem:down staff:1 tied:start B3 quarter 3in2 tied:stop tuplet:start forward 16th forward 64th forward 256th forward 1024th forward quarter backup whole rest voice:5 eighth staff:2 B2 quarter dot natural stem:up tied:start chord E3 quarter dot flat tied:start B2 quarter 3in2 tied:stop tuplet:start chord E3 quarter 3in2 flat tied:stop rest eighth 3in2 tuplet:stop rest quarter backup whole rest voice:6 16th staff:2 F1 eighth dot natural stem:down tied:start F1 quarter tied:stop tied:start F1 quarter 3in2 tied:stop tuplet:start rest eighth 3in2 tuplet:stop forward quarter",
+ "linearizer_warnings": "[ERROR][P:P2 M:1]: Duration could not be split up to note types for forward/backup. This is most likely a tuplet forward. Duration: 2688 Divisions: 6720\n[ERROR][P:P2 M:1]: Duration could not be split up to note types for forward/backup. This is most likely a tuplet forward. Duration: 4032 Divisions: 6720\n[ERROR][P:P2 M:2]: Duration could not be split up to note types for forward/backup. This is most likely a tuplet forward. Duration: 2240 Divisions: 6720\n",
+ "ser_edits": 80,
+ "ser_gold": 249,
+ "full": {
+  "edit": 256,
+  "gold": 615
+ },
+ "lmx": {
+  "edit": 155,
+  "gold": 514
+ },
+ "seconds": 14.5
+}

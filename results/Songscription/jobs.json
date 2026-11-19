@@ -1,0 +1,128 @@
+{
+  "A": {
+    "url": "https://www.songscription.ai/processing/c42a9241-97a9-4940-bc8b-3e9399b1a724",
+    "pages": 1,
+    "model": "AnnieScan Studio",
+    "status": "exported",
+    "export": "A-kuhlau-sonatina-op20-1.musicxml"
+  },
+  "B": {
+    "url": "https://www.songscription.ai/processing/adb4078b-a5b3-441a-b033-3ffe95f2f036",
+    "pages": 1,
+    "model": "AnnieScan Studio",
+    "status": "exported",
+    "export": "B-schumann-merry-peasant.musicxml"
+  },
+  "C": {
+    "url": "https://www.songscription.ai/processing/56168a68-a091-43ae-928e-54fe79d99b53",
+    "pages": 1,
+    "model": "AnnieScan Studio",
+    "status": "exported",
+    "export": "C-joplin-entertainer.musicxml"
+  },
+  "D": {
+    "url": "https://www.songscription.ai/processing/78859de5-61c6-40b0-93b7-cfe53f042da5",
+    "pages": 1,
+    "model": "AnnieScan Studio",
+    "status": "exported",
+    "export": "D-mozart-k545.musicxml"
+  },
+  "E": {
+    "url": "https://www.songscription.ai/processing/ff34a4db-c6b4-4d55-8f49-f0ce9bc362f8",
+    "pages": 1,
+    "model": "AnnieScan Studio",
+    "status": "exported",
+    "export": "E-chopin-prelude-20.musicxml"
+  },
+  "F": {
+    "url": "https://www.songscription.ai/processing/aacc63dd-5eeb-435a-8a16-3b0a7e9a851a",
+    "pages": 3,
+    "model": "AnnieScan Studio",
+    "status": "exported",
+    "export": "F-beethoven-fur-elise.musicxml"
+  },
+  "G": {
+    "url": "https://www.songscription.ai/processing/6d1a6861-4341-467c-a721-5cd855997a50",
+    "pages": 1,
+    "model": "AnnieScan Studio",
+    "status": "exported",
+    "export": "G-hymn-gracious-saviour.musicxml"
+  },
+  "H": {
+    "url": "https://www.songscription.ai/processing/cbaf06f7-fc91-4d34-8a3d-7bc041f09f2b",
+    "pages": 1,
+    "model": "AnnieScan Studio",
+    "status": "exported",
+    "export": "H-foster-beautiful-dreamer.musicxml"
+  },
+  "I": {
+    "url": "https://www.songscription.ai/processing/d5a45cd1-375d-466f-90d8-fb4939e3097c",
+    "pages": 1,
+    "model": "AnnieScan Studio",
+    "status": "exported",
+    "export": "I-shenandoah-lead-sheet.musicxml"
+  },
+  "J": {
+    "url": "https://www.songscription.ai/processing/a0d88119-cd32-49ae-a71e-1118c4757151",
+    "pages": 1,
+    "model": "AnnieScan Studio",
+    "status": "exported",
+    "export": "J-beethoven-minuet-g.musicxml"
+  },
+  "C2": {
+    "url": "https://www.songscription.ai/processing/4444e019-aab1-47e8-b18e-ad5e90a52a4f",
+    "pages": 1,
+    "model": "AnnieScan Studio",
+    "status": "exported",
+    "export": "C2-joplin-entertainer-photo-good.musicxml"
+  },
+  "C3": {
+    "url": "https://www.songscription.ai/processing/f1da4bce-0845-4eab-bb49-38e3abbfb52f",
+    "pages": 1,
+    "model": "AnnieScan Studio",
+    "status": "exported",
+    "export": "C3-joplin-entertainer-photo-bad.musicxml"
+  },
+  "G2": {
+    "url": "https://www.songscription.ai/processing/817b90f4-2df2-431f-9d07-c5a3bffb2e78",
+    "pages": 1,
+    "model": "AnnieScan Studio",
+    "status": "exported",
+    "export": "G2-hymn-gracious-saviour-photo-good.musicxml"
+  },
+  "G3": {
+    "url": "https://www.songscription.ai/processing/546fa4ae-ca50-4ce2-9a0f-7cbd46c91359",
+    "pages": 1,
+    "model": "AnnieScan Studio",
+    "status": "exported",
+    "export": "G3-hymn-gracious-saviour-photo-bad.musicxml"
+  },
+  "A2": {
+    "url": "https://www.songscription.ai/processing/954f7728-f082-438d-b681-82a4c5fea8d5",
+    "pages": 1,
+    "model": "AnnieScan Studio",
+    "status": "exported",
+    "export": "A2-kuhlau-sonatina-photo-good.musicxml"
+  },
+  "A3": {
+    "url": "https://www.songscription.ai/processing/49f42164-e8c9-4cea-8b6e-82e7d2592c2c",
+    "pages": 1,
+    "model": "AnnieScan Studio",
+    "status": "exported",
+    "export": "A3-kuhlau-sonatina-photo-bad.musicxml"
+  },
+  "D2": {
+    "url": "https://www.songscription.ai/processing/412cc886-6ed4-4101-a7b5-1c88bc3b057b",
+    "pages": 1,
+    "model": "AnnieScan Studio",
+    "status": "exported",
+    "export": "D2-mozart-k545-screenshot-lowres.musicxml"
+  },
+  "X": {
+    "url": "https://www.songscription.ai/processing/ecf51fb0-8c2c-4ccf-820b-b7667bf3e0af",
+    "pages": 1,
+    "model": "AnnieScan Studio",
+    "status": "exported",
+    "export": "X-unreadable-photo.musicxml"
+  }
+}

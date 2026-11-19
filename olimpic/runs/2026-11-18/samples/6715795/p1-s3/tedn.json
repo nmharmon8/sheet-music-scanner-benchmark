@@ -1,0 +1,18 @@
+{
+ "id": "samples/6715795/p1-s3",
+ "scorer": 1,
+ "predicted": true,
+ "predLmx": "measure key:fifths:0 time beats:2 beat-type:4 clef:G2 staff:1 clef:F4 staff:2 rest voice:1 eighth 3in2 staff:1 tuplet:start B4 eighth 3in2 natural stem:up beam:begin slur:start D5 eighth 3in2 natural beam:end tuplet:stop D6 eighth sharp beam:begin slur:stop E5 eighth natural beam:end slur:start backup half rest voice:2 eighth staff:1 C4 quarter sharp stem:down slur:start E4 eighth flat slur:stop backup half rest voice:5 eighth staff:2 A3 quarter sharp stem:up slur:start B3 eighth natural slur:stop backup half forward eighth D3 voice:6 quarter dot stem:down staff:2 measure D5 voice:1 eighth 3in2 sharp stem:up staff:1 tuplet:start E5 quarter 3in2 natural tied:start tuplet:stop slur:stop E5 eighth 3in2 beam:begin tied:stop tuplet:start D5 eighth 3in2 sharp slur:start E5 eighth 3in2 natural beam:end tied:start tuplet:stop backup half F4 voice:2 eighth 3in2 natural stem:down staff:1 tuplet:start slur:start E4 quarter 3in2 flat tied:start tuplet:stop slur:stop E4 eighth 3in2 flat beam:begin tied:stop tuplet:start F4 eighth 3in2 natural slur:start E4 eighth 3in2 flat beam:end tied:start tuplet:stop slur:stop backup half A3 voice:5 eighth 3in2 sharp stem:up staff:2 tuplet:start slur:start B3 quarter 3in2 natural tuplet:stop slur:stop E3 quarter slur:start chord A3 quarter sharp backup half E3 voice:6 eighth 3in2 natural stem:down staff:2 tuplet:start slur:start D3 quarter 3in2 tuplet:stop slur:stop forward quarter measure E5 voice:1 quarter 3in2 stem:up staff:1 tied:stop tuplet:start E5 eighth 3in2 flat tied:start tuplet:stop E5 quarter 3in2 tied:stop tuplet:start C5 eighth 3in2 natural tied:start tuplet:stop backup half E4 voice:2 quarter 3in2 stem:down staff:1 tied:stop tuplet:start F4 eighth 3in2 tied:start tuplet:stop slur:start F4 quarter 3in2 tied:stop tuplet:start E4 eighth 3in2 flat tied:start tuplet:stop slur:stop backup half D3 voice:5 quarter 3in2 stem:down staff:2 tuplet:start slur:stop chord B3 quarter 3in2 natural E3 eighth 3in2 natural tied:start tuplet:stop slur:start chord A3 eighth 3in2 sharp tied:start E3 eighth 3in2 stem:up beam:begin tied:stop tuplet:start chord A3 eighth 3in2 tied:stop E1 eighth 3in2 flat D3 eighth 3in2 natural beam:end tied:start tuplet:stop chord B3 eighth 3in2 natural tied:start measure C5 voice:1 eighth stem:up staff:1 tied:stop slur:stop rest eighth forward eighth B4 16th flat beam:begin F6 16th natural beam:end backup half E4 voice:2 eighth flat stem:down staff:1 tied:stop forward quarter forward eighth backup half D3 voice:5 eighth 3in2 stem:down staff:2 tied:stop tuplet:start slur:stop chord B3 eighth 3in2 tied:stop rest eighth 3in2 C1 eighth 3in2 sharp stem:up tuplet:stop slur:start G2 16th natural beam:begin F3 16th sharp beam:end slur:stop forward eighth",
+ "linearizer_warnings": "",
+ "ser_edits": 49,
+ "ser_gold": 374,
+ "full": {
+  "edit": 169,
+  "gold": 798
+ },
+ "lmx": {
+  "edit": 82,
+  "gold": 708
+ },
+ "seconds": 81.0
+}

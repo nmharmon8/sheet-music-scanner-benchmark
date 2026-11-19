@@ -1,0 +1,18 @@
+{
+ "id": "samples/6379527/p3-s3",
+ "scorer": 1,
+ "predicted": true,
+ "predLmx": "measure key:fifths:0 time beats:3 beat-type:4 clef:G2 staff:1 clef:F4 staff:2 rest voice:1 quarter staff:1 rest eighth E4 32nd flat stem:up beam:begin G4 32nd B4 32nd flat D5 32nd beam:end C5 16th stem:down beam:begin tenuto B4 16th tenuto G4 16th tenuto D5 16th beam:end tenuto backup half backup quarter E2 voice:5 32nd stem:up staff:2 beam:begin slur:start G2 32nd B2 32nd flat D3 32nd beam:end E3 32nd flat stem:down beam:begin G3 32nd B3 32nd flat D4 32nd beam:end E3 32nd beam:begin G3 32nd B3 32nd D4 32nd beam:end rest eighth C4 16th beam:begin tenuto B3 16th tenuto G3 16th tenuto D4 16th beam:end slur:stop tenuto measure rest voice:1 16th staff:1 C4 64th stem:up beam:begin E4 64th flat G4 64th B4 64th flat beam:end C4 64th beam:begin E4 64th G4 64th B4 64th beam:end C5 32nd 3in2 stem:down beam:begin tuplet:start E5 32nd 3in2 flat G5 32nd 3in2 beam:end tuplet:stop B5 quarter flat tied:start trill-mark B5 32nd beam:begin tied:stop slur:start A5 32nd G5 32nd A5 32nd B5 32nd A5 32nd G5 32nd F5 32nd beam:end slur:stop backup half backup quarter C3 voice:5 64th stem:down staff:2 beam:begin E3 64th flat G3 64th B3 64th flat beam:end rest 16th rest eighth clef:G2 staff:2 B4 quarter flat tied:start trill-mark B4 32nd stem:up beam:begin tied:stop slur:start A4 32nd G4 32nd A4 32nd B4 32nd A4 32nd G4 32nd F4 32nd beam:end slur:stop clef:F4 staff:2",
+ "linearizer_warnings": "",
+ "ser_edits": 150,
+ "ser_gold": 280,
+ "full": {
+  "edit": 360,
+  "gold": 706
+ },
+ "lmx": {
+  "edit": 306,
+  "gold": 648
+ },
+ "seconds": 25.3
+}

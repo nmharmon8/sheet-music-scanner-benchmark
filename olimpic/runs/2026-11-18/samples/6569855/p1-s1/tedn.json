@@ -1,0 +1,18 @@
+{
+ "id": "samples/6569855/p1-s1",
+ "scorer": 1,
+ "predicted": true,
+ "predLmx": "measure key:fifths:-1 time beats:4 beat-type:4 clef:G2 staff:1 clef:F4 staff:2 C4 voice:1 16th stem:up staff:1 backup 16th rest voice:5 16th staff:2 measure C4 voice:1 quarter dot dot stem:up staff:1 D4 16th D4 quarter dot dot E4 16th backup whole F3 voice:2 half stem:down staff:1 chord A3 half flat F3 half chord A3 half chord C4 half backup whole F1 voice:5 eighth dot stem:up staff:2 beam:begin chord F2 eighth dot C2 16th beam:end chord C3 16th C2 quarter chord C3 quarter F1 eighth dot beam:begin chord F2 eighth dot C2 16th beam:end chord C3 16th C2 quarter chord C3 quarter measure G3 voice:1 half dot stem:up staff:1 chord C4 half dot chord E4 half dot C4 quarter chord C5 quarter backup whole C1 voice:5 eighth dot stem:up staff:2 beam:begin chord C2 eighth dot C2 16th beam:end chord C3 16th C2 eighth dot beam:begin chord C3 eighth dot C3 16th beam:end chord C4 16th C3 eighth dot stem:down beam:begin chord C4 eighth dot C4 16th beam:end chord C5 16th forward quarter measure D4 voice:1 eighth dot stem:up staff:1 beam:begin D4 16th beam:end F4 eighth dot beam:begin F4 16th beam:end A4 eighth dot beam:begin A4 16th beam:end C4 eighth dot beam:begin chord D4 eighth dot C5 16th beam:end chord D5 16th backup whole C4 voice:2 quarter stem:down staff:1 C4 quarter chord D4 quarter C4 quarter chord D4 quarter chord F4 quarter forward quarter backup whole F2 voice:5 half dot stem:up staff:2 tied:start chord A2 half dot tied:start chord C3 half dot tied:start chord D3 half dot tied:start F2 eighth dot stem:down beam:begin tied:stop chord A2 eighth dot tied:stop chord C3 eighth dot tied:stop chord D3 eighth dot tied:stop C4 16th beam:end chord D4 16th",
+ "linearizer_warnings": "",
+ "ser_edits": 36,
+ "ser_gold": 292,
+ "full": {
+  "edit": 78,
+  "gold": 564
+ },
+ "lmx": {
+  "edit": 55,
+  "gold": 541
+ },
+ "seconds": 10.4
+}

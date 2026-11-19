@@ -1,0 +1,181 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Sheet music scanner benchmark</title>
+<style>
+.viz-root {
+  color-scheme: light;
+  --surface-1: #fcfcfb; --surface-2: #f2f1ee; --grid: #e4e3df;
+  --text-primary: #0b0b0b; --text-secondary: #52514e; --text-muted: #7a7974;
+  --s1: #2a78d6; --s2: #eb6834; --s3: #1baf7a; --s4: #eda100; --s5: #e87ba4; --s6: #008300; --s7: #6250d6;
+  --q0: #f2f1ee; --q1: #cde2fb; --q2: #9ec5f4; --q3: #5598e7; --q4: #256abf; --q5: #104281;
+}
+@media (prefers-color-scheme: dark) {
+  :root:where(:not([data-theme="light"])) .viz-root {
+    color-scheme: dark;
+    --surface-1: #1a1a19; --surface-2: #252524; --grid: #34342f;
+    --text-primary: #f0efec; --text-secondary: #c3c2b7; --text-muted: #8f8e86;
+    --s1: #3987e5; --s2: #d95926; --s3: #199e70; --s4: #c98500; --s5: #d55181; --s6: #0ca30c; --s7: #9085e9;
+    --q0: #252524; --q1: #0d366b; --q2: #184f95; --q3: #256abf; --q4: #3987e5; --q5: #86b6ef;
+  }
+}
+:root[data-theme="dark"] .viz-root {
+  color-scheme: dark;
+  --surface-1: #1a1a19; --surface-2: #252524; --grid: #34342f;
+  --text-primary: #f0efec; --text-secondary: #c3c2b7; --text-muted: #8f8e86;
+  --s1: #3987e5; --s2: #d95926; --s3: #199e70; --s4: #c98500; --s5: #d55181; --s6: #0ca30c; --s7: #9085e9;
+  --q0: #252524; --q1: #0d366b; --q2: #184f95; --q3: #256abf; --q4: #3987e5; --q5: #86b6ef;
+}
+body { margin: 0; background: var(--surface-1); }
+.viz-root { background: var(--surface-1); color: var(--text-primary); font: 14px/1.45 system-ui, -apple-system, "Segoe UI", sans-serif; padding: 24px 16px 48px; }
+.wrap { max-width: 980px; margin: 0 auto; }
+h1 { font-size: 22px; margin: 0 0 4px; }
+h2 { font-size: 16px; margin: 36px 0 2px; }
+.sub { color: var(--text-secondary); margin: 0 0 12px; max-width: 760px; }
+.legend { display: flex; flex-wrap: wrap; gap: 14px; margin: 6px 0 10px; color: var(--text-secondary); font-size: 13px; }
+.legend span::before { content: ""; display: inline-block; width: 10px; height: 10px; border-radius: 2px; margin-right: 6px; background: var(--c); vertical-align: -1px; }
+svg { display: block; width: 100%; height: auto; overflow: visible; }
+svg text { fill: var(--text-secondary); font-size: 12px; }
+svg .ink { fill: var(--text-primary); }
+svg .muted { fill: var(--text-muted); }
+.grid line { stroke: var(--grid); }
+table { border-collapse: collapse; width: 100%; font-size: 13px; }
+th, td { text-align: left; padding: 6px 8px; border-bottom: 1px solid var(--grid); vertical-align: top; }
+th { color: var(--text-secondary); font-weight: 600; }
+td.num { text-align: right; font-variant-numeric: tabular-nums; }
+.tablewrap { overflow-x: auto; }
+#tip { position: fixed; pointer-events: none; background: var(--surface-2); color: var(--text-primary); border: 1px solid var(--grid); border-radius: 6px; padding: 6px 8px; font-size: 12px; display: none; max-width: 260px; z-index: 5; }
+.note { color: var(--text-muted); font-size: 12px; margin-top: 6px; }
+</style>
+</head>
+<body>
+<div class="viz-root"><div class="wrap">
+<h1>PlayableNotes and six competitors, scored against answer keys</h1>
+<p class="sub">17 scored uploads per tool. Competitors run once on 2026-11-16; PlayableNotes is the release of 2026-11-18 (production pipeline, one reading per upload; its earlier readings are in results/). The keys were drafted from high-resolution scans by one AI agent per piece, without seeing any tool’s output, and checked measure by measure in verification rounds. A bar counts as right only if every pitch, onset and length in it matches.</p>
+
+<h2>1 · Overall: bars exactly right, and notes right</h2>
+<p class="sub">Mean over the 17 readable uploads. A missing export counts as 0.</p>
+<div class="legend"><span style="--c:var(--s1)">Bars exactly right</span><span style="--c:var(--s2)">Notes right (F1, pitch and length)</span></div>
+<div id="overall"></div>
+
+<h2>2 · Bars exactly right, page by page</h2>
+<div id="pages"></div>
+
+<h2>3 · Same page, worse picture</h2>
+<p class="sub">Bars exactly right on the same three pages (A, C, G) as a scan, a good phone photo and a bad one.</p>
+<div class="legend" id="leg3"></div>
+<div id="quality"></div>
+<p class="note" id="lowres"></p>
+
+<h2>4 · Notation beyond the notes</h2>
+<p class="sub">Each cell is an F1 or share against the key, averaged over the uploads that have it: fingering (A, B, D, E, F, the photos of A and the screenshot of D), lyrics (G, H, I and the hymn photos), chord symbols (I), repeat signs and ending brackets (A, C, F, J and photos), jump marks (I).</p>
+<div id="notation"></div>
+
+<h2>5 · What is recorded</h2>
+<div class="tablewrap"><table id="comp"></table></div>
+</div></div>
+<div id="tip"></div>
+<script>
+const D = __DATA__;
+const T = D.tools;
+const COL = ['var(--s1)', 'var(--s2)', 'var(--s3)', 'var(--s4)', 'var(--s5)', 'var(--s6)', 'var(--s7)'];
+const NAME = { PlayableNotes: 'PlayableNotes', Halbestunde: 'Halbestunde', Playscore2: 'PlayScore 2', Scan2Notes: 'Scan2Notes', SheetMusicScanner: 'Sheet Music Scanner', Soundslice: 'Soundslice', Songscription: 'Songscription' };
+const tip = document.getElementById('tip');
+const ns = 'http://www.w3.org/2000/svg';
+function el(tag, attrs, parent, text) { const e = document.createElementNS(ns, tag); for (const k in attrs) e.setAttribute(k, attrs[k]); if (text !== undefined) e.textContent = text; if (parent) parent.appendChild(e); return e; }
+function hover(node, html) {
+  node.addEventListener('mousemove', ev => { tip.innerHTML = html; tip.style.display = 'block'; tip.style.left = Math.min(ev.clientX + 12, innerWidth - 270) + 'px'; tip.style.top = (ev.clientY + 12) + 'px'; });
+  node.addEventListener('mouseleave', () => tip.style.display = 'none');
+}
+const pct = v => v == null ? '—' : Math.round(v * 100) + '%';
+const stepOf = v => v == null ? 0 : Math.min(5, 1 + Math.floor(v * 4.999));
+function heat(container, rows, cols, val, label, tipFn, L = 140, cw = null) {
+  const W = 760, top = 30, ch = 28; cw = cw || (W - L) / cols.length;
+  const svg = el('svg', { viewBox: `0 0 ${L + cw * cols.length} ${top + rows.length * ch + 4}`, role: 'img' }, document.getElementById(container));
+  cols.forEach((c, j) => el('text', { x: L + j * cw + cw / 2, y: 18, 'text-anchor': 'middle', class: 'ink' }, svg, c.label));
+  rows.forEach((r, i) => {
+    el('text', { x: L - 10, y: top + i * ch + ch / 2 + 4, 'text-anchor': 'end', class: 'ink' }, svg, r.label);
+    cols.forEach((c, j) => {
+      const v = val(r, c), s = stepOf(v), g = el('g', {}, svg);
+      el('rect', { x: L + j * cw + 1, y: top + i * ch + 1, width: cw - 2, height: ch - 2, rx: 4, fill: `var(--q${s})` }, g);
+      el('text', { x: L + j * cw + cw / 2, y: top + i * ch + ch / 2 + 4, 'text-anchor': 'middle', style: `fill:${s >= 3 ? '#fff' : 'var(--text-primary)'}` }, g, label(v, r, c));
+      hover(g, tipFn(v, r, c));
+    });
+  });
+}
+
+// 1. overall grouped bars, tools sorted by bars right
+(() => {
+  const order = [...T].sort((a, b) => D.summary[b].measures_clean - D.summary[a].measures_clean);
+  const W = 760, L = 150, R = 44, gh = 2 * 14 + 14, top = 4;
+  const svg = el('svg', { viewBox: `0 0 ${W} ${top + order.length * gh + 24}`, role: 'img', 'aria-label': 'Overall accuracy' }, document.getElementById('overall'));
+  const x = v => L + v * (W - L - R);
+  const grid = el('g', { class: 'grid' }, svg);
+  [0, .25, .5, .75, 1].forEach(v => { el('line', { x1: x(v), x2: x(v), y1: top, y2: top + order.length * gh }, grid); el('text', { x: x(v), y: top + order.length * gh + 16, 'text-anchor': 'middle', class: 'muted' }, svg, pct(v)); });
+  order.forEach((t, i) => {
+    const y0 = top + i * gh + 6;
+    el('text', { x: L - 10, y: y0 + 16, 'text-anchor': 'end', class: 'ink' }, svg, NAME[t]);
+    [['measures_clean', 'Bars exactly right', COL[0]], ['note_f1', 'Notes right', COL[1]]].forEach(([k, lab, c], j) => {
+      const v = D.summary[t][k], y = y0 + j * 14, g = el('g', {}, svg);
+      el('rect', { x: L, y, width: Math.max(2, x(v) - L), height: 12, rx: 3, fill: c }, g);
+      el('text', { x: x(v) + 6, y: y + 10 }, g, pct(v));
+      el('rect', { x: L, y: y - 1, width: W - L - R, height: 14, fill: 'transparent' }, g);
+      hover(g, `<b>${NAME[t]}</b><br>${lab}: ${pct(v)}`);
+    });
+  });
+})();
+
+// 2. page heatmap
+(() => {
+  const ids = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'A2', 'A3', 'C2', 'C3', 'G2', 'G3', 'D2'];
+  heat('pages', T.map(t => ({ label: NAME[t], t })), ids.map(i => ({ label: i, i })),
+    (r, c) => D.cells[r.t][c.i] ? D.cells[r.t][c.i].measures_clean : 0,
+    (v, r, c) => D.cells[r.t][c.i] && D.cells[r.t][c.i].missing ? '×' : Math.round(v * 100),
+    (v, r, c) => { const x = D.cells[r.t][c.i] || {}; return `<b>${NAME[r.t]}</b> · ${c.i} ${D.pageNames[c.i] || ''}<br>bars exactly right: ${pct(v)}${x.measures_key ? ` (${Math.round(v * x.measures_key)} of ${x.measures_key})` : ''}<br>notes right: ${pct(x.note_f1)}${x.missing ? '<br>no export' : ''}`; },
+    140, 36);
+})();
+
+// 3. quality lines
+(() => {
+  document.getElementById('leg3').innerHTML = T.map((t, i) => `<span style="--c:${COL[i]}">${NAME[t]}</span>`).join('');
+  const keys = ['scan', 'good', 'bad'], labels = ['Scan', 'Good phone photo', 'Bad phone photo'];
+  const W = 760, L = 46, R = 170, top = 12, H = 260;
+  const svg = el('svg', { viewBox: `0 0 ${W} ${top + H + 34}`, role: 'img', 'aria-label': 'Accuracy by image quality' }, document.getElementById('quality'));
+  const x = i => L + i * (W - L - R) / 2, y = v => top + (1 - v) * H;
+  const grid = el('g', { class: 'grid' }, svg);
+  [0, .25, .5, .75, 1].forEach(v => { el('line', { x1: L, x2: W - R, y1: y(v), y2: y(v) }, grid); el('text', { x: L - 8, y: y(v) + 4, 'text-anchor': 'end', class: 'muted' }, svg, pct(v)); });
+  labels.forEach((lb, i) => el('text', { x: x(i), y: top + H + 22, 'text-anchor': 'middle', class: 'ink' }, svg, lb));
+  const ends = T.map(t => ({ t, v: D.quality[t].bad })).sort((a, b) => b.v - a.v);
+  let lastY = -99; const ly = {};
+  ends.forEach(e => { let yy = y(e.v) + 4; if (yy - lastY < 15) yy = lastY + 15; ly[e.t] = yy; lastY = yy; });
+  T.forEach((t, j) => {
+    const pts = keys.map((k, i) => [x(i), y(D.quality[t][k])]);
+    el('polyline', { points: pts.map(p => p.join(',')).join(' '), fill: 'none', stroke: COL[j], 'stroke-width': 2 }, svg);
+    pts.forEach((p, i) => {
+      const g = el('g', {}, svg);
+      el('circle', { cx: p[0], cy: p[1], r: 5, fill: COL[j], stroke: 'var(--surface-1)', 'stroke-width': 2 }, g);
+      el('circle', { cx: p[0], cy: p[1], r: 12, fill: 'transparent' }, g);
+      hover(g, `<b>${NAME[t]}</b><br>${labels[i]}: ${pct(D.quality[t][keys[i]])} of bars exactly right (A, C, G)`);
+    });
+    el('text', { x: W - R + 12, y: ly[t], class: 'ink' }, svg, `${NAME[t]} ${pct(D.quality[t].bad)}`);
+  });
+  document.getElementById('lowres').textContent = 'Mozart page as a scan → as an 800 px screenshot: ' + T.map(t => `${NAME[t]} ${pct(D.quality[t].D)} → ${pct(D.quality[t].D2)}`).join(' · ') + '.';
+})();
+
+// 4. notation heatmap
+(() => {
+  const cols = [['fingering_f1', 'Fingering'], ['lyrics_f1', 'Lyrics'], ['chords_f1', 'Chords'], ['repeats', 'Repeats'], ['jumps', 'Jumps']].map(([k, label]) => ({ k, label }));
+  heat('notation', T.map(t => ({ label: NAME[t], t })), cols, (r, c) => D.summary[r.t][c.k], v => v == null ? '—' : Math.round(v * 100) + '%', (v, r, c) => `<b>${NAME[r.t]}</b> · ${c.label}: ${pct(v)}`, 150);
+})();
+
+// 5. table
+(() => {
+  let h = '<tr><th>tool</th><th class="num">exports</th><th class="num">timed runs</th><th>missing exports</th></tr>';
+  T.forEach(t => { const c = D.completeness[t], s = D.summary[t]; h += `<tr><td>${NAME[t]}</td><td class="num">${c.exports}/17</td><td class="num">${c.seconds}/17</td><td>${s.missing.join(', ') || '—'}</td></tr>`; });
+  document.getElementById('comp').innerHTML = h;
+})();
+</script>
+</body>
+</html>

@@ -1,0 +1,18 @@
+{
+ "id": "samples/6715339/p1-s2",
+ "scorer": 1,
+ "predicted": true,
+ "predLmx": "measure key:fifths:0 time beats:3 beat-type:4 clef:G2 staff:1 clef:F4 staff:2 G5 voice:1 16th sharp stem:up staff:1 beam:begin chord C6 16th sharp F5 16th natural slur:start D6 16th natural A5 16th natural beam:end slur:stop rest 16th B4 16th flat beam:begin slur:start D5 16th natural A4 16th natural beam:end C4 16th 7in4 natural beam:begin tuplet:start B4 16th 7in4 flat A4 16th 7in4 natural E4 16th 7in4 natural beam:end forward 16th forward 32nd forward 128th forward 256th forward 1024th backup half backup quarter F4 voice:2 16th natural stem:down staff:1 chord D5 16th natural forward eighth forward 16th E5 16th natural beam:begin F4 16th natural beam:end forward quarter forward eighth backup half backup quarter forward 16th rest voice:5 16th staff:2 rest eighth forward eighth G2 eighth flat stem:up chord E3 eighth flat forward 32nd forward 256th forward 16th forward 32nd forward 128th forward 256th forward 1024th A3 16th 7in4 sharp stem:down beam:begin slur:start B3 16th 7in4 natural F3 16th 7in4 natural beam:end tuplet:stop measure rest voice:1 eighth staff:1 F4 eighth natural stem:up F4 eighth 3in2 sharp beam:begin tuplet:start D4 eighth 3in2 natural D4 eighth 3in2 flat beam:end tuplet:stop C4 eighth 3in2 natural beam:begin tuplet:start slur:stop F4 eighth 3in2 sharp slur:start D4 eighth 3in2 natural beam:end tuplet:stop slur:stop backup half backup quarter rest voice:5 eighth 3in2 staff:2 tuplet:start rest eighth 3in2 E3 16th 3in2 natural stem:up tuplet:stop D4 16th 3in2 natural tuplet:start C4 16th 5in4 natural tuplet:stop G3 16th 5in4 natural beam:begin tuplet:start C3 16th 5in4 sharp D3 16th 5in4 natural G2 16th 5in4 sharp beam:end slur:stop rest 16th 5in4 tuplet:stop A3 16th 5in4 natural beam:begin tuplet:start slur:start E3 16th 5in4 natural A2 16th 5in4 sharp B2 16th 5in4 natural beam:end tuplet:stop slur:stop backup half backup quarter A3 voice:6 eighth natural stem:down staff:2 chord C4 eighth sharp rest eighth forward half",
+ "linearizer_warnings": "[ERROR][P:P1 M:1]: Duration could not be split up to note types for forward/backup. This is most likely a tuplet forward. Duration: 2880 Divisions: 6720\n[ERROR][P:P1 M:1]: Duration could not be split up to note types for forward/backup. This is most likely a tuplet forward. Duration: 960 Divisions: 6720\n[ERROR][P:P1 M:1]: Duration could not be split up to note types for forward/backup. This is most likely a tuplet forward. Duration: 2880 Divisions: 6720\n",
+ "ser_edits": 165,
+ "ser_gold": 283,
+ "full": {
+  "edit": 400,
+  "gold": 712
+ },
+ "lmx": {
+  "edit": 279,
+  "gold": 583
+ },
+ "seconds": 35.0
+}

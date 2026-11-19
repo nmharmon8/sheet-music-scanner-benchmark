@@ -1,0 +1,18 @@
+{
+ "id": "samples/6481941/p15-s3",
+ "scorer": 1,
+ "predicted": true,
+ "predLmx": "measure key:fifths:0 time beats:6 beat-type:8 clef:G2 staff:1 clef:G2 staff:2 A4 voice:1 quarter stem:down staff:1 slur:start chord D5 quarter B4 eighth chord E5 eighth E5 quarter chord A5 quarter D5 eighth slur:stop chord G5 eighth backup half backup quarter B3 voice:5 quarter stem:up staff:2 slur:start C4 eighth sharp A4 quarter G4 eighth slur:stop measure A4 voice:1 quarter stem:down staff:1 slur:start chord D5 quarter B4 eighth chord E5 eighth E5 quarter chord A5 quarter D5 eighth slur:stop chord G5 eighth backup half backup quarter B3 voice:5 quarter stem:up staff:2 slur:start C4 eighth sharp A4 quarter G4 eighth slur:stop measure A4 voice:1 quarter stem:down staff:1 slur:start chord D5 quarter B4 eighth chord E5 eighth E5 quarter chord A5 quarter D5 eighth slur:stop chord G5 eighth backup half backup quarter B3 voice:5 quarter stem:up staff:2 slur:start C4 eighth sharp A4 quarter G4 eighth slur:stop measure A4 voice:1 quarter stem:down staff:1 slur:start chord D5 quarter B4 eighth chord E5 eighth E5 quarter chord A5 quarter D5 eighth slur:stop chord G5 eighth backup half backup quarter B3 voice:5 quarter stem:up staff:2 slur:start C4 eighth sharp A4 quarter G4 eighth slur:stop",
+ "linearizer_warnings": "",
+ "ser_edits": 3,
+ "ser_gold": 181,
+ "full": {
+  "edit": 3,
+  "gold": 362
+ },
+ "lmx": {
+  "edit": 3,
+  "gold": 362
+ },
+ "seconds": 2.0
+}

@@ -1,0 +1,18 @@
+{
+ "id": "samples/6115317/p2-s2",
+ "scorer": 1,
+ "predicted": true,
+ "predLmx": "measure key:fifths:-3 time beats:2 beat-type:4 clef:G2 staff:1 clef:F4 staff:2 F4 voice:1 quarter dot stem:up staff:1 E4 eighth backup half A3 voice:5 16th stem:up staff:2 beam:begin chord B3 16th F3 16th A3 16th chord B3 16th F3 16th beam:end A3 16th beam:begin chord B3 16th F3 16th G3 16th chord B3 16th E3 16th beam:end backup half D2 voice:6 16th stem:down staff:2 beam:begin chord D3 16th B2 16th D3 16th B2 16th beam:end D3 16th beam:begin B2 16th E2 16th chord E3 16th B2 16th beam:end measure B3 voice:1 half stem:up staff:1 chord D4 half backup half F3 voice:5 16th stem:up staff:2 beam:begin D3 16th F3 16th D3 16th beam:end F3 16th beam:begin D3 16th F3 16th D3 16th beam:end backup half B2 voice:6 16th stem:down staff:2 beam:begin F2 16th B2 16th F2 16th beam:end B2 16th beam:begin F2 16th B2 16th F2 16th beam:end backup half B1 voice:7 half stem:down staff:2 measure B3 voice:1 quarter stem:up staff:1 chord D4 quarter flat B3 eighth dot beam:begin chord D4 eighth dot B3 16th beam:end chord D4 16th backup half F3 voice:5 16th stem:up staff:2 beam:begin D3 16th flat F3 16th D3 16th beam:end F3 16th beam:begin D3 16th F3 16th D3 16th beam:end backup half B1 voice:6 16th stem:down staff:2 beam:begin chord B2 16th F2 16th B2 16th F2 16th beam:end B1 16th beam:begin chord B2 16th F2 16th B2 16th F2 16th beam:end measure B3 voice:1 quarter dot stem:up staff:1 chord F4 quarter dot F4 eighth backup half F3 voice:5 16th stem:up staff:2 beam:begin F3 16th B3 16th F3 16th beam:end B3 16th beam:begin F3 16th B3 16th F3 16th beam:end backup half D2 voice:6 16th flat stem:down staff:2 beam:begin chord D3 16th flat B2 16th D3 16th B2 16th beam:end D3 16th beam:begin B2 16th D3 16th B2 16th beam:end measure B3 voice:1 quarter dot stem:up staff:1 chord D4 quarter dot flat chord F4 quarter dot B3 eighth chord D4 eighth chord F4 eighth backup half G3 voice:5 16th stem:up staff:2 beam:begin F3 16th G3 16th F3 16th beam:end G3 16th beam:begin F3 16th G3 16th F3 16th beam:end backup half B1 voice:6 16th stem:down staff:2 beam:begin B2 16th D3 16th flat B2 16th beam:end D3 16th beam:begin B2 16th D3 16th B2 16th beam:end",
+ "linearizer_warnings": "",
+ "ser_edits": 52,
+ "ser_gold": 420,
+ "full": {
+  "edit": 121,
+  "gold": 922
+ },
+ "lmx": {
+  "edit": 99,
+  "gold": 900
+ },
+ "seconds": 50.2
+}

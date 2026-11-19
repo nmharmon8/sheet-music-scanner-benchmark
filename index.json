@@ -1,0 +1,581 @@
+{
+  "about": "Competitor benchmark: 18 uploads (20 pages), run once through every tool; 17 are scored (the blurred photo X is not). README.md explains the set. Every source is public domain in the US (published before 1930) or made for the test (the lead sheet I, and the photos, screenshot and blurred photo derived from the scans).",
+  "metrics": {
+    "notes": "Note accuracy, scored separately for pitch, rhythm (onset and duration), staff/voice and measure. Every upload.",
+    "measures_clean": "Share of measures that are entirely right (play without fixing). Headline number. Every upload.",
+    "structure": "Repeats, endings, D.C./D.S./Coda/Fine and pickups: the order the tool plays the measures in, compared with the expected order.",
+    "notation": "Notation that changes the sound: key and time signatures and their changes, clefs and clef changes, accidentals, ties (not slurs), tuplets, grace notes, ornaments, fermatas.",
+    "expression": "Dynamics, articulations, tempo words and marks, pedal. Weighted lower.",
+    "lyrics": "Each syllable on the right note, hyphens and extenders kept, verses kept apart and in order.",
+    "fingering": "Each printed finger number on the right note; tuplet numbers, measure numbers and footnote marks not taken for fingers.",
+    "chords": "Chord symbols on the right beat, including slash chords and a mid-measure change.",
+    "robustness": "Same page as scan, good phone photo, bad phone photo (and one low-resolution screenshot): accuracy against image quality.",
+    "clutter": "Ignoring what is not the music: another page in the frame, titles, analysis labels, footnotes, show-through, pencil, the end of the previous piece.",
+    "multipage": "A three-page piece uploaded as one PDF: all pages read, in order, joined at the page turns.",
+    "failure": "Invented notes, skipped staves or systems, whether the tool warns when unsure. (X, the blurred photo, is not scored since 2026-11-17: a reader should always do its best.)",
+    "effort": "Minutes and edits to correct the output in the tool's own editor. Timed by hand on A, C, G, H and I only.",
+    "speed_cost": "Seconds from upload to playable, and the price of the upload."
+  },
+  "uploads": [
+    {
+      "id": "A",
+      "slug": "kuhlau-sonatina-op20-1",
+      "files": [
+        "kuhlau-sonatina-op20-1-schirmer-1893-p1.jpg"
+      ],
+      "kind": "scan",
+      "music": "beginner piano, two staves",
+      "title": "Sonatina in C major, Op. 20 No. 1, first movement, page 1",
+      "composer": "Friedrich Kuhlau",
+      "source": {
+        "edition": "Sonatinas for the Piano, Book I (Schirmer's Library No. 52), fingered and phrased by Ludwig Klee. New York: G. Schirmer, 1893. Plate 10380.",
+        "url": "https://imslp.org/wiki/Special:ImagefromIndex/481782",
+        "page": "PDF page 1 (printed page 3)",
+        "license": "public domain (US, published 1893)"
+      },
+      "systems": 7,
+      "key": "C major",
+      "time": "4/4 (C)",
+      "measures": [
+        "notes",
+        "measures_clean",
+        "fingering",
+        "notation",
+        "structure",
+        "expression",
+        "robustness"
+      ],
+      "has": [
+        "fingering on most notes, both hands, stacked fingers on chords and thirds",
+        "a tuplet 3 right beside finger numbers (system 2, last measure): the 3 is not a finger",
+        "left hand changes between bass and treble clef several times",
+        "end-repeat of the exposition mid-system (system 6)",
+        "pp to sf dynamics, cresc./dim. hairpins, accents, staccato, legato",
+        "a footnote marker a) under the bass and its footnote at the foot of the page"
+      ],
+      "playOrder": "page's measures with the exposition repeated (the repeat's second half is on later pages)",
+      "answerKey": [
+        "keys/musicxml/A-kuhlau-sonatina-op20-1.musicxml"
+      ]
+    },
+    {
+      "id": "B",
+      "slug": "schumann-merry-peasant",
+      "files": [
+        "schumann-merry-peasant-op68-10-ricordi-1919.jpg"
+      ],
+      "kind": "scan",
+      "music": "beginner piano, two staves, melody in the left hand",
+      "title": "The Merry Peasant (Fröhlicher Landmann), Album for the Young Op. 68 No. 10",
+      "composer": "Robert Schumann",
+      "source": {
+        "edition": "Album per la gioventù, Op. 68. Milan: G. Ricordi, 1919. Plate E.R. 190.",
+        "url": "https://imslp.org/wiki/Special:ImagefromIndex/460875",
+        "page": "PDF page 13 (printed page 11)",
+        "license": "public domain (US, published 1919)"
+      },
+      "systems": 5,
+      "key": "F major",
+      "time": "4/4 (C)",
+      "measures": [
+        "notes",
+        "measures_clean",
+        "fingering",
+        "notation",
+        "expression"
+      ],
+      "has": [
+        "pickup measure",
+        "the melody in the left hand, chords with rests in the right hand (two voices per staff)",
+        "fingering in both hands, including finger substitutions printed as 45 and 21",
+        "Ricordi's bracket pedal marks under the bass on every measure",
+        "(poco rit.), (a tempo), (mf) in brackets, Allegramente with a metronome mark",
+        "the title in Italian, French and English (only one piece on the page)"
+      ],
+      "playOrder": "straight through, no repeats",
+      "answerKey": [
+        "keys/musicxml/B-schumann-merry-peasant.musicxml"
+      ]
+    },
+    {
+      "id": "C",
+      "slug": "joplin-entertainer",
+      "files": [
+        "joplin-entertainer-stark-1902-p1.jpg"
+      ],
+      "kind": "scan",
+      "music": "intermediate piano, two staves",
+      "title": "The Entertainer, page 1 (intro and first strain)",
+      "composer": "Scott Joplin",
+      "source": {
+        "edition": "First edition. St. Louis: John Stark & Son, 1902. Plate 10-4. Library of Congress copy.",
+        "url": "https://imslp.org/wiki/Special:ImagefromIndex/02607",
+        "page": "PDF page 2 (printed page 2)",
+        "license": "public domain (US, published 1902)"
+      },
+      "systems": 4,
+      "key": "C major",
+      "time": "2/4",
+      "measures": [
+        "notes",
+        "measures_clean",
+        "notation",
+        "structure",
+        "expression",
+        "robustness",
+        "clutter",
+        "effort"
+      ],
+      "has": [
+        "4-measure intro, then a start-repeat (its end-repeat is on the next page)",
+        "syncopation tied across the beat, octave chords in sixteenths",
+        "chromatic accidentals (C-sharp, D-sharp, B-flat) in both hands",
+        "marcato accents, f/p, hairpins",
+        "dedication, subtitle and copyright lines around the music"
+      ],
+      "playOrder": "straight through (the repeat closes on page 2, not in this upload)",
+      "answerKey": [
+        "keys/musicxml/C-joplin-entertainer.musicxml"
+      ]
+    },
+    {
+      "id": "D",
+      "slug": "mozart-k545",
+      "files": [
+        "mozart-k545-i-schirmer-1893-p1.jpg"
+      ],
+      "kind": "scan",
+      "music": "intermediate piano, two staves",
+      "title": "Piano Sonata in C major, K. 545, first movement, page 1",
+      "composer": "Wolfgang Amadeus Mozart",
+      "source": {
+        "edition": "19 Sonatas for the Piano, Sonata I. New York: G. Schirmer, 1893. Plate 11134.",
+        "url": "https://imslp.org/wiki/Special:ImagefromIndex/00226",
+        "page": "PDF page 1 (printed page 2)",
+        "license": "public domain (US, published 1893)"
+      },
+      "systems": 6,
+      "key": "C major",
+      "time": "4/4 (C)",
+      "measures": [
+        "notes",
+        "measures_clean",
+        "fingering",
+        "notation",
+        "expression",
+        "clutter",
+        "robustness"
+      ],
+      "has": [
+        "trills, a grace note before a trill, an editor's ossia staff above measure 4 showing how to play the trill (not extra notes)",
+        "running sixteenths and Alberti bass",
+        "fingering in both hands",
+        "left-hand clef changes",
+        "analysis labels P.T./HS and S.T./SS and a two-language list of abbreviations above the music (not music)",
+        "footnote markers a) and b)",
+        "the scan cuts off the bottom of the page just under the last system"
+      ],
+      "playOrder": "straight through (the exposition's repeat closes on page 2)",
+      "answerKey": [
+        "keys/musicxml/D-mozart-k545.musicxml"
+      ]
+    },
+    {
+      "id": "E",
+      "slug": "chopin-prelude-20",
+      "files": [
+        "chopin-prelude-op28-20-schirmer-1895.jpg"
+      ],
+      "kind": "scan",
+      "music": "dense piano chords; two pieces on one page",
+      "title": "Prelude Op. 28 No. 20 (complete) and the first 8 measures of No. 21",
+      "composer": "Frédéric Chopin",
+      "source": {
+        "edition": "Complete Works for the Piano, Vol. 8: Preludes and Rondos, ed. Karl Mikuli. New York: G. Schirmer, 1895.",
+        "url": "https://imslp.org/wiki/Special:ImagefromIndex/111373",
+        "page": "PDF page 45 (printed page 39)",
+        "license": "public domain (US, published 1895)"
+      },
+      "systems": 5,
+      "key": "C minor, then B-flat major",
+      "time": "4/4 (C), then 3/4",
+      "measures": [
+        "notes",
+        "measures_clean",
+        "notation",
+        "expression"
+      ],
+      "has": [
+        "four- and five-note chords in both hands with many accidentals and naturals",
+        "a second piece starting mid-page: new title, key and time signature",
+        "fermata over the final chord, ff/p/pp, ritenuto, cresc.",
+        "stacked chord fingering and pedal marks in No. 21"
+      ],
+      "playOrder": "No. 20 straight through; No. 21 is a separate piece (a tool may play it on or split it off; either is accepted if the measures are right)",
+      "answerKey": [
+        "keys/musicxml/E-chopin-prelude-20.musicxml"
+      ]
+    },
+    {
+      "id": "F",
+      "slug": "beethoven-fur-elise",
+      "files": [
+        "beethoven-fur-elise-wier-1913.pdf"
+      ],
+      "pageImages": [
+        "beethoven-fur-elise-wier-1913-p1.jpg",
+        "beethoven-fur-elise-wier-1913-p2.jpg",
+        "beethoven-fur-elise-wier-1913-p3.jpg"
+      ],
+      "upload": "the three-page PDF in one upload (page images only for tools that take one image at a time)",
+      "kind": "scan, 3 pages",
+      "music": "intermediate piano, two staves, whole piece",
+      "title": "Für Elise, WoO 59 (complete)",
+      "composer": "Ludwig van Beethoven",
+      "source": {
+        "edition": "The Ideal Home Music Library, Vol. 1, pp. 13-15, ed. Albert E. Wier. New York: Charles Scribner's Sons, 1913.",
+        "url": "https://imslp.org/wiki/Special:ImagefromIndex/969394",
+        "page": "all 3 pages",
+        "license": "public domain (US, published 1913)"
+      },
+      "systems": 18,
+      "key": "A minor",
+      "time": "3/8",
+      "measures": [
+        "notes",
+        "measures_clean",
+        "structure",
+        "notation",
+        "fingering",
+        "expression",
+        "multipage"
+      ],
+      "has": [
+        "repeats with first and second endings, more than once",
+        "clef changes in both hands",
+        "pedal and release on nearly every measure",
+        "thirty-second-note runs, a turn, grace notes",
+        "fingering on some notes",
+        "page turns mid-phrase"
+      ],
+      "playOrder": "repeats and endings expanded as printed",
+      "answerKey": [
+        "keys/musicxml/F-beethoven-fur-elise-p1.musicxml",
+        "keys/musicxml/F-beethoven-fur-elise-p2.musicxml",
+        "keys/musicxml/F-beethoven-fur-elise-p3.musicxml"
+      ]
+    },
+    {
+      "id": "G",
+      "slug": "hymn-gracious-saviour",
+      "files": [
+        "hymn-gracious-saviour-new-century-1904.jpg"
+      ],
+      "kind": "scan",
+      "music": "hymn: four voices on two staves, verses between the staves",
+      "title": "Gracious Saviour (St. Agatha), No. 156, with the last system of Daylight Is Dawning above it",
+      "composer": "unattributed tune St. Agatha",
+      "source": {
+        "edition": "The New Century Hymnal, ed. Will L. Thompson. East Liverpool, Ohio: W. L. Thompson, 1904.",
+        "url": "https://archive.org/details/newcenturyhymnal00thom",
+        "page": "scan leaf n160",
+        "license": "public domain (US, published 1904)"
+      },
+      "systems": 4,
+      "key": "D major (the end of the previous hymn), then G major",
+      "time": "4/4 (C)",
+      "measures": [
+        "notes",
+        "measures_clean",
+        "lyrics",
+        "notation",
+        "robustness",
+        "clutter",
+        "effort"
+      ],
+      "has": [
+        "four verses between the staves, numbered 1 to 4",
+        "soprano and alto on one staff, tenor and bass on the other, stems up and down",
+        "fermatas in the last system",
+        "the last system of the previous hymn at the top of the page, in another key, with one line of words",
+        "hymn number, tune name and tempo word"
+      ],
+      "playOrder": "Gracious Saviour four times (once per verse) or once with all verses kept; Daylight Is Dawning's system scored as its own piece or left out",
+      "answerKey": [
+        "keys/musicxml/G-hymn-gracious-saviour.musicxml",
+        "keys/musicxml/G-previous-hymn-daylight.musicxml"
+      ]
+    },
+    {
+      "id": "H",
+      "slug": "foster-beautiful-dreamer",
+      "files": [
+        "foster-beautiful-dreamer-pond-1864-p1.jpg"
+      ],
+      "kind": "scan",
+      "music": "voice and piano: three staves after a two-staff intro",
+      "title": "Beautiful Dreamer, page 1",
+      "composer": "Stephen C. Foster",
+      "source": {
+        "edition": "New York: William A. Pond & Co., n.d. [1864].",
+        "url": "https://imslp.org/wiki/Special:ImagefromIndex/659997",
+        "page": "PDF page 2 (first page of music)",
+        "license": "public domain (US, published 1864)"
+      },
+      "systems": 4,
+      "key": "E-flat major",
+      "time": "9/8",
+      "measures": [
+        "notes",
+        "measures_clean",
+        "lyrics",
+        "notation",
+        "clutter",
+        "effort"
+      ],
+      "has": [
+        "a piano intro on two staves, then voice plus piano on three staves",
+        "one verse under the voice with hyphens and dotted extenders",
+        "grace notes in the intro",
+        "the reverse page showing through the paper, a pencilled page number"
+      ],
+      "playOrder": "straight through",
+      "note": "When the set was chosen, PlayableNotes read two staves only, so it was expected to lose the voice part here. Kept on purpose.",
+      "answerKey": [
+        "keys/musicxml/H-foster-beautiful-dreamer-piano.musicxml",
+        "keys/musicxml/H-foster-beautiful-dreamer-voice.musicxml"
+      ]
+    },
+    {
+      "id": "I",
+      "slug": "shenandoah-lead-sheet",
+      "files": [
+        "shenandoah-lead-sheet.pdf"
+      ],
+      "kind": "engraving (vector PDF, made for the test)",
+      "music": "lead sheet: melody, chord symbols, two verses",
+      "title": "Shenandoah",
+      "composer": "traditional; this setting made for the benchmark",
+      "source": {
+        "edition": "MusicXML written for the test, engraved by Verovio with its default look, printed to PDF by Chromium",
+        "url": null,
+        "page": "1 page",
+        "license": "made here"
+      },
+      "systems": null,
+      "key": "D major",
+      "time": "4/4",
+      "measures": [
+        "notes",
+        "measures_clean",
+        "chords",
+        "lyrics",
+        "structure",
+        "effort"
+      ],
+      "has": [
+        "chord symbols on every measure: a mid-measure change (Em to A7), a slash chord (G/B), D7 on beat 4",
+        "two verses under the first twelve measures",
+        "pickup, segno, To Coda, D.S. al Coda, a coda, a final fermata",
+        "tempo word Slowly, mp"
+      ],
+      "playOrder": "measures 0-14, then the D.S. back to 0, to measure 12, then the coda (15-16)",
+      "answerKey": "keys/shenandoah-lead-sheet.musicxml"
+    },
+    {
+      "id": "J",
+      "slug": "beethoven-minuet-g",
+      "files": [
+        "beethoven-minuet-g-woo10-2-breitkopf.jpg"
+      ],
+      "kind": "scan",
+      "music": "intermediate piano, minuet and trio",
+      "title": "Minuet in G, WoO 10 No. 2 (Minuet, Trio, Men. da capo)",
+      "composer": "Ludwig van Beethoven",
+      "source": {
+        "edition": "Ludwig van Beethovens Werke, Serie 18 No. 194. Leipzig: Breitkopf & Härtel, n.d. [1864]. Plate B.194.",
+        "url": "https://imslp.org/wiki/Special:ImagefromIndex/58214",
+        "page": "PDF page 2 (printed page 2 (106))",
+        "license": "public domain (US, published c. 1864)"
+      },
+      "systems": 6,
+      "key": "G major",
+      "time": "3/4",
+      "measures": [
+        "notes",
+        "measures_clean",
+        "structure",
+        "notation",
+        "expression"
+      ],
+      "has": [
+        "pickup; repeat signs with first and second endings in both the minuet and the trio",
+        "Trio with its time signature printed again",
+        "'Men. da capo' at the end: play the minuet again",
+        "dotted rhythms"
+      ],
+      "playOrder": "minuet with repeats, trio with repeats, minuet again (with or without its repeats: both accepted)",
+      "answerKey": [
+        "keys/musicxml/J-beethoven-minuet-g.musicxml"
+      ]
+    },
+    {
+      "id": "C2",
+      "slug": "joplin-entertainer-photo-good",
+      "files": [
+        "joplin-entertainer-stark-1902-p1-photo-good.jpg"
+      ],
+      "kind": "phone photo (synthetic, good)",
+      "variantOf": "C",
+      "answerKey": "same as C",
+      "derive": {
+        "from": "C",
+        "how": "photo",
+        "strength": 0.45,
+        "seed": 201
+      },
+      "measures": [
+        "robustness"
+      ]
+    },
+    {
+      "id": "C3",
+      "slug": "joplin-entertainer-photo-bad",
+      "files": [
+        "joplin-entertainer-stark-1902-p1-photo-bad.jpg"
+      ],
+      "kind": "phone photo (synthetic, bad)",
+      "variantOf": "C",
+      "answerKey": "same as C",
+      "derive": {
+        "from": "C",
+        "how": "photo",
+        "strength": 1.5,
+        "seed": 202,
+        "intruder": "B"
+      },
+      "measures": [
+        "robustness",
+        "clutter"
+      ]
+    },
+    {
+      "id": "G2",
+      "slug": "hymn-gracious-saviour-photo-good",
+      "files": [
+        "hymn-gracious-saviour-new-century-1904-photo-good.jpg"
+      ],
+      "kind": "phone photo (synthetic, good)",
+      "variantOf": "G",
+      "answerKey": "same as G",
+      "derive": {
+        "from": "G",
+        "how": "photo",
+        "strength": 0.45,
+        "seed": 203
+      },
+      "measures": [
+        "robustness",
+        "lyrics"
+      ]
+    },
+    {
+      "id": "G3",
+      "slug": "hymn-gracious-saviour-photo-bad",
+      "files": [
+        "hymn-gracious-saviour-new-century-1904-photo-bad.jpg"
+      ],
+      "kind": "phone photo (synthetic, bad)",
+      "variantOf": "G",
+      "answerKey": "same as G",
+      "derive": {
+        "from": "G",
+        "how": "photo",
+        "strength": 1.5,
+        "seed": 204,
+        "intruder": "J"
+      },
+      "measures": [
+        "robustness",
+        "lyrics",
+        "clutter"
+      ]
+    },
+    {
+      "id": "A2",
+      "slug": "kuhlau-sonatina-photo-good",
+      "files": [
+        "kuhlau-sonatina-op20-1-schirmer-1893-p1-photo-good.jpg"
+      ],
+      "kind": "phone photo (synthetic, good)",
+      "variantOf": "A",
+      "answerKey": "same as A",
+      "derive": {
+        "from": "A",
+        "how": "photo",
+        "strength": 0.45,
+        "seed": 205
+      },
+      "measures": [
+        "robustness",
+        "fingering"
+      ]
+    },
+    {
+      "id": "A3",
+      "slug": "kuhlau-sonatina-photo-bad",
+      "files": [
+        "kuhlau-sonatina-op20-1-schirmer-1893-p1-photo-bad.jpg"
+      ],
+      "kind": "phone photo (synthetic, bad)",
+      "variantOf": "A",
+      "answerKey": "same as A",
+      "derive": {
+        "from": "A",
+        "how": "photo",
+        "strength": 1.5,
+        "seed": 206,
+        "intruder": "E"
+      },
+      "measures": [
+        "robustness",
+        "fingering",
+        "clutter"
+      ]
+    },
+    {
+      "id": "D2",
+      "slug": "mozart-k545-screenshot-lowres",
+      "files": [
+        "mozart-k545-i-schirmer-1893-p1-screenshot-800px.png"
+      ],
+      "kind": "low-resolution screenshot (800 px wide)",
+      "variantOf": "D",
+      "answerKey": "same as D",
+      "derive": {
+        "from": "D",
+        "how": "screenshot"
+      },
+      "measures": [
+        "robustness"
+      ]
+    },
+    {
+      "id": "X",
+      "slug": "unreadable-photo",
+      "files": [
+        "unreadable-blurred-photo.jpg"
+      ],
+      "kind": "unreadable photo (E photographed, then blurred until no note can be read)",
+      "derive": {
+        "from": "E",
+        "how": "unreadable",
+        "seed": 299
+      },
+      "measures": [
+        "failure"
+      ],
+      "answerKey": "not scored since 2026-11-17 (it rewarded refusing; a reader should always do its best)"
+    }
+  ]
+}
