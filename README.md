@@ -8,8 +8,8 @@ the uploads, the answer keys, every tool's raw export, the scorer, and the per-u
 on [OLiMPiC](https://github.com/ufal/olimpic-icdar24), a public piano OMR test set from Charles University, and
 scored it with that dataset's own TEDn scorer; those 300 predictions are here too.
 
-**Conflict of interest:** PlayableNotes is our product (Ozni Apps LLC). Read this as a vendor's benchmark, and check
-it: the scorer runs in seconds on the files here (`python3 score.py`), and any upload can be re-run through any app.
+Run by PlayableNotes (Ozni Apps LLC). Every file is here so anyone can check it: the scorer runs in seconds
+(`python3 score.py`), and any upload can be re-run through any app.
 
 Run dates: competitors 16 November 2026 (each in its own app), PlayableNotes 18 November 2026. Summary page:
 [playablenotes.com/sheet-music-scanner-benchmark](https://playablenotes.com/sheet-music-scanner-benchmark).
