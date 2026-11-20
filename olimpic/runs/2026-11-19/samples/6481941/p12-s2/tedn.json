@@ -1,0 +1,18 @@
+{
+ "id": "samples/6481941/p12-s2",
+ "scorer": 1,
+ "predicted": true,
+ "predLmx": "measure key:fifths:0 time beats:6 beat-type:8 clef:G2 staff:1 clef:F4 staff:2 rest voice:1 rest:measure staff:1 backup half backup quarter B3 voice:5 eighth stem:up staff:2 beam:begin slur:start A3 eighth B3 eighth beam:end slur:stop B3 eighth beam:begin slur:start C4 eighth sharp B3 eighth beam:end slur:stop backup half backup quarter rest voice:6 eighth staff:2 D3 eighth stem:down beam:begin slur:start chord F3 eighth sharp E3 eighth beam:end slur:stop chord G3 eighth rest eighth F3 eighth beam:begin slur:start chord A3 eighth E3 eighth beam:end slur:stop chord G3 eighth measure rest voice:1 rest:measure staff:1 backup half backup quarter B3 voice:5 eighth stem:up staff:2 beam:begin slur:start A3 eighth B3 eighth beam:end slur:stop B3 eighth beam:begin slur:start C4 eighth sharp B3 eighth beam:end slur:stop backup half backup quarter rest voice:6 eighth staff:2 C3 eighth sharp stem:down beam:begin slur:start chord E3 eighth B2 eighth beam:end slur:stop chord D3 eighth rest eighth F3 eighth sharp beam:begin slur:start chord A3 eighth E3 eighth beam:end slur:stop chord G3 eighth measure rest voice:1 rest:measure staff:1 backup half backup quarter B3 voice:5 eighth stem:up staff:2 beam:begin slur:start A3 eighth B3 eighth beam:end slur:stop B3 eighth beam:begin slur:start C4 eighth sharp B3 eighth beam:end slur:stop backup half backup quarter rest voice:6 eighth staff:2 E3 eighth stem:down beam:begin slur:start chord G3 eighth D3 eighth beam:end slur:stop chord F3 eighth sharp rest eighth A2 eighth beam:begin slur:start chord E3 eighth G2 eighth beam:end slur:stop chord D3 eighth",
+ "linearizer_warnings": "",
+ "ser_edits": 31,
+ "ser_gold": 234,
+ "full": {
+  "edit": 53,
+  "gold": 456
+ },
+ "lmx": {
+  "edit": 43,
+  "gold": 446
+ },
+ "seconds": 8.5
+}

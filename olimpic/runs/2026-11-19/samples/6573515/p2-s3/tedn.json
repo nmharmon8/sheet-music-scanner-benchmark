@@ -1,0 +1,18 @@
+{
+ "id": "samples/6573515/p2-s3",
+ "scorer": 1,
+ "predicted": true,
+ "predLmx": "measure key:fifths:-1 time beats:3 beat-type:4 clef:G2 staff:1 clef:F4 staff:2 E3 voice:1 quarter stem:up staff:1 slur:start arpeggiate chord A3 quarter arpeggiate chord C4 quarter arpeggiate chord E4 quarter arpeggiate E4 quarter slur:stop arpeggiate chord A4 quarter arpeggiate chord C5 quarter arpeggiate chord E5 quarter arpeggiate F3 quarter chord A3 quarter chord C4 quarter chord F4 quarter backup half backup quarter A1 voice:5 quarter stem:up staff:2 slur:start arpeggiate chord E2 quarter arpeggiate E3 quarter stem:down slur:stop arpeggiate chord A3 quarter arpeggiate chord C4 quarter arpeggiate E1 quarter stem:up chord E2 quarter measure E3 voice:1 quarter stem:up staff:1 slur:start arpeggiate chord A3 quarter arpeggiate chord C4 quarter arpeggiate chord E4 quarter arpeggiate E4 quarter slur:stop arpeggiate chord A4 quarter arpeggiate chord C5 quarter arpeggiate chord E5 quarter arpeggiate F3 quarter chord A3 quarter chord C4 quarter chord F4 quarter backup half backup quarter A1 voice:5 quarter stem:up staff:2 slur:start arpeggiate chord E2 quarter arpeggiate E3 quarter stem:down slur:stop arpeggiate chord A3 quarter arpeggiate chord C4 quarter arpeggiate E1 quarter stem:up chord E2 quarter measure E3 voice:1 quarter stem:up staff:1 slur:start arpeggiate chord A3 quarter arpeggiate chord C4 quarter arpeggiate chord E4 quarter arpeggiate E4 quarter slur:stop arpeggiate chord A4 quarter arpeggiate chord C5 quarter arpeggiate chord E5 quarter arpeggiate C4 quarter chord E4 quarter chord A4 quarter backup half backup quarter A1 voice:5 quarter stem:up staff:2 slur:start arpeggiate chord E2 quarter arpeggiate E3 quarter stem:down slur:stop arpeggiate chord A3 quarter arpeggiate chord C4 quarter arpeggiate grace grace:slash F3 eighth A2 quarter stem:up chord E3 quarter measure rest voice:1 quarter staff:1 B3 quarter natural stem:up chord F4 quarter chord A4 quarter chord B4 quarter natural C4 quarter chord E4 quarter chord A4 quarter backup half backup quarter rest voice:5 quarter staff:2 D3 quarter stem:down chord A3 quarter grace grace:slash F3 eighth A2 quarter stem:up chord E3 quarter",
+ "linearizer_warnings": "",
+ "ser_edits": 27,
+ "ser_gold": 289,
+ "full": {
+  "edit": 48,
+  "gold": 581
+ },
+ "lmx": {
+  "edit": 40,
+  "gold": 573
+ },
+ "seconds": 12.1
+}

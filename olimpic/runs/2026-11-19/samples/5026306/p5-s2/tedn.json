@@ -1,0 +1,18 @@
+{
+ "id": "samples/5026306/p5-s2",
+ "scorer": 1,
+ "predicted": true,
+ "predLmx": "measure key:fifths:-1 time beats:4 beat-type:4 clef:G2 staff:1 clef:F4 staff:2 B5 voice:1 eighth flat stem:down staff:1 chord E6 eighth flat chord G6 eighth flat chord B6 eighth flat rest eighth B4 half strong-accent chord E5 half flat chord G5 half flat chord B5 half C5 quarter flat strong-accent chord E5 quarter flat chord A5 quarter flat backup whole B1 voice:5 half 2in1 stem:up staff:2 tremolo:start tremolo:3 B2 half 2in1 tremolo:stop tremolo:3 B1 half 2in1 tremolo:start tremolo:3 B2 half 2in1 tremolo:stop tremolo:3 measure B4 voice:1 quarter flat stem:down staff:1 strong-accent chord E5 quarter flat chord G5 quarter flat A4 quarter flat strong-accent chord C5 quarter flat chord F5 quarter G4 quarter flat strong-accent chord B4 quarter chord E5 quarter E4 quarter flat stem:up strong-accent chord G4 quarter chord D5 quarter flat backup whole B1 voice:5 half 2in1 stem:up staff:2 tremolo:start tremolo:3 B2 half 2in1 tremolo:stop tremolo:3 B1 half 2in1 tremolo:start tremolo:3 B2 half 2in1 tremolo:stop tremolo:3 backup whole forward half forward quarter B3 voice:6 quarter stem:down staff:2 strong-accent measure G4 voice:1 half dot flat stem:up staff:1 strong-accent chord C5 half dot flat D4 quarter flat strong-accent chord F4 quarter flat chord B4 quarter backup whole B1 voice:5 half 2in1 stem:up staff:2 tremolo:start tremolo:3 B2 half 2in1 tremolo:stop tremolo:3 B1 half 2in1 tremolo:start tremolo:3 B2 half 2in1 tremolo:stop tremolo:3 backup whole E4 voice:6 half dot flat stem:down staff:2 strong-accent G3 quarter natural strong-accent measure E4 voice:1 half dot flat stem:up staff:1 strong-accent chord A4 half dot flat G4 quarter flat strong-accent backup whole B1 voice:5 half 2in1 stem:up staff:2 tremolo:start tremolo:3 B2 half 2in1 tremolo:stop tremolo:3 B1 half 2in1 tremolo:start tremolo:3 B2 half 2in1 tremolo:stop tremolo:3 backup whole C4 voice:6 whole flat staff:2 strong-accent measure F4 voice:1 quarter stem:up staff:1 slur:start E4 quarter flat tied:start E4 half tied:stop tied:start slur:stop chord A4 half flat tied:start backup whole B1 voice:5 half 2in1 stem:up staff:2 tremolo:start tremolo:3 B2 half 2in1 tremolo:stop tremolo:3 B1 half 2in1 tremolo:start tremolo:3 B2 half 2in1 tremolo:stop tremolo:3 backup whole A3 voice:6 whole natural staff:2 tied:start chord C4 whole natural tied:start",
+ "linearizer_warnings": "",
+ "ser_edits": 99,
+ "ser_gold": 338,
+ "full": {
+  "edit": 197,
+  "gold": 696
+ },
+ "lmx": {
+  "edit": 153,
+  "gold": 652
+ },
+ "seconds": 24.7
+}

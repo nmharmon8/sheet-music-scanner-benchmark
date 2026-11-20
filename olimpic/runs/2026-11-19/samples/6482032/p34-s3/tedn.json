@@ -1,0 +1,18 @@
+{
+ "id": "samples/6482032/p34-s3",
+ "scorer": 1,
+ "predicted": true,
+ "predLmx": "measure key:fifths:0 time beats:4 beat-type:4 clef:G2 staff:1 clef:F4 staff:2 forward whole backup whole G3 voice:5 quarter stem:up staff:2 slur:start chord B3 quarter A3 quarter chord C4 quarter B3 quarter chord D4 quarter C4 quarter slur:stop chord E4 quarter backup whole E3 voice:6 quarter stem:down staff:2 slur:start F3 quarter sharp G3 quarter A3 quarter slur:stop measure forward whole backup whole G3 voice:5 quarter stem:up staff:2 slur:start chord B3 quarter A3 quarter chord C4 quarter B3 quarter chord D4 quarter C4 quarter slur:stop chord E4 quarter backup whole E3 voice:6 quarter stem:down staff:2 slur:start F3 quarter sharp G3 quarter A3 quarter slur:stop",
+ "linearizer_warnings": "",
+ "ser_edits": 17,
+ "ser_gold": 107,
+ "full": {
+  "edit": 29,
+  "gold": 214
+ },
+ "lmx": {
+  "edit": 23,
+  "gold": 208
+ },
+ "seconds": 0.5
+}

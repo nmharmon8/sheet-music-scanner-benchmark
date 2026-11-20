@@ -1,0 +1,18 @@
+{
+ "id": "samples/6481218/p9-s2",
+ "scorer": 1,
+ "predicted": true,
+ "predLmx": "measure key:fifths:0 time beats:2 beat-type:4 clef:F4 staff:1 clef:F4 staff:2 D3 voice:1 eighth flat stem:up staff:1 beam:begin slur:start chord D4 eighth flat E3 eighth flat chord E4 eighth flat F3 eighth chord F4 eighth A3 eighth flat beam:end chord A4 eighth flat backup half A3 voice:2 quarter flat stem:down staff:1 chord C4 quarter flat A3 quarter chord D4 quarter backup half A1 voice:5 quarter flat stem:up staff:2 accent chord A2 quarter flat D2 quarter flat accent chord D3 quarter flat measure B3 voice:1 eighth stem:up staff:1 beam:begin chord G4 eighth F3 eighth beam:end chord F4 eighth B3 quarter slur:stop chord G4 quarter clef:G2 staff:1 backup half D4 voice:2 quarter flat stem:down staff:1 chord E4 quarter flat C4 quarter chord E4 quarter natural backup half C2 voice:5 quarter flat stem:up staff:2 accent chord C3 quarter flat B1 quarter flat accent chord B2 quarter flat measure E3 voice:1 eighth natural stem:up staff:1 beam:begin slur:start chord E4 eighth natural D3 eighth beam:end chord D4 eighth E3 quarter slur:stop chord E4 quarter backup half B3 voice:2 quarter flat stem:down staff:1 chord C4 quarter A3 quarter natural chord C4 quarter sharp backup half A2 voice:5 quarter flat stem:down staff:2 accent chord A3 quarter flat G2 quarter stem:up accent chord G3 quarter measure C3 voice:1 eighth sharp stem:up staff:1 beam:begin slur:start chord C4 eighth sharp B2 eighth beam:end chord B3 eighth C3 quarter slur:stop chord C4 quarter backup half G3 voice:2 quarter stem:down staff:1 chord A3 quarter F3 quarter sharp chord A3 quarter sharp backup half F2 voice:5 quarter natural stem:up staff:2 accent chord F3 quarter natural E2 quarter accent chord E3 quarter",
+ "linearizer_warnings": "",
+ "ser_edits": 94,
+ "ser_gold": 263,
+ "full": {
+  "edit": 131,
+  "gold": 501
+ },
+ "lmx": {
+  "edit": 119,
+  "gold": 489
+ },
+ "seconds": 4.3
+}

@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE score-partwise PUBLIC "-//Recordare//DTD MusicXML 4.0 Partwise//EN" "http://www.musicxml.org/dtds/partwise.dtd">
+<score-partwise version="4.0">
+<work><work-title></work-title></work>
+<part-list><score-part id="P1"><part-name>Voice</part-name></score-part><score-part id="P2"><part-name>Piano</part-name></score-part></part-list>
+<part id="P1">
+<measure number="1">
+<attributes><divisions>6720</divisions><key><fifths>-5</fifths></key><time><beats>9</beats><beat-type>8</beat-type></time><clef number="1"><sign>G</sign><line>2</line></clef></attributes>
+<note><pitch><step>C</step><octave>5</octave></pitch><duration>10080</duration><tie type="start"/><voice>1</voice><type>quarter</type><dot/><stem>down</stem><staff>1</staff><notations><tied type="start"/></notations><lyric number="1"><syllabic>single</syllabic><text>zart</text><extend type="start"/></lyric></note>
+<note><pitch><step>C</step><octave>5</octave></pitch><duration>6720</duration><tie type="stop"/><voice>1</voice><type>quarter</type><stem>down</stem><staff>1</staff><notations><tied type="stop"/></notations><lyric number="1"><extend type="stop"/></lyric></note>
+<note><pitch><step>F</step><octave>5</octave></pitch><duration>3360</duration><voice>1</voice><type>eighth</type><stem>down</stem><staff>1</staff><lyric number="1"><syllabic>single</syllabic><text>in</text></lyric></note>
+<note><pitch><step>F</step><octave>5</octave></pitch><duration>6720</duration><voice>1</voice><type>quarter</type><stem>down</stem><staff>1</staff><lyric number="1"><syllabic>begin</syllabic><text>ih</text></lyric></note>
+<note><pitch><step>D</step><alter>-1</alter><octave>5</octave></pitch><duration>3360</duration><voice>1</voice><type>eighth</type><stem>down</stem><staff>1</staff><lyric number="1"><syllabic>end</syllabic><text>rer</text></lyric></note>
+</measure>
+<measure number="2">
+<note><pitch><step>D</step><alter>-1</alter><octave>5</octave></pitch><duration>10080</duration><voice>1</voice><type>quarter</type><dot/><stem>down</stem><staff>1</staff><lyric number="1"><syllabic>begin</syllabic><text>Lo</text></lyric></note>
+<note><pitch><step>E</step><alter>-1</alter><octave>5</octave></pitch><duration>6720</duration><voice>1</voice><type>quarter</type><stem>down</stem><staff>1</staff><lyric number="1"><syllabic>end</syllabic><text>cke,</text></lyric></note>
+<note><rest/><duration>3360</duration><voice>1</voice><type>eighth</type><staff>1</staff></note>
+<note><pitch><step>E</step><alter>-1</alter><octave>5</octave></pitch><duration>3360</duration><voice>1</voice><type>eighth</type><stem>down</stem><staff>1</staff><beam number="1">begin</beam><lyric number="1"><syllabic>begin</syllabic><text>ei</text><extend type="start"/></lyric></note>
+<note><pitch><step>D</step><alter>-1</alter><octave>5</octave></pitch><duration>3360</duration><voice>1</voice><type>eighth</type><stem>down</stem><staff>1</staff><beam number="1">end</beam><lyric number="1"><extend type="stop"/></lyric></note>
+<note><pitch><step>B</step><alter>-1</alter><octave>4</octave></pitch><duration>3360</duration><voice>1</voice><type>eighth</type><stem>down</stem><staff>1</staff><lyric number="1"><syllabic>end</syllabic><text>le</text></lyric></note>
+</measure>
+<measure number="3">
+<note><pitch><step>A</step><alter>-1</alter><octave>4</octave></pitch><duration>10080</duration><voice>1</voice><type>quarter</type><dot/><stem>up</stem><staff>1</staff><lyric number="1"><syllabic>single</syllabic><text>nicht</text></lyric></note>
+<note><rest/><duration>6720</duration><voice>1</voice><type>quarter</type><staff>1</staff></note>
+<note><rest/><duration>3360</duration><voice>1</voice><type>eighth</type><staff>1</staff></note>
+<note><pitch><step>A</step><alter>-1</alter><octave>4</octave></pitch><duration>10080</duration><voice>1</voice><type>quarter</type><dot/><stem>up</stem><staff>1</staff><lyric number="1"><syllabic>begin</syllabic><text>hin</text></lyric></note>
+</measure>
+<measure number="4">
+<note><pitch><step>A</step><alter>-1</alter><octave>4</octave></pitch><duration>10080</duration><voice>1</voice><type>quarter</type><dot/><stem>up</stem><staff>1</staff><notations><slur type="start" number="5"/></notations><lyric number="1"><syllabic>end</syllabic><text>weg</text><extend type="start"/></lyric></note>
+<note><pitch><step>D</step><alter>-1</alter><octave>5</octave></pitch><duration>10080</duration><voice>1</voice><type>quarter</type><dot/><stem>down</stem><staff>1</staff><notations><slur type="stop" number="5"/></notations><lyric number="1"><extend type="stop"/></lyric></note>
+<note><pitch><step>E</step><alter>-1</alter><octave>5</octave></pitch><duration>10080</duration><voice>1</voice><type>quarter</type><dot/><stem>down</stem><staff>1</staff><lyric number="1"><syllabic>single</syllabic><text>zu</text></lyric></note>
+</measure>
+</part>
+<part id="P2">
+<measure number="1">
+<attributes><divisions>6720</divisions><key><fifths>-5</fifths></key><time><beats>9</beats><beat-type>8</beat-type></time><staves>2</staves><clef number="1"><sign>G</sign><line>2</line></clef><clef number="2"><sign>F</sign><line>4</line></clef></attributes>
+<note><pitch><step>E</step><alter>-1</alter><octave>4</octave></pitch><duration>3360</duration><voice>1</voice><type>eighth</type><stem>up</stem><staff>1</staff><beam number="1">begin</beam></note>
+<note><chord/><pitch><step>G</step><alter>-1</alter><octave>4</octave></pitch><duration>3360</duration><voice>1</voice><type>eighth</type><stem>up</stem><staff>1</staff></note>
+<note><pitch><step>A</step><alter>-1</alter><octave>3</octave></pitch><duration>3360</duration><voice>1</voice><type>eighth</type><stem>up</stem><staff>1</staff><beam number="1">continue</beam></note>
+<note><pitch><step>D</step><octave>4</octave></pitch><duration>3360</duration><voice>1</voice><type>eighth</type><accidental>natural</accidental><stem>up</stem><staff>1</staff><beam number="1">end</beam></note>
+<note><chord/><pitch><step>F</step><octave>4</octave></pitch><duration>3360</duration><voice>1</voice><type>eighth</type><stem>up</stem><staff>1</staff></note>
+<note><pitch><step>E</step><alter>-1</alter><octave>4</octave></pitch><duration>3360</duration><voice>1</voice><type>eighth</type><stem>up</stem><staff>1</staff><beam number="1">begin</beam></note>
+<note><chord/><pitch><step>G</step><alter>-1</alter><octave>4</octave></pitch><duration>3360</duration><voice>1</voice><type>eighth</type><stem>up</stem><staff>1</staff></note>
+<note><pitch><step>A</step><alter>-1</alter><octave>3</octave></pitch><duration>3360</duration><voice>1</voice><type>eighth</type><stem>up</stem><staff>1</staff><beam number="1">continue</beam></note>
+<note><pitch><step>G</step><alter>-1</alter><octave>4</octave></pitch><duration>3360</duration><voice>1</voice><type>eighth</type><stem>up</stem><staff>1</staff><beam number="1">end</beam></note>
+<note><chord/><pitch><step>B</step><alter>-1</alter><octave>4</octave></pitch><duration>3360</duration><voice>1</voice><type>eighth</type><stem>up</stem><staff>1</staff></note>
+<note><pitch><step>F</step><octave>4</octave></pitch><duration>3360</duration><voice>1</voice><type>eighth</type><stem>up</stem><staff>1</staff><beam number="1">begin</beam></note>
+<note><chord/><pitch><step>A</step><alter>-1</alter><octave>4</octave></pitch><duration>3360</duration><voice>1</voice><type>eighth</type><stem>up</stem><staff>1</staff></note>
+<note><pitch><step>A</step><alter>-1</alter><octave>3</octave></pitch><duration>3360</duration><voice>1</voice><type>eighth</type><stem>up</stem><staff>1</staff><beam number="1">continue</beam></note>
+<note><pitch><step>E</step><alter>-1</alter><octave>4</octave></pitch><duration>3360</duration><voice>1</voice><type>eighth</type><stem>up</stem><staff>1</staff><beam number="1">end</beam></note>
+<note><chord/><pitch><step>G</step><alter>-1</alter><octave>4</octave></pitch><duration>3360</duration><voice>1</voice><type>eighth</type><stem>up</stem><staff>1</staff></note>
+<backup><duration>30240</duration></backup>
+<note><pitch><step>A</step><alter>-1</alter><octave>1</octave></pitch><duration>6720</duration><voice>5</voice><type>quarter</type><stem>up</stem><staff>2</staff></note>
+<note><rest/><duration>3360</duration><voice>5</voice><type>eighth</type><staff>2</staff></note>
+<note><pitch><step>A</step><alter>-1</alter><octave>2</octave></pitch><duration>6720</duration><voice>5</voice><type>quarter</type><stem>up</stem><staff>2</staff></note>
+<note><chord/><pitch><step>E</step><alter>-1</alter><octave>3</octave></pitch><duration>6720</duration><voice>5</voice><type>quarter</type><stem>up</stem><staff>2</staff></note>
+<note><rest/><duration>3360</duration><voice>5</voice><type>eighth</type><staff>2</staff></note>
+<note><pitch><step>A</step><alter>-1</alter><octave>1</octave></pitch><duration>6720</duration><voice>5</voice><type>quarter</type><stem>up</stem><staff>2</staff></note>
+<note><rest/><duration>3360</duration><voice>5</voice><type>eighth</type><staff>2</staff></note>
+</measure>
+<measure number="2">
+<note><pitch><step>G</step><octave>4</octave></pitch><duration>3360</duration><voice>1</voice><type>eighth</type><accidental>natural</accidental><stem>up</stem><staff>1</staff><beam number="1">begin</beam></note>
+<note><chord/><pitch><step>B</step><alter>-1</alter><octave>4</octave></pitch><duration>3360</duration><voice>1</voice><type>eighth</type><stem>up</stem><staff>1</staff></note>
+<note><pitch><step>A</step><alter>-1</alter><octave>3</octave></pitch><duration>3360</duration><voice>1</voice><type>eighth</type><stem>up</stem><staff>1</staff><beam number="1">continue</beam></note>
+<note><pitch><step>E</step><octave>4</octave></pitch><duration>3360</duration><voice>1</voice><type>eighth</type><accidental>natural</accidental><stem>up</stem><staff>1</staff><beam number="1">end</beam></note>
+<note><chord/><pitch><step>G</step><octave>4</octave></pitch><duration>3360</duration><voice>1</voice><type>eighth</type><stem>up</stem><staff>1</staff></note>
+<note><pitch><step>F</step><octave>4</octave></pitch><duration>3360</duration><voice>1</voice><type>eighth</type><stem>up</stem><staff>1</staff><beam number="1">begin</beam></note>
+<note><chord/><pitch><step>A</step><alter>-1</alter><octave>4</octave></pitch><duration>3360</duration><voice>1</voice><type>eighth</type><stem>up</stem><staff>1</staff></note>
+<note><pitch><step>A</step><alter>-1</alter><octave>3</octave></pitch><duration>3360</duration><voice>1</voice><type>eighth</type><stem>up</stem><staff>1</staff><beam number="1">continue</beam></note>
+<note><pitch><step>D</step><alter>-1</alter><octave>4</octave></pitch><duration>3360</duration><voice>1</voice><type>eighth</type><stem>up</stem><staff>1</staff><beam number="1">end</beam></note>
+<note><chord/><pitch><step>F</step><octave>4</octave></pitch><duration>3360</duration><voice>1</voice><type>eighth</type><stem>up</stem><staff>1</staff></note>
+<note><pitch><step>D</step><alter>-1</alter><octave>4</octave></pitch><duration>3360</duration><voice>1</voice><type>eighth</type><stem>up</stem><staff>1</staff><beam number="1">begin</beam></note>
+<note><chord/><pitch><step>B</step><alter>-1</alter><octave>4</octave></pitch><duration>3360</duration><voice>1</voice><type>eighth</type><stem>up</stem><staff>1</staff></note>
+<note><pitch><step>B</step><alter>-1</alter><octave>3</octave></pitch><duration>3360</duration><voice>1</voice><type>eighth</type><stem>up</stem><staff>1</staff><beam number="1">continue</beam></note>
+<note><pitch><step>D</step><alter>-1</alter><octave>4</octave></pitch><duration>3360</duration><voice>1</voice><type>eighth</type><stem>up</stem><staff>1</staff><beam number="1">end</beam></note>
+<note><chord/><pitch><step>E</step><octave>4</octave></pitch><duration>3360</duration><voice>1</voice><type>eighth</type><stem>up</stem><staff>1</staff></note>
+<backup><duration>30240</duration></backup>
+<note><pitch><step>D</step><alter>-1</alter><octave>2</octave></pitch><duration>6720</duration><voice>5</voice><type>quarter</type><stem>up</stem><staff>2</staff></note>
+<note><rest/><duration>3360</duration><voice>5</voice><type>eighth</type><staff>2</staff></note>
+<note><pitch><step>D</step><alter>-1</alter><octave>3</octave></pitch><duration>6720</duration><voice>5</voice><type>quarter</type><stem>down</stem><staff>2</staff></note>
+<note><chord/><pitch><step>F</step><octave>3</octave></pitch><duration>6720</duration><voice>5</voice><type>quarter</type><stem>down</stem><staff>2</staff></note>
+<note><rest/><duration>3360</duration><voice>5</voice><type>eighth</type><staff>2</staff></note>
+<note><pitch><step>G</step><alter>-1</alter><octave>2</octave></pitch><duration>6720</duration><voice>5</voice><type>quarter</type><stem>up</stem><staff>2</staff></note>
+<note><rest/><duration>3360</duration><voice>5</voice><type>eighth</type><staff>2</staff></note>
+</measure>
+<measure number="3">
+<note><pitch><step>D</step><alter>-1</alter><octave>4</octave></pitch><duration>3360</duration><voice>1</voice><type>eighth</type><stem>up</stem><staff>1</staff><beam number="1">begin</beam><notations><slur type="start" number="1"/></notations></note>
+<note><pitch><step>A</step><alter>-1</alter><octave>4</octave></pitch><duration>3360</duration><voice>1</voice><type>eighth</type><stem>up</stem><staff>1</staff><beam number="1">continue</beam></note>
+<note><pitch><step>E</step><alter>-1</alter><octave>4</octave></pitch><duration>3360</duration><voice>1</voice><type>eighth</type><stem>up</stem><staff>1</staff><beam number="1">end</beam></note>
+<note><pitch><step>C</step><octave>4</octave></pitch><duration>3360</duration><voice>1</voice><type>eighth</type><stem>up</stem><staff>1</staff><beam number="1">begin</beam></note>
+<note><pitch><step>A</step><alter>-1</alter><octave>4</octave></pitch><duration>3360</duration><voice>1</voice><type>eighth</type><stem>up</stem><staff>1</staff><beam number="1">continue</beam></note>
+<note><pitch><step>B</step><alter>-1</alter><octave>3</octave></pitch><duration>3360</duration><voice>1</voice><type>eighth</type><stem>up</stem><staff>1</staff><beam number="1">end</beam></note>
+<note><pitch><step>A</step><alter>-1</alter><octave>3</octave></pitch><duration>3360</duration><voice>1</voice><type>eighth</type><stem>up</stem><staff>1</staff><beam number="1">begin</beam></note>
+<note><pitch><step>A</step><alter>-1</alter><octave>4</octave></pitch><duration>3360</duration><voice>1</voice><type>eighth</type><stem>up</stem><staff>1</staff><beam number="1">continue</beam></note>
+<note><pitch><step>B</step><alter>-1</alter><octave>3</octave></pitch><duration>3360</duration><voice>1</voice><type>eighth</type><stem>up</stem><staff>1</staff><beam number="1">end</beam><notations><slur type="stop" number="1"/></notations></note>
+<backup><duration>30240</duration></backup>
+<note><pitch><step>F</step><octave>3</octave></pitch><duration>5040</duration><voice>5</voice><type>eighth</type><time-modification><actual-notes>2</actual-notes><normal-notes>3</normal-notes></time-modification><stem>up</stem><staff>2</staff><beam number="1">begin</beam><notations><slur type="start" number="3"/><tuplet type="start" bracket="no"/></notations></note>
+<note><pitch><step>G</step><alter>-1</alter><octave>3</octave></pitch><duration>5040</duration><voice>5</voice><type>eighth</type><time-modification><actual-notes>2</actual-notes><normal-notes>3</normal-notes></time-modification><stem>up</stem><staff>2</staff><beam number="1">continue</beam><notations><tuplet type="stop"/></notations></note>
+<note><pitch><step>E</step><alter>-1</alter><octave>3</octave></pitch><duration>5040</duration><voice>5</voice><type>eighth</type><time-modification><actual-notes>2</actual-notes><normal-notes>3</normal-notes></time-modification><stem>up</stem><staff>2</staff><beam number="1">continue</beam><notations><tuplet type="start" bracket="no"/></notations></note>
+<note><pitch><step>D</step><alter>-1</alter><octave>3</octave></pitch><duration>5040</duration><voice>5</voice><type>eighth</type><time-modification><actual-notes>2</actual-notes><normal-notes>3</normal-notes></time-modification><stem>up</stem><staff>2</staff><beam number="1">continue</beam><notations><tuplet type="stop"/></notations></note>
+<note><pitch><step>C</step><octave>3</octave></pitch><duration>5040</duration><voice>5</voice><type>eighth</type><time-modification><actual-notes>2</actual-notes><normal-notes>3</normal-notes></time-modification><stem>up</stem><staff>2</staff><beam number="1">continue</beam><notations><tuplet type="start" bracket="no"/></notations></note>
+<note><pitch><step>D</step><alter>-1</alter><octave>3</octave></pitch><duration>5040</duration><voice>5</voice><type>eighth</type><time-modification><actual-notes>2</actual-notes><normal-notes>3</normal-notes></time-modification><stem>up</stem><staff>2</staff><beam number="1">end</beam><notations><slur type="stop" number="3"/><tuplet type="stop"/></notations></note>
+<backup><duration>30240</duration></backup>
+<note><pitch><step>A</step><alter>-1</alter><octave>2</octave></pitch><duration>20160</duration><voice>6</voice><type>half</type><dot/><stem>down</stem><staff>2</staff></note>
+<note><pitch><step>A</step><alter>-1</alter><octave>2</octave></pitch><duration>10080</duration><voice>6</voice><type>quarter</type><dot/><stem>down</stem><staff>2</staff></note>
+</measure>
+<measure number="4">
+<forward><duration>3360</duration><voice>1</voice><staff>1</staff></forward>
+<note><pitch><step>A</step><alter>-1</alter><octave>4</octave></pitch><duration>3360</duration><voice>1</voice><type>eighth</type><stem>up</stem><staff>1</staff><beam number="1">begin</beam><notations><slur type="start" number="2"/></notations></note>
+<note><pitch><step>A</step><alter>-1</alter><octave>3</octave></pitch><duration>3360</duration><voice>1</voice><type>eighth</type><stem>up</stem><staff>1</staff><beam number="1">end</beam></note>
+<forward><duration>3360</duration><voice>1</voice><staff>1</staff></forward>
+<note><pitch><step>A</step><alter>-1</alter><octave>4</octave></pitch><duration>3360</duration><voice>1</voice><type>eighth</type><stem>up</stem><staff>1</staff><beam number="1">begin</beam></note>
+<note><pitch><step>A</step><alter>-1</alter><octave>3</octave></pitch><duration>3360</duration><voice>1</voice><type>eighth</type><stem>up</stem><staff>1</staff><beam number="1">end</beam></note>
+<forward><duration>3360</duration><voice>1</voice><staff>1</staff></forward>
+<note><pitch><step>A</step><alter>-1</alter><octave>4</octave></pitch><duration>3360</duration><voice>1</voice><type>eighth</type><stem>up</stem><staff>1</staff><beam number="1">begin</beam></note>
+<note><pitch><step>A</step><alter>-1</alter><octave>3</octave></pitch><duration>3360</duration><voice>1</voice><type>eighth</type><stem>up</stem><staff>1</staff><beam number="1">end</beam><notations><slur type="stop" number="2"/></notations></note>
+<backup><duration>30240</duration></backup>
+<note><pitch><step>C</step><octave>4</octave></pitch><duration>10080</duration><voice>2</voice><type>quarter</type><dot/><stem>down</stem><staff>1</staff></note>
+<note><pitch><step>D</step><alter>-1</alter><octave>4</octave></pitch><duration>10080</duration><voice>2</voice><type>quarter</type><dot/><stem>down</stem><staff>1</staff></note>
+<note><pitch><step>E</step><alter>-1</alter><octave>4</octave></pitch><duration>10080</duration><voice>2</voice><type>quarter</type><dot/><stem>down</stem><staff>1</staff></note>
+<backup><duration>30240</duration></backup>
+<note><pitch><step>E</step><alter>-1</alter><octave>3</octave></pitch><duration>10080</duration><voice>5</voice><type>quarter</type><dot/><stem>up</stem><staff>2</staff><notations><slur type="start" number="4"/></notations></note>
+<note><pitch><step>F</step><octave>3</octave></pitch><duration>10080</duration><voice>5</voice><type>quarter</type><dot/><stem>up</stem><staff>2</staff></note>
+<note><pitch><step>C</step><octave>3</octave></pitch><duration>10080</duration><voice>5</voice><type>quarter</type><dot/><stem>up</stem><staff>2</staff><notations><slur type="stop" number="4"/></notations></note>
+<backup><duration>30240</duration></backup>
+<note><pitch><step>A</step><alter>-1</alter><octave>2</octave></pitch><duration>20160</duration><voice>6</voice><type>half</type><dot/><stem>down</stem><staff>2</staff></note>
+<note><pitch><step>A</step><alter>-1</alter><octave>2</octave></pitch><duration>10080</duration><voice>6</voice><type>quarter</type><dot/><stem>down</stem><staff>2</staff></note>
+</measure>
+</part>
+</score-partwise>

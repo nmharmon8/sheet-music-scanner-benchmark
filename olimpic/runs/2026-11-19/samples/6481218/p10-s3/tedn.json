@@ -1,0 +1,18 @@
+{
+ "id": "samples/6481218/p10-s3",
+ "scorer": 1,
+ "predicted": true,
+ "predLmx": "measure key:fifths:0 time beats:2 beat-type:4 clef:G2 staff:1 clef:F4 staff:2 G3 voice:1 half stem:up staff:1 chord C4 half natural chord D4 half chord G4 half backup half C3 voice:5 eighth natural stem:up staff:2 beam:begin slur:start F2 eighth natural chord F3 eighth natural C3 eighth F2 eighth beam:end chord F3 eighth measure G3 voice:1 half stem:up staff:1 chord C4 half chord F4 half chord G4 half backup half C3 voice:5 eighth stem:up staff:2 beam:begin F2 eighth chord F3 eighth C3 eighth F2 eighth beam:end chord F3 eighth measure G3 voice:1 half stem:up staff:1 chord C4 half chord E4 half flat chord G4 half backup half C3 voice:5 eighth stem:up staff:2 beam:begin F2 eighth chord F3 eighth C3 eighth F2 eighth beam:end chord F3 eighth measure G3 voice:1 half stem:up staff:1 chord C4 half chord D4 half chord G4 half backup half C3 voice:5 eighth stem:up staff:2 beam:begin F2 eighth chord F3 eighth C3 eighth F2 eighth beam:end slur:stop chord F3 eighth",
+ "linearizer_warnings": "",
+ "ser_edits": 8,
+ "ser_gold": 155,
+ "full": {
+  "edit": 41,
+  "gold": 317
+ },
+ "lmx": {
+  "edit": 29,
+  "gold": 305
+ },
+ "seconds": 1.0
+}

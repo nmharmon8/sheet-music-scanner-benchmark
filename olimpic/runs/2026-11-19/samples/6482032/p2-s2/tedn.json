@@ -1,0 +1,18 @@
+{
+ "id": "samples/6482032/p2-s2",
+ "scorer": 1,
+ "predicted": true,
+ "predLmx": "measure key:fifths:0 time beats:4 beat-type:4 clef:G2 staff:1 clef:G2 staff:2 E6 voice:1 quarter stem:up staff:1 slur:start B5 quarter E6 quarter slur:stop rest eighth F6 eighth sharp slur:start backup whole A5 voice:2 quarter stem:down staff:1 slur:start A5 quarter A5 quarter slur:stop rest eighth A5 eighth slur:start backup whole D5 voice:5 quarter stem:up staff:2 slur:start D5 quarter D5 quarter slur:stop rest eighth D5 eighth slur:start backup whole A4 voice:6 quarter stem:down staff:2 slur:start E4 quarter A4 quarter slur:stop rest eighth B4 eighth slur:start measure E6 voice:1 quarter stem:up staff:1 B5 quarter E6 quarter slur:stop rest eighth F6 eighth sharp backup whole A5 voice:2 quarter stem:down staff:1 A5 quarter A5 quarter slur:stop rest eighth A5 eighth backup whole D5 voice:5 quarter stem:up staff:2 D5 quarter D5 quarter slur:stop rest eighth D5 eighth backup whole A4 voice:6 quarter stem:down staff:2 E4 quarter A4 quarter slur:stop rest eighth B4 eighth",
+ "linearizer_warnings": "",
+ "ser_edits": 19,
+ "ser_gold": 149,
+ "full": {
+  "edit": 27,
+  "gold": 314
+ },
+ "lmx": {
+  "edit": 27,
+  "gold": 314
+ },
+ "seconds": 1.5
+}

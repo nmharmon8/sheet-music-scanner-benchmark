@@ -1,0 +1,18 @@
+{
+ "id": "samples/6725510/p2-s1",
+ "scorer": 1,
+ "predicted": true,
+ "predLmx": "measure key:fifths:0 time beats:3 beat-type:4 clef:G2 staff:1 clef:F4 staff:2 F5 voice:1 quarter 3in2 natural stem:down staff:1 tuplet:start slur:start G4 eighth 3in2 natural stem:up tuplet:stop slur:stop rest eighth 3in2 tuplet:start G5 quarter 3in2 flat stem:down tuplet:stop tenuto F5 eighth natural beam:begin slur:start G5 eighth natural beam:end backup half backup quarter rest voice:5 eighth 3in2 staff:2 tuplet:start D4 eighth 3in2 flat stem:down beam:begin slur:start D3 eighth 3in2 natural beam:end tied:start tuplet:stop chord A3 eighth 3in2 flat A2 eighth 3in2 flat tuplet:start slur:stop chord D3 eighth 3in2 tied:stop chord G3 eighth 3in2 natural rest eighth 3in2 G2 eighth 3in2 natural tied:start tuplet:stop chord E3 eighth 3in2 flat tied:start chord A3 eighth 3in2 flat tied:start G2 eighth 3in2 tied:stop tuplet:start chord E3 eighth 3in2 flat tied:stop chord A3 eighth 3in2 flat tied:stop rest eighth 3in2 A2 eighth 3in2 flat tuplet:stop tenuto chord D3 eighth 3in2 natural chord G3 eighth 3in2 natural measure D5 voice:1 eighth 3in2 natural stem:down staff:1 beam:begin tuplet:start G4 eighth 3in2 natural E5 eighth 3in2 flat beam:end tied:start tuplet:stop slur:stop accent chord G5 eighth 3in2 flat tied:start E5 eighth 3in2 dot beam:begin tied:stop tuplet:start slur:start chord G5 eighth 3in2 dot tied:stop D5 16th 3in2 flat beam:end beam:backward-hook tuplet:stop chord F5 16th 3in2 natural C5 eighth 3in2 tuplet:start slur:stop staccato chord E5 eighth 3in2 natural rest 16th tuplet:stop B5 eighth dot flat slur:start fermata backup half backup quarter rest voice:5 eighth staff:2 B3 eighth flat stem:down tied:start accent chord D4 eighth natural tied:start B3 eighth 3in2 dot beam:begin tied:stop tuplet:start slur:start chord D4 eighth 3in2 dot tied:stop C4 16th 3in2 natural beam:end beam:backward-hook tuplet:stop chord E4 16th 3in2 natural D4 eighth 3in2 flat tuplet:start slur:stop staccato chord F4 eighth 3in2 natural rest quarter tuplet:stop fermata measure D5 voice:1 eighth flat stem:up staff:1 beam:begin F4 eighth sharp B4 eighth natural C4 eighth natural beam:end slur:stop C5 eighth sharp stem:down beam:begin slur:start B4 eighth natural beam:end slur:stop backup half backup quarter rest voice:5 quarter staff:2 rest 16th B2 16th flat stem:up beam:begin beam:forward-hook slur:start chord D3 16th natural C3 eighth flat beam:end tied:start chord E3 eighth flat tied:start C3 eighth beam:begin tied:stop slur:stop chord E3 eighth tied:stop rest 16th B2 16th flat beam:end beam:backward-hook chord D3 16th natural",
+ "linearizer_warnings": "",
+ "ser_edits": 23,
+ "ser_gold": 353,
+ "full": {
+  "edit": 177,
+  "gold": 863
+ },
+ "lmx": {
+  "edit": 31,
+  "gold": 717
+ },
+ "seconds": 35.8
+}

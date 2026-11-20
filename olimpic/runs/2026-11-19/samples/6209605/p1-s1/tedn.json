@@ -1,0 +1,18 @@
+{
+ "id": "samples/6209605/p1-s1",
+ "scorer": 1,
+ "predicted": true,
+ "predLmx": "measure key:fifths:3 time beats:2 beat-type:2 clef:G2 staff:1 clef:F4 staff:2 C5 voice:1 quarter stem:up staff:1 arpeggiate accent chord A5 quarter arpeggiate chord E6 quarter arpeggiate C6 quarter staccato F5 quarter staccato chord A5 quarter F5 quarter staccato backup whole A4 voice:2 whole staff:1 backup whole A3 voice:3 quarter stem:down staff:1 chord E4 quarter rest quarter D4 quarter chord A4 quarter B3 quarter backup whole rest voice:5 rest:measure staff:2 measure grace G5 voice:1 32nd staff:1 grace A5 32nd G5 eighth stem:up beam:begin staccato F5 eighth staccato G5 eighth staccato A5 eighth beam:end staccato D5 half chord E5 half chord B5 half backup whole B4 voice:2 whole staff:1 backup whole E4 voice:3 quarter stem:down staff:1 F4 quarter G4 half backup whole rest voice:5 rest:measure staff:2",
+ "linearizer_warnings": "",
+ "ser_edits": 26,
+ "ser_gold": 120,
+ "full": {
+  "edit": 44,
+  "gold": 253
+ },
+ "lmx": {
+  "edit": 31,
+  "gold": 237
+ },
+ "seconds": 1.8
+}

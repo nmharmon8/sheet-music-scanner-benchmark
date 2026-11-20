@@ -1,0 +1,18 @@
+{
+ "id": "samples/6570255/p2-s2",
+ "scorer": 1,
+ "predicted": true,
+ "predLmx": "measure key:fifths:3 time beats:4 beat-type:4 clef:G2 staff:1 clef:F4 staff:2 rest voice:1 16th 3in2 staff:1 tuplet:start A5 16th 3in2 stem:down beam:begin beam:begin slur:start chord C6 16th 3in2 F5 16th 3in2 beam:end beam:end tuplet:stop slur:stop rest 16th 3in2 tuplet:start A5 16th 3in2 sharp beam:begin beam:begin slur:start chord B5 16th 3in2 F5 16th 3in2 beam:end beam:end tuplet:stop slur:stop rest 16th 3in2 tuplet:start A5 16th 3in2 beam:begin beam:begin slur:start chord C6 16th 3in2 F5 16th 3in2 beam:end beam:end tuplet:stop slur:stop rest 16th 3in2 tuplet:start A5 16th 3in2 beam:begin beam:begin slur:start chord B5 16th 3in2 F5 16th 3in2 beam:end beam:end tuplet:stop slur:stop rest 16th 3in2 tuplet:start A5 16th 3in2 beam:begin beam:begin slur:start chord C6 16th 3in2 F5 16th 3in2 beam:end beam:end tuplet:stop slur:stop rest 16th 3in2 tuplet:start A5 16th 3in2 beam:begin beam:begin slur:start chord D6 16th 3in2 F5 16th 3in2 beam:end beam:end tuplet:stop slur:stop rest 16th 3in2 tuplet:start A5 16th 3in2 beam:begin beam:begin slur:start chord D6 16th 3in2 F5 16th 3in2 beam:end beam:end tuplet:stop slur:stop rest 16th 3in2 tuplet:start A5 16th 3in2 beam:begin beam:begin slur:start chord B5 16th 3in2 F5 16th 3in2 beam:end beam:end tuplet:stop slur:stop backup whole F2 voice:5 eighth stem:up staff:2 beam:begin slur:start staccato C3 eighth staccato F3 eighth staccato A3 eighth beam:end slur:stop staccato C4 eighth stem:down beam:begin slur:start staccato F4 eighth beam:end slur:stop staccato D4 eighth beam:begin slur:start staccato D3 eighth beam:end slur:stop staccato measure rest voice:1 16th 3in2 staff:1 tuplet:start F6 16th 3in2 stem:down beam:begin beam:begin slur:start chord A6 16th 3in2 C6 16th 3in2 beam:end beam:end tuplet:stop slur:stop rest 16th 3in2 tuplet:start C6 16th 3in2 beam:begin beam:begin slur:start chord F6 16th 3in2 A5 16th 3in2 beam:end beam:end tuplet:stop slur:stop rest 16th 3in2 tuplet:start A5 16th 3in2 beam:begin beam:begin slur:start chord C6 16th 3in2 F5 16th 3in2 beam:end beam:end tuplet:stop slur:stop rest 16th 3in2 tuplet:start F5 16th 3in2 beam:begin beam:begin slur:start chord A5 16th 3in2 C5 16th 3in2 beam:end beam:end tuplet:stop slur:stop rest 16th 3in2 tuplet:start A5 16th 3in2 sharp beam:begin beam:begin slur:start chord B5 16th 3in2 F5 16th 3in2 beam:end beam:end tuplet:stop slur:stop rest 16th 3in2 tuplet:start A5 16th 3in2 beam:begin beam:begin slur:start chord C6 16th 3in2 F5 16th 3in2 beam:end beam:end tuplet:stop slur:stop rest 16th 3in2 tuplet:start A5 16th 3in2 beam:begin beam:begin slur:start chord B5 16th 3in2 F5 16th 3in2 beam:end beam:end tuplet:stop slur:stop rest 16th 3in2 tuplet:start A5 16th 3in2 beam:begin beam:begin slur:start chord C6 16th 3in2 F5 16th 3in2 beam:end beam:end tuplet:stop slur:stop backup whole F2 voice:5 eighth stem:up staff:2 slur:start D3 quarter stem:down C3 eighth stem:up slur:stop F3 eighth stem:down beam:begin C4 eighth F4 eighth A4 eighth beam:end",
+ "linearizer_warnings": "",
+ "ser_edits": 9,
+ "ser_gold": 420,
+ "full": {
+  "edit": 72,
+  "gold": 984
+ },
+ "lmx": {
+  "edit": 26,
+  "gold": 938
+ },
+ "seconds": 210.8
+}

@@ -1,0 +1,18 @@
+{
+ "id": "samples/5026306/p3-s4",
+ "scorer": 1,
+ "predicted": true,
+ "predLmx": "measure key:fifths:-1 time beats:9 beat-type:8 clef:G2 staff:1 clef:F4 staff:2 G5 voice:1 half 2in1 dot stem:up staff:1 tremolo:start tremolo:3 G4 half 2in1 dot tremolo:stop tremolo:3 G5 quarter 2in1 dot tremolo:start tremolo:3 G4 quarter 2in1 dot tremolo:stop tremolo:3 backup whole backup eighth forward half forward eighth D4 voice:2 eighth stem:down staff:1 staccato chord G4 eighth D4 eighth staccato chord G4 eighth forward eighth D4 eighth staccato chord G4 eighth backup whole backup eighth G2 voice:5 quarter dot stem:up staff:2 chord G3 quarter dot rest eighth G3 eighth stem:down slur:start staccato chord D4 eighth forward quarter G3 eighth slur:stop chord D4 eighth forward eighth measure clef:G2 staff:2 G5 voice:1 half 2in1 dot stem:down staff:1 tremolo:start tremolo:3 G4 half 2in1 dot stem:up tremolo:stop tremolo:3 G5 quarter 2in1 dot stem:down tremolo:start tremolo:3 G4 quarter 2in1 dot stem:up tremolo:stop tremolo:3 backup whole backup eighth G4 voice:5 half dot stem:up staff:2 chord C5 half dot rest quarter rest eighth measure clef:F4 staff:2 G5 voice:1 half 2in1 dot stem:down staff:1 tremolo:start tremolo:3 G4 half 2in1 dot stem:up tremolo:stop tremolo:3 G5 quarter 2in1 dot stem:down tremolo:start tremolo:3 G4 quarter 2in1 dot stem:up tremolo:stop tremolo:3 backup whole backup eighth G1 voice:5 quarter dot stem:up staff:2 chord G2 quarter dot rest eighth E3 eighth natural stem:down beam:begin slur:start staccato chord C4 eighth G3 eighth beam:end staccato chord D4 eighth C4 eighth beam:begin staccato chord E4 eighth natural D4 eighth staccato chord F4 eighth E4 eighth beam:end slur:stop staccato chord G4 eighth measure G5 voice:1 half 2in1 dot stem:up staff:1 tremolo:start tremolo:3 G4 half 2in1 dot tremolo:stop tremolo:3 G5 quarter 2in1 dot tremolo:start tremolo:3 G4 quarter 2in1 dot tremolo:stop tremolo:3 backup whole backup eighth F4 voice:2 half dot stem:down staff:1 strong-accent chord G4 half dot chord D5 half dot flat forward quarter forward eighth backup whole backup eighth forward half forward quarter rest voice:5 quarter staff:2 rest eighth",
+ "linearizer_warnings": "",
+ "ser_edits": 82,
+ "ser_gold": 291,
+ "full": {
+  "edit": 112,
+  "gold": 551
+ },
+ "lmx": {
+  "edit": 105,
+  "gold": 544
+ },
+ "seconds": 12.7
+}

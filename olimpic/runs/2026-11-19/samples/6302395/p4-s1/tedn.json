@@ -1,0 +1,18 @@
+{
+ "id": "samples/6302395/p4-s1",
+ "scorer": 1,
+ "predicted": true,
+ "predLmx": "measure key:fifths:2 time beats:2 beat-type:4 clef:F4 staff:1 clef:F4 staff:2 rest voice:1 eighth staff:1 D3 quarter dot stem:down chord G3 quarter dot sharp chord D4 quarter dot backup half rest voice:5 eighth staff:2 B2 quarter dot stem:up backup half B1 voice:6 half stem:down staff:2 measure rest voice:1 eighth staff:1 F3 eighth stem:down chord A3 eighth chord D4 eighth chord F4 eighth rest eighth G3 eighth natural chord C4 eighth chord G4 eighth natural backup half A1 voice:5 16th 3in2 stem:up staff:2 beam:begin beam:begin tuplet:start slur:start A2 16th 3in2 D3 16th 3in2 beam:end beam:end tuplet:stop slur:stop rest eighth A1 16th 3in2 beam:begin beam:begin tuplet:start slur:start A2 16th 3in2 E3 16th 3in2 beam:end beam:end tuplet:stop slur:stop rest eighth measure rest voice:1 eighth staff:1 F3 eighth stem:down chord C4 eighth natural chord F4 eighth rest eighth clef:G2 staff:1 G3 eighth stem:up chord B3 eighth chord G4 eighth backup half D2 voice:5 16th 3in2 stem:up staff:2 beam:begin beam:begin tuplet:start slur:start A2 16th 3in2 D3 16th 3in2 beam:end beam:end tuplet:stop slur:stop rest eighth D2 16th 3in2 beam:begin beam:begin tuplet:start slur:start G2 16th 3in2 D3 16th 3in2 beam:end beam:end tuplet:stop slur:stop rest eighth measure rest voice:1 eighth staff:1 B3 eighth stem:up chord D4 eighth chord B4 eighth rest eighth E4 eighth chord G4 eighth chord A4 eighth sharp backup half D2 voice:5 16th 3in2 stem:up staff:2 beam:begin beam:begin tuplet:start slur:start D3 16th 3in2 G3 16th 3in2 beam:end beam:end tuplet:stop slur:stop rest eighth D3 16th 3in2 stem:down beam:begin beam:begin tuplet:start slur:start G3 16th 3in2 B3 16th 3in2 flat beam:end beam:end tuplet:stop slur:stop rest eighth measure rest voice:1 eighth staff:1 D4 eighth stem:up chord F4 eighth chord D5 eighth rest eighth forward eighth backup half D3 voice:5 16th 3in2 stem:up staff:2 beam:begin beam:begin tuplet:start slur:start F3 16th 3in2 A3 16th 3in2 beam:end beam:end tuplet:stop slur:stop rest eighth D2 16th 3in2 beam:begin beam:begin tuplet:start slur:start G2 16th 3in2 B2 16th 3in2 flat beam:end beam:end tuplet:stop slur:stop rest eighth backup half forward quarter forward eighth E3 voice:6 eighth stem:down staff:2 chord G3 eighth chord C4 eighth",
+ "linearizer_warnings": "",
+ "ser_edits": 30,
+ "ser_gold": 322,
+ "full": {
+  "edit": 60,
+  "gold": 697
+ },
+ "lmx": {
+  "edit": 42,
+  "gold": 679
+ },
+ "seconds": 60.5
+}

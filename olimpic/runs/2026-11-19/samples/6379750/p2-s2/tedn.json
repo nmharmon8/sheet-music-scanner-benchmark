@@ -1,0 +1,18 @@
+{
+ "id": "samples/6379750/p2-s2",
+ "scorer": 1,
+ "predicted": true,
+ "predLmx": "measure key:fifths:4 time beats:4 beat-type:4 clef:G2 staff:1 clef:F4 staff:2 F3 voice:1 half stem:up staff:1 arpeggiate chord A3 half arpeggiate G3 half arpeggiate chord B3 half arpeggiate backup whole F2 voice:5 half stem:up staff:2 arpeggiate chord C3 half arpeggiate G2 half arpeggiate chord D3 half arpeggiate measure G3 voice:1 half natural stem:up staff:1 arpeggiate A3 half arpeggiate backup whole E3 voice:5 half dot stem:up staff:2 slur:start arpeggiate D3 quarter slur:stop backup whole E2 voice:6 half stem:down staff:2 arpeggiate chord B2 half arpeggiate F2 half arpeggiate chord C3 half arpeggiate measure rest voice:1 half staff:1 A4 quarter stem:up slur:start G4 quarter slur:stop backup whole forward half D4 voice:2 half stem:down staff:1 backup whole F3 voice:5 quarter stem:up staff:2 slur:start E3 quarter slur:stop F3 quarter slur:start G3 quarter slur:stop backup whole C2 voice:6 half stem:down staff:2 chord G2 half sharp B2 half measure C4 voice:1 whole staff:1 tied:start chord G4 whole tied:start backup whole A2 voice:5 whole staff:2 tied:start chord E3 whole tied:start",
+ "linearizer_warnings": "",
+ "ser_edits": 36,
+ "ser_gold": 148,
+ "full": {
+  "edit": 84,
+  "gold": 297
+ },
+ "lmx": {
+  "edit": 50,
+  "gold": 263
+ },
+ "seconds": 1.1
+}

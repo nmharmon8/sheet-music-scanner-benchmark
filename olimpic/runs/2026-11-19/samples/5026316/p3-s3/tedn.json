@@ -1,0 +1,18 @@
+{
+ "id": "samples/5026316/p3-s3",
+ "scorer": 1,
+ "predicted": true,
+ "predLmx": "measure key:fifths:-1 time beats:4 beat-type:4 clef:G2 staff:1 clef:F4 staff:2 C4 voice:1 quarter stem:up staff:1 C4 quarter C4 quarter C4 quarter backup whole C3 voice:5 eighth stem:up staff:2 C3 quarter C3 quarter C3 eighth beam:begin slur:start staccato F2 eighth staccato C3 eighth beam:end slur:stop staccato backup whole forward 16th forward 64th forward 256th forward 1024th A3 voice:6 eighth 3in2 stem:down staff:2 beam:begin C3 eighth 3in2 beam:end tuplet:stop forward 16th forward 64th forward 256th forward 1024th A3 eighth 3in2 beam:begin C3 eighth 3in2 beam:end tuplet:stop forward 16th forward 64th forward 256th forward 1024th A3 eighth 3in2 beam:begin C3 eighth 3in2 beam:end tuplet:stop forward 16th forward 64th forward 256th forward 1024th A3 eighth 3in2 beam:begin C3 eighth 3in2 beam:end tuplet:stop measure A3 voice:1 quarter stem:up staff:1 chord C4 quarter A3 quarter chord C4 quarter A3 quarter chord C4 quarter A3 eighth beam:begin slur:start chord C4 eighth F4 eighth beam:end slur:stop backup whole F2 voice:5 eighth stem:up staff:2 beam:begin slur:start staccato C3 eighth staccato F3 eighth staccato C3 eighth beam:end staccato F2 eighth beam:begin staccato C3 eighth staccato F3 eighth staccato C3 eighth beam:end slur:stop staccato measure A3 voice:1 quarter dot stem:up staff:1 chord C4 quarter dot chord F4 quarter dot A3 eighth chord C4 eighth chord F4 eighth A3 quarter chord C4 quarter chord F4 quarter F4 eighth beam:begin slur:start chord G4 eighth A4 eighth beam:end slur:stop backup whole forward half forward quarter C4 voice:2 quarter stem:down staff:1 backup whole F2 voice:5 eighth stem:up staff:2 beam:begin slur:start staccato C3 eighth staccato F3 eighth staccato C3 eighth beam:end staccato F2 eighth beam:begin staccato C3 eighth staccato F3 eighth staccato C3 eighth beam:end slur:stop staccato measure C4 voice:1 eighth stem:up staff:1 beam:begin slur:start chord F4 eighth chord A4 eighth C5 eighth beam:end slur:stop F4 quarter chord A4 quarter chord C5 quarter F4 quarter chord A4 quarter chord C5 quarter F4 quarter chord A4 quarter chord C5 quarter backup whole F2 voice:5 eighth stem:up staff:2 beam:begin slur:start staccato C3 eighth staccato F3 eighth staccato C3 eighth beam:end staccato F2 eighth beam:begin staccato C3 eighth staccato G3 eighth staccato strong-accent C3 eighth beam:end slur:stop",
+ "linearizer_warnings": "[ERROR][P:P2 M:1]: Duration could not be split up to note types for forward/backup. This is most likely a tuplet forward. Duration: 2240 Divisions: 6720\n[ERROR][P:P2 M:1]: Duration could not be split up to note types for forward/backup. This is most likely a tuplet forward. Duration: 2240 Divisions: 6720\n[ERROR][P:P2 M:1]: Duration could not be split up to note types for forward/backup. This is most likely a tuplet forward. Duration: 2240 Divisions: 6720\n[ERROR][P:P2 M:1]: Duration could not be split up to note types for forward/backup. This is most likely a tuplet forward. Duration: 2240 Divisions: 6720\n",
+ "ser_edits": 106,
+ "ser_gold": 364,
+ "full": {
+  "edit": 199,
+  "gold": 787
+ },
+ "lmx": {
+  "edit": 188,
+  "gold": 776
+ },
+ "seconds": 181.7
+}

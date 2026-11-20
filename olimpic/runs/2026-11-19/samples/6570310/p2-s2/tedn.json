@@ -1,0 +1,18 @@
+{
+ "id": "samples/6570310/p2-s2",
+ "scorer": 1,
+ "predicted": true,
+ "predLmx": "measure key:fifths:-5 time beats:12 beat-type:8 clef:G2 staff:1 clef:F4 staff:2 D4 voice:1 quarter dot sharp stem:up staff:1 slur:start chord C5 quarter dot G4 quarter dot natural chord C5 quarter dot sharp G4 quarter dot chord C5 quarter dot chord E5 quarter dot natural F4 quarter dot slur:stop chord B4 quarter dot natural chord D5 quarter dot natural backup whole backup half F4 voice:2 quarter dot sharp stem:down staff:1 tremolo:single tremolo:1 E4 quarter dot natural tremolo:single tremolo:1 forward half forward quarter backup whole backup half A3 voice:5 quarter dot natural stem:down staff:2 A3 quarter dot sharp B3 half dot natural measure rest voice:1 rest:measure staff:1 backup whole backup half F3 voice:5 quarter dot natural stem:up staff:2 slur:start accent chord A3 quarter dot natural chord C4 quarter dot natural F3 quarter dot sharp slur:stop chord A3 quarter dot chord B3 quarter dot natural F3 quarter dot natural slur:start accent chord A3 quarter dot chord C4 quarter dot F3 quarter dot sharp slur:stop chord A3 quarter dot chord B3 quarter dot backup whole backup half D2 voice:6 16th 4in6 natural stem:down staff:2 beam:begin beam:begin tuplet:start D3 16th 4in6 natural D2 16th 4in6 D3 16th 4in6 beam:end beam:end tuplet:stop D2 16th 4in6 sharp beam:begin beam:begin tuplet:start D3 16th 4in6 sharp D2 16th 4in6 D3 16th 4in6 beam:end beam:end tuplet:stop D2 16th 4in6 natural beam:begin beam:begin tuplet:start D3 16th 4in6 natural D2 16th 4in6 D3 16th 4in6 beam:end beam:end tuplet:stop D2 16th 4in6 sharp beam:begin beam:begin tuplet:start D3 16th 4in6 sharp D2 16th 4in6 D3 16th 4in6 beam:end beam:end tuplet:stop measure clef:G2 staff:2 E5 voice:1 quarter natural stem:down staff:1 chord G5 quarter sharp chord B5 quarter natural B4 eighth chord E5 eighth chord G5 eighth B4 quarter dot natural chord E5 quarter dot chord G5 quarter dot G4 quarter dot sharp chord B4 quarter dot chord E5 quarter dot B4 eighth beam:begin chord E5 eighth chord G5 eighth E5 eighth chord G5 eighth chord B5 eighth G5 eighth beam:end chord B5 eighth chord E6 eighth backup whole backup half E4 voice:5 quarter natural stem:up staff:2 chord G4 quarter sharp chord B4 quarter natural E4 eighth chord G4 eighth E4 eighth dot beam:begin chord G4 eighth dot clef:F4 staff:2 E1 16th natural beam:backward-hook chord E2 16th natural E1 eighth beam:end chord E2 eighth E1 quarter dot chord E2 quarter dot clef:G2 staff:2 E4 eighth natural beam:begin G4 eighth sharp B4 eighth natural beam:end",
+ "linearizer_warnings": "",
+ "ser_edits": 66,
+ "ser_gold": 383,
+ "full": {
+  "edit": 217,
+  "gold": 801
+ },
+ "lmx": {
+  "edit": 177,
+  "gold": 757
+ },
+ "seconds": 65.4
+}

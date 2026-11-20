@@ -1,0 +1,18 @@
+{
+ "id": "samples/6570255/p3-s2",
+ "scorer": 1,
+ "predicted": true,
+ "predLmx": "measure key:fifths:3 time beats:4 beat-type:4 clef:G2 staff:1 clef:F4 staff:2 rest voice:1 16th staff:1 E6 32nd stem:down beam:begin beam:begin beam:begin slur:start chord G6 32nd G5 32nd beam:end beam:end beam:end slur:stop rest 16th D6 32nd sharp beam:begin beam:begin beam:begin slur:start chord F6 32nd double-sharp G5 32nd beam:end beam:end beam:end slur:stop rest 16th E6 32nd beam:begin beam:begin beam:begin slur:start chord G6 32nd G5 32nd beam:end beam:end beam:end slur:stop rest 16th D6 32nd beam:begin beam:begin beam:begin slur:start chord F6 32nd G5 32nd beam:end beam:end beam:end slur:stop rest 16th E6 32nd beam:begin beam:begin beam:begin slur:start chord G6 32nd G5 32nd beam:end beam:end beam:end slur:stop rest 16th D6 32nd beam:begin beam:begin beam:begin slur:start chord F6 32nd G5 32nd beam:end beam:end beam:end slur:stop rest 16th E6 32nd beam:begin beam:begin beam:begin slur:start chord G6 32nd G5 32nd beam:end beam:end beam:end slur:stop rest 16th E6 32nd beam:begin beam:begin beam:begin slur:start chord G6 32nd G5 32nd beam:end beam:end beam:end slur:stop backup whole G1 voice:5 eighth stem:up staff:2 beam:begin chord G2 eighth G3 eighth C4 eighth E4 eighth beam:end G4 eighth beam:begin clef:G2 staff:2 B4 eighth sharp C5 eighth E5 eighth beam:end backup whole G1 voice:6 whole staff:2 chord G2 whole backup whole forward eighth G3 voice:7 quarter dot stem:down staff:2 forward half measure rest voice:1 16th staff:1 G6 32nd stem:down beam:begin beam:begin beam:begin slur:start E6 32nd beam:end beam:end beam:end slur:stop rest 16th F6 32nd double-sharp beam:begin beam:begin beam:begin slur:start D6 32nd sharp beam:end beam:end beam:end slur:stop rest 16th G6 32nd beam:begin beam:begin beam:begin slur:start E6 32nd beam:end beam:end beam:end slur:stop rest 16th B6 32nd sharp beam:begin beam:begin beam:begin slur:start G6 32nd beam:end beam:end beam:end slur:stop rest 16th B6 32nd beam:begin beam:begin beam:begin slur:start G6 32nd beam:end beam:end beam:end slur:stop rest 16th E7 32nd beam:begin beam:begin beam:begin slur:start B6 32nd beam:end beam:end beam:end slur:stop B6 eighth chord E7 eighth rest eighth backup whole E5 voice:5 eighth stem:up staff:2 beam:begin chord G5 eighth D5 eighth sharp chord F5 eighth double-sharp E5 eighth chord G5 eighth G5 eighth beam:end chord B5 eighth sharp G5 eighth beam:begin chord B5 eighth B5 eighth beam:end chord E6 eighth B5 eighth chord E6 eighth rest eighth clef:F4 staff:2 backup whole G4 voice:6 whole staff:2",
+ "linearizer_warnings": "",
+ "ser_edits": 130,
+ "ser_gold": 408,
+ "full": {
+  "edit": 331,
+  "gold": 936
+ },
+ "lmx": {
+  "edit": 275,
+  "gold": 880
+ },
+ "seconds": 24.2
+}

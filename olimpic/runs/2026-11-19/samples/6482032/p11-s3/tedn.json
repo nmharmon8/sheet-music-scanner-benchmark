@@ -1,0 +1,18 @@
+{
+ "id": "samples/6482032/p11-s3",
+ "scorer": 1,
+ "predicted": true,
+ "predLmx": "measure key:fifths:0 time beats:4 beat-type:4 clef:G2 staff:1 clef:F4 staff:2 A4 voice:1 eighth stem:up staff:1 beam:begin slur:start G4 eighth B4 eighth flat G4 eighth beam:end C5 eighth stem:down beam:begin G4 eighth D5 eighth G4 eighth beam:end slur:stop backup whole E3 voice:5 eighth flat stem:down staff:2 beam:begin slur:start D3 eighth F3 eighth D3 eighth beam:end G3 eighth beam:begin D3 eighth beam:end A3 eighth slur:stop rest eighth measure A4 voice:1 eighth stem:up staff:1 beam:begin slur:start G4 eighth B4 eighth flat G4 eighth beam:end C5 eighth stem:down beam:begin G4 eighth D5 eighth G4 eighth beam:end slur:stop backup whole E3 voice:5 eighth flat stem:down staff:2 beam:begin slur:start D3 eighth F3 eighth D3 eighth beam:end G3 eighth beam:begin D3 eighth beam:end A3 eighth slur:stop rest eighth",
+ "linearizer_warnings": "",
+ "ser_edits": 3,
+ "ser_gold": 117,
+ "full": {
+  "edit": 3,
+  "gold": 258
+ },
+ "lmx": {
+  "edit": 3,
+  "gold": 258
+ },
+ "seconds": 0.7
+}

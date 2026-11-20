@@ -1,0 +1,18 @@
+{
+ "id": "samples/6481941/p17-s1",
+ "scorer": 1,
+ "predicted": true,
+ "predLmx": "measure key:fifths:0 time beats:6 beat-type:8 clef:G2 staff:1 clef:F4 staff:2 D4 voice:1 quarter stem:up staff:1 slur:start E4 eighth A4 quarter G4 eighth slur:stop backup half backup quarter E3 voice:5 quarter stem:down staff:2 slur:start F3 eighth sharp D4 quarter C4 eighth slur:stop measure D4 voice:1 quarter stem:up staff:1 slur:start E4 eighth A4 quarter G4 eighth slur:stop backup half backup quarter E3 voice:5 quarter stem:down staff:2 slur:start F3 eighth sharp D4 quarter C4 eighth slur:stop measure rest voice:1 eighth staff:1 A4 eighth stem:up beam:begin slur:start chord D5 eighth B4 eighth flat beam:end slur:stop rest eighth G4 eighth beam:begin slur:start chord C5 eighth A4 eighth beam:end slur:stop backup half backup quarter G4 voice:2 quarter dot stem:down staff:1 slur:start accent F4 quarter slur:stop accent rest eighth backup half backup quarter G3 voice:5 quarter dot stem:up staff:2 slur:start accent F3 quarter slur:stop accent rest eighth backup half backup quarter forward eighth C4 voice:6 eighth stem:down staff:2 beam:begin slur:start chord E4 eighth flat D4 eighth beam:end slur:stop forward eighth B3 eighth flat beam:begin chord D4 eighth C4 eighth beam:end measure rest voice:1 eighth staff:1 E4 eighth flat stem:up beam:begin slur:start chord A4 eighth F4 eighth beam:end slur:stop rest eighth D4 eighth beam:begin slur:start chord G4 eighth E4 eighth beam:end slur:stop backup half backup quarter D4 voice:2 quarter dot stem:down staff:1 slur:start accent C4 quarter slur:stop accent rest eighth backup half backup quarter D3 voice:5 quarter dot stem:up staff:2 slur:start accent C3 quarter slur:stop accent rest eighth backup half backup quarter forward eighth G3 voice:6 eighth stem:down staff:2 beam:begin slur:start chord B3 eighth flat A3 eighth beam:end slur:stop forward eighth F3 eighth beam:begin slur:start chord A3 eighth G3 eighth beam:end slur:stop",
+ "linearizer_warnings": "",
+ "ser_edits": 17,
+ "ser_gold": 272,
+ "full": {
+  "edit": 39,
+  "gold": 517
+ },
+ "lmx": {
+  "edit": 39,
+  "gold": 517
+ },
+ "seconds": 9.5
+}

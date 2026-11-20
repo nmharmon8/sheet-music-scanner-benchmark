@@ -1,0 +1,18 @@
+{
+ "id": "samples/6986065/p2-s3",
+ "scorer": 1,
+ "predicted": true,
+ "predLmx": "measure key:fifths:0 time beats:6 beat-type:8 clef:G2 staff:1 clef:F4 staff:2 G3 voice:1 quarter dot stem:up staff:1 tied:start chord C4 quarter dot tied:start chord E4 quarter dot tied:start G3 eighth tied:stop chord C4 eighth tied:stop chord E4 eighth tied:stop rest eighth rest eighth backup half backup quarter C3 voice:5 eighth stem:up staff:2 chord E3 eighth chord G3 eighth chord C4 eighth rest eighth rest eighth C2 eighth chord C3 eighth rest eighth rest eighth backup half backup quarter C1 voice:6 eighth stem:down staff:2 chord C2 eighth forward eighth forward half measure G3 voice:1 eighth stem:up staff:1 chord C4 eighth chord E4 eighth rest eighth rest eighth forward quarter forward eighth backup half backup quarter C2 voice:5 eighth stem:up staff:2 chord C3 eighth rest eighth rest eighth C3 quarter dot tied:start accent chord F3 quarter dot sharp chord A3 quarter dot flat chord C4 quarter dot tied:start backup half backup quarter forward quarter forward eighth D1 voice:6 quarter dot stem:down staff:2 chord D2 quarter dot measure C4 voice:1 quarter dot stem:up staff:1 tied:start chord E4 quarter dot tied:start chord G4 quarter dot tied:start C4 eighth tied:stop chord E4 eighth tied:stop chord G4 eighth tied:stop rest eighth rest eighth backup half backup quarter forward quarter forward eighth C5 voice:2 eighth stem:down staff:1 chord E5 eighth chord G5 eighth chord C6 eighth forward quarter backup half backup quarter C3 voice:5 eighth stem:up staff:2 tied:stop chord E3 eighth chord G3 eighth chord C4 eighth tied:stop rest eighth rest eighth forward quarter forward eighth backup half backup quarter C1 voice:6 eighth stem:down staff:2 chord C2 eighth forward eighth forward half",
+ "linearizer_warnings": "",
+ "ser_edits": 61,
+ "ser_gold": 270,
+ "full": {
+  "edit": 146,
+  "gold": 544
+ },
+ "lmx": {
+  "edit": 131,
+  "gold": 529
+ },
+ "seconds": 4.2
+}

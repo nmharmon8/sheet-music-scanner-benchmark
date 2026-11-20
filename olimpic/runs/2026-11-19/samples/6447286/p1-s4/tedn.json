@@ -1,0 +1,18 @@
+{
+ "id": "samples/6447286/p1-s4",
+ "scorer": 1,
+ "predicted": true,
+ "predLmx": "measure key:fifths:3 time beats:6 beat-type:8 clef:G2 staff:1 clef:F4 staff:2 G3 voice:1 eighth stem:up staff:1 chord E4 eighth rest 16th G5 16th beam:begin beam:forward-hook slur:start chord E6 16th E5 eighth beam:end slur:stop chord B5 eighth G5 eighth dot beam:begin slur:start E5 16th beam:backward-hook F5 eighth beam:end slur:stop backup half backup quarter forward quarter forward eighth A4 voice:2 quarter dot stem:down staff:1 chord B4 quarter dot backup half backup quarter E2 voice:5 eighth stem:up staff:2 beam:begin rest eighth E3 eighth beam:end chord B3 eighth E4 quarter slur:start D4 eighth sharp slur:stop backup half backup quarter forward quarter forward eighth B3 voice:6 quarter dot stem:down staff:2 measure E4 voice:1 eighth stem:up staff:1 chord G4 eighth chord B4 eighth rest 16th E6 16th beam:begin beam:forward-hook slur:start E5 eighth beam:end slur:stop chord B5 eighth G5 eighth dot beam:begin slur:start E5 16th beam:backward-hook F5 eighth beam:end slur:stop backup half backup quarter forward quarter forward eighth A4 voice:2 quarter dot stem:down staff:1 chord B4 quarter dot backup half backup quarter E3 voice:5 eighth stem:up staff:2 beam:begin chord B3 eighth rest eighth G3 eighth beam:end E4 quarter slur:start D4 eighth sharp slur:stop backup half backup quarter forward quarter forward eighth B3 voice:6 quarter dot stem:down staff:2 measure E5 voice:1 eighth dot stem:up staff:1 beam:begin slur:start D5 16th beam:backward-hook C5 eighth beam:end slur:stop B4 eighth dot beam:begin slur:start A4 16th beam:backward-hook F4 eighth beam:end slur:stop backup half backup quarter E4 voice:2 quarter dot stem:down staff:1 D4 quarter dot natural backup half backup quarter rest voice:5 quarter staff:2 A3 eighth stem:up F3 quarter A3 eighth backup half backup quarter grace grace:slash E2 voice:6 eighth staff:2 E3 half dot stem:down accent measure E4 voice:1 eighth dot stem:up staff:1 beam:begin slur:start F4 16th beam:backward-hook G4 eighth beam:end slur:stop A4 eighth dot beam:begin slur:start B4 16th beam:backward-hook C5 eighth beam:end slur:stop backup half backup quarter E4 voice:2 quarter dot stem:down staff:1 A4 quarter C4 eighth chord A4 eighth backup half backup quarter E3 voice:5 quarter dot stem:up staff:2 tied:start E3 quarter tied:stop tied:start E3 eighth tied:stop backup half backup quarter E3 voice:6 quarter stem:down staff:2 D3 eighth C3 quarter A2 eighth",
+ "linearizer_warnings": "",
+ "ser_edits": 23,
+ "ser_gold": 350,
+ "full": {
+  "edit": 89,
+  "gold": 640
+ },
+ "lmx": {
+  "edit": 29,
+  "gold": 580
+ },
+ "seconds": 6.2
+}

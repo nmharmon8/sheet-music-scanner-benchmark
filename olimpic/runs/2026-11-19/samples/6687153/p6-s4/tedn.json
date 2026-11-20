@@ -1,0 +1,18 @@
+{
+ "id": "samples/6687153/p6-s4",
+ "scorer": 1,
+ "predicted": true,
+ "predLmx": "measure key:fifths:-3 time beats:3 beat-type:4 clef:G2 staff:1 clef:F4 staff:2 E3 voice:1 eighth 3in2 stem:up staff:1 beam:begin tied:start tuplet:start slur:start C4 eighth 3in2 tied:start E4 eighth 3in2 beam:end tied:start tuplet:stop slur:stop E3 half chord C4 half chord E4 half tied:stop backup half backup quarter A1 voice:5 quarter natural stem:up staff:2 A2 half natural stem:down staccato chord G3 half measure A3 voice:1 eighth 3in2 flat stem:up staff:1 beam:begin tied:start tuplet:start slur:start D4 eighth 3in2 tied:start A4 eighth 3in2 flat beam:end tied:start tuplet:stop slur:stop A3 half chord D4 half chord A4 half tied:stop backup half backup quarter B1 voice:5 quarter stem:up staff:2 B2 half stem:down chord F3 half measure G3 voice:1 eighth 3in2 stem:up staff:1 beam:begin tied:start tuplet:start E4 eighth 3in2 tied:start G4 eighth 3in2 beam:end tied:start tuplet:stop G3 quarter chord E4 quarter chord G4 quarter tied:stop B3 eighth 3in2 beam:begin tied:start tuplet:start G4 eighth 3in2 tied:start B4 eighth 3in2 beam:end tied:start tuplet:stop backup half backup quarter E1 voice:5 quarter stem:up staff:2 chord E2 quarter B2 quarter stem:down slur:start chord B3 quarter G2 quarter stem:up chord G3 quarter measure B3 voice:1 quarter stem:up staff:1 chord G4 quarter chord B4 quarter tied:stop E4 eighth 3in2 beam:begin tied:start tuplet:start G4 eighth 3in2 tied:start E5 eighth 3in2 beam:end tied:start tuplet:stop E4 quarter chord G4 quarter chord E5 quarter tied:stop backup half backup quarter E2 voice:5 quarter stem:up staff:2 chord E3 quarter B1 quarter chord B2 quarter G1 quarter chord G2 quarter measure G4 voice:1 half dot stem:down staff:1 chord B4 half dot chord E5 half dot chord G5 half dot backup half backup quarter E1 voice:5 half dot stem:up staff:2 slur:stop chord E2 half dot measure G3 voice:1 half dot stem:up staff:1 chord B3 half dot chord E4 half dot backup half backup quarter E2 voice:5 half dot stem:up staff:2 chord B2 half dot chord E3 half dot measure G3 voice:1 half dot stem:up staff:1 fermata chord B3 half dot chord E4 half dot backup half backup quarter E3 voice:5 half dot stem:up staff:2 backup half backup quarter E1 voice:6 half dot stem:down staff:2 fermata chord E2 half dot",
+ "linearizer_warnings": "",
+ "ser_edits": 198,
+ "ser_gold": 481,
+ "full": {
+  "edit": 353,
+  "gold": 852
+ },
+ "lmx": {
+  "edit": 311,
+  "gold": 810
+ },
+ "seconds": 19.7
+}

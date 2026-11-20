@@ -1,0 +1,18 @@
+{
+ "id": "samples/6209608/p5-s3",
+ "scorer": 1,
+ "predicted": true,
+ "predLmx": "measure key:fifths:-2 time beats:4 beat-type:4 clef:G2 staff:1 clef:F4 staff:2 grace C4 voice:1 32nd natural staff:1 grace D4 32nd grace F4 32nd C5 half stem:down accent B3 half stem:up chord D4 half chord F4 half chord B4 half backup whole rest voice:5 eighth staff:2 B1 eighth stem:up beam:begin tied:start F2 eighth tied:start D3 eighth beam:end tied:start B1 half chord F2 half chord D3 half tied:stop measure grace B3 voice:1 32nd staff:1 grace C4 32nd sharp grace E4 32nd natural grace G4 32nd C5 half natural stem:down accent B3 quarter dot stem:up fermata chord C4 quarter dot chord E4 quarter dot chord B4 quarter dot rest eighth backup whole B1 voice:5 eighth stem:up staff:2 beam:begin tied:start C3 eighth sharp tied:start E3 eighth natural tied:start G3 eighth beam:end tied:start B1 half fermata chord C3 half chord E3 half chord G3 half tied:stop measure E4 voice:1 half dot flat stem:up staff:1 D4 quarter backup whole B3 voice:2 half stem:down staff:1 A3 half tied:start backup whole B2 voice:5 whole staff:2 tied:start backup whole G2 voice:6 half stem:down staff:2 F2 half tied:start measure F4 voice:1 half dot stem:up staff:1 C4 quarter tied:start backup whole A3 voice:2 half stem:down staff:1 tied:stop G3 half flat tied:start backup whole B2 voice:5 half stem:up staff:2 tied:stop A2 half tied:start backup whole F2 voice:6 half stem:down staff:2 tied:stop E2 half tied:start",
+ "linearizer_warnings": "",
+ "ser_edits": 33,
+ "ser_gold": 244,
+ "full": {
+  "edit": 98,
+  "gold": 486
+ },
+ "lmx": {
+  "edit": 60,
+  "gold": 448
+ },
+ "seconds": 5.6
+}

@@ -1,0 +1,18 @@
+{
+ "id": "samples/6725471/p3-s3",
+ "scorer": 1,
+ "predicted": true,
+ "predLmx": "measure key:fifths:0 time beats:7 beat-type:4 clef:G2 staff:1 clef:F4 staff:2 rest voice:1 eighth staff:1 D5 eighth flat stem:up slur:start tenuto chord G5 eighth natural chord B5 eighth natural rest eighth C5 eighth natural slur:stop tenuto chord G5 eighth flat chord B5 eighth flat rest quarter E5 eighth 3in2 natural beam:begin tuplet:start slur:start D5 eighth 3in2 natural E5 eighth 3in2 beam:end tuplet:stop slur:stop rest quarter E4 quarter 3in2 natural tuplet:start slur:start D4 quarter 3in2 natural E4 quarter 3in2 tuplet:stop backup whole backup half backup quarter forward eighth A3 voice:2 eighth natural stem:down staff:1 slur:start tenuto chord E4 eighth flat chord A4 eighth flat forward eighth A3 eighth natural slur:stop tenuto chord D4 eighth natural chord G4 eighth natural forward quarter F4 quarter sharp chord C5 quarter natural forward quarter F3 half sharp tied:start slur:start chord B3 half natural backup whole backup half backup quarter rest voice:5 half staff:2 rest quarter F3 quarter natural stem:up chord B3 quarter natural chord D4 quarter sharp rest quarter B2 half natural slur:start chord D3 half sharp backup whole backup half backup quarter forward half forward quarter rest voice:6 quarter staff:2 rest eighth F1 quarter dot natural stem:down F1 quarter measure D4 voice:1 half sharp stem:up staff:1 F4 half natural tied:start F4 half tied:stop G4 quarter natural tied:start backup whole backup half backup quarter F3 voice:2 whole sharp staff:1 tied:stop chord B3 whole natural G3 half dot sharp stem:down tied:start slur:stop chord C4 half dot sharp tied:start backup whole backup half backup quarter C3 voice:5 whole natural staff:2 chord E3 whole natural E2 half dot stem:up tied:start slur:stop chord B2 half dot tied:start chord E3 half dot tied:start backup whole backup half backup quarter rest voice:6 quarter staff:2 F1 half dot natural stem:down rest quarter E1 half natural tied:start measure G4 voice:1 half stem:up staff:1 tied:stop F4 quarter natural tied:start F4 half tied:stop slur:stop fermata rest half backup whole backup half backup quarter G3 voice:2 half dot sharp stem:down staff:1 tied:stop tied:start chord C4 half dot sharp tied:stop tied:start G3 half sharp tied:stop chord C4 half sharp tied:stop forward half backup whole backup half backup quarter E2 voice:5 half dot stem:up staff:2 tied:stop tied:start chord B2 half dot tied:stop tied:start chord E3 half dot tied:stop tied:start E2 half tied:stop fermata chord B2 half tied:stop chord E3 half tied:stop rest half backup whole backup half backup quarter E1 voice:6 half dot stem:down staff:2 tied:stop tied:start E1 half tied:stop forward half",
+ "linearizer_warnings": "",
+ "ser_edits": 34,
+ "ser_gold": 402,
+ "full": {
+  "edit": 151,
+  "gold": 801
+ },
+ "lmx": {
+  "edit": 71,
+  "gold": 721
+ },
+ "seconds": 19.8
+}

@@ -1,0 +1,18 @@
+{
+ "id": "samples/6243836/p6-s1",
+ "scorer": 1,
+ "predicted": true,
+ "predLmx": "measure key:fifths:-1 time beats:6 beat-type:8 clef:G2 staff:1 clef:F4 staff:2 forward eighth F4 voice:1 eighth stem:up staff:1 beam:begin slur:start tenuto C5 eighth beam:end slur:stop tenuto forward eighth E4 eighth beam:begin slur:start tenuto C5 eighth beam:end slur:stop tenuto backup half backup quarter B3 voice:2 quarter dot flat stem:down staff:1 tenuto B3 quarter dot tenuto backup half backup quarter G2 voice:5 quarter dot natural stem:up staff:2 C3 quarter dot tenuto measure A3 voice:1 eighth stem:up staff:1 beam:begin F4 eighth C5 eighth beam:end A3 eighth beam:begin slur:start C4 eighth F4 eighth beam:end backup half backup quarter C3 voice:5 half dot stem:up staff:2 tied:start tenuto backup half backup quarter F2 voice:6 eighth stem:down staff:2 staccato rest eighth rest eighth C2 eighth staccato rest eighth rest eighth measure A3 voice:1 eighth stem:up staff:1 beam:begin C4 eighth F4 eighth beam:end A3 eighth beam:begin C4 eighth F4 eighth beam:end backup half backup quarter C3 voice:5 half dot stem:up staff:2 tied:stop tied:start backup half backup quarter F2 voice:6 eighth stem:down staff:2 staccato rest eighth rest eighth C2 eighth staccato rest eighth rest eighth measure A3 voice:1 eighth stem:up staff:1 beam:begin C4 eighth F4 eighth beam:end A3 eighth beam:begin C4 eighth F4 eighth beam:end slur:stop backup half backup quarter C3 voice:5 half dot stem:up staff:2 tied:stop tied:start backup half backup quarter F2 voice:6 eighth stem:down staff:2 staccato rest eighth rest eighth C2 eighth staccato rest eighth rest eighth",
+ "linearizer_warnings": "",
+ "ser_edits": 18,
+ "ser_gold": 226,
+ "full": {
+  "edit": 127,
+  "gold": 514
+ },
+ "lmx": {
+  "edit": 37,
+  "gold": 424
+ },
+ "seconds": 168.2
+}

@@ -1,0 +1,18 @@
+{
+ "id": "samples/6320420/p7-s2",
+ "scorer": 1,
+ "predicted": true,
+ "predLmx": "measure key:fifths:-1 time beats:3 beat-type:4 clef:G2 staff:1 clef:F4 staff:2 C4 voice:1 quarter stem:up staff:1 rest eighth rest quarter rest eighth backup half backup quarter A3 voice:2 quarter stem:down staff:1 forward half backup half backup quarter F2 voice:5 quarter stem:up staff:2 rest eighth rest quarter rest eighth measure rest voice:1 rest:measure staff:1 backup half backup quarter rest voice:5 quarter staff:2 rest eighth rest eighth F2 eighth stem:up beam:begin slur:start A2 eighth beam:end measure rest voice:1 eighth staff:1 C4 eighth stem:up beam:begin slur:start E4 eighth beam:end F4 eighth beam:begin A3 eighth E4 eighth beam:end backup half backup quarter C3 voice:5 quarter dot stem:up staff:2 slur:stop D3 quarter stem:down slur:start C3 eighth stem:up measure C4 voice:1 eighth stem:up staff:1 slur:stop forward eighth forward half backup half backup quarter forward eighth F3 voice:5 eighth stem:up staff:2 beam:begin B3 eighth beam:end A3 eighth tied:start F3 quarter tied:start slur:stop chord A3 quarter tied:stop tied:start backup half backup quarter A2 voice:6 quarter stem:down staff:2 slur:start B2 eighth F2 quarter A2 eighth slur:stop measure rest voice:1 rest:measure staff:1 backup half backup quarter F3 voice:5 quarter stem:up staff:2 tied:stop chord A3 quarter tied:stop rest eighth F3 quarter dot slur:start chord A3 quarter dot backup half backup quarter C3 voice:6 quarter stem:down staff:2 slur:start A2 eighth F2 quarter A2 eighth slur:stop measure rest voice:1 rest:measure staff:1 backup half backup quarter E3 voice:5 half dot stem:up staff:2 slur:stop chord G3 half dot chord C4 half dot backup half backup quarter C2 voice:6 quarter stem:down staff:2 slur:start E2 eighth G2 quarter C3 eighth slur:stop",
+ "linearizer_warnings": "",
+ "ser_edits": 48,
+ "ser_gold": 214,
+ "full": {
+  "edit": 79,
+  "gold": 417
+ },
+ "lmx": {
+  "edit": 57,
+  "gold": 395
+ },
+ "seconds": 2.4
+}

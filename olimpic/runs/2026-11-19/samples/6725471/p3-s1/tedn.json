@@ -1,0 +1,18 @@
+{
+ "id": "samples/6725471/p3-s1",
+ "scorer": 1,
+ "predicted": true,
+ "predLmx": "measure key:fifths:0 time beats:4 beat-type:4 clef:G2 staff:1 clef:F4 staff:2 E5 voice:1 eighth flat stem:up staff:1 beam:begin E5 eighth flat beam:end slur:start F4 quarter natural chord B4 quarter natural chord E5 quarter natural E5 eighth flat beam:begin F5 eighth sharp beam:end backup half backup quarter E4 voice:2 eighth natural stem:down staff:1 beam:begin chord B4 eighth flat E4 eighth beam:end chord B4 eighth flat forward quarter E4 quarter natural chord B4 quarter flat backup half backup quarter F3 voice:5 eighth natural stem:up staff:2 beam:begin chord C4 eighth sharp F3 eighth beam:end slur:start chord C4 eighth F3 quarter sharp chord D4 quarter natural F3 quarter natural chord C4 quarter sharp backup half backup quarter D1 voice:6 quarter stem:down staff:2 rest eighth D1 quarter dot natural tied:start measure E5 voice:1 eighth natural stem:up staff:1 beam:begin G5 eighth natural beam:end tied:start G5 quarter 3in2 tied:stop tuplet:start E5 eighth 3in2 natural tuplet:stop G5 eighth natural beam:begin slur:stop C6 eighth sharp slur:start A5 eighth natural G5 eighth natural beam:end slur:stop backup whole F4 voice:2 eighth natural stem:down staff:1 beam:begin chord B4 eighth natural A4 eighth natural beam:end tied:start chord D5 eighth natural tied:start A4 quarter 3in2 tied:stop tuplet:start chord D5 quarter 3in2 tied:stop F4 eighth 3in2 natural tuplet:stop chord B4 eighth 3in2 natural A4 half natural chord D5 half natural backup whole F3 voice:5 eighth sharp stem:up staff:2 beam:begin chord D4 eighth natural B3 eighth flat beam:end tied:start chord E4 eighth natural tied:start B3 quarter 3in2 flat tied:stop tuplet:start chord E4 quarter 3in2 tied:stop F3 eighth 3in2 sharp tuplet:stop chord D4 eighth 3in2 natural B3 half flat slur:stop chord E4 half natural backup whole D1 voice:6 eighth stem:down staff:2 tied:stop rest eighth D1 half dot natural",
+ "linearizer_warnings": "",
+ "ser_edits": 161,
+ "ser_gold": 268,
+ "full": {
+  "edit": 302,
+  "gold": 586
+ },
+ "lmx": {
+  "edit": 239,
+  "gold": 522
+ },
+ "seconds": 8.5
+}

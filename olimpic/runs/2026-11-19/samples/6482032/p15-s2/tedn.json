@@ -1,0 +1,18 @@
+{
+ "id": "samples/6482032/p15-s2",
+ "scorer": 1,
+ "predicted": true,
+ "predLmx": "measure key:fifths:0 time beats:4 beat-type:4 clef:G2 staff:1 clef:F4 staff:2 G4 voice:1 quarter stem:up staff:1 accent A4 quarter accent A4 quarter accent A4 quarter tenuto backup whole rest voice:2 eighth staff:1 C4 eighth stem:down chord E4 eighth rest eighth C4 eighth chord F4 eighth sharp rest eighth D4 eighth chord F4 eighth C4 quarter chord E4 quarter backup whole C2 voice:5 eighth stem:up staff:2 chord C3 eighth rest eighth F2 eighth sharp chord F3 eighth sharp rest eighth D2 eighth chord D3 eighth rest eighth A1 quarter tenuto chord A2 quarter measure D4 voice:1 quarter stem:up staff:1 accent E4 quarter accent E4 quarter accent E4 quarter tenuto clef:F4 staff:1 backup whole rest voice:2 eighth staff:1 G3 eighth stem:down chord B3 eighth rest eighth G3 eighth chord C4 eighth rest eighth A3 eighth chord C4 eighth G3 quarter chord B3 quarter backup whole G1 voice:5 eighth stem:up staff:2 chord G2 eighth rest eighth C2 eighth chord C3 eighth rest eighth A1 eighth chord A2 eighth rest eighth E1 quarter tenuto chord E2 quarter",
+ "linearizer_warnings": "",
+ "ser_edits": 12,
+ "ser_gold": 162,
+ "full": {
+  "edit": 30,
+  "gold": 405
+ },
+ "lmx": {
+  "edit": 26,
+  "gold": 381
+ },
+ "seconds": 2.7
+}

@@ -1,0 +1,18 @@
+{
+ "id": "samples/6243836/p1-s2",
+ "scorer": 1,
+ "predicted": true,
+ "predLmx": "measure key:fifths:-1 time beats:6 beat-type:8 clef:G2 staff:1 clef:F4 staff:2 C5 voice:1 quarter dot stem:down staff:1 F5 quarter slur:start G5 eighth backup half backup quarter rest voice:5 rest:measure staff:2 measure A5 voice:1 quarter stem:down staff:1 B5 eighth C6 quarter D6 eighth backup half backup quarter rest voice:5 rest:measure staff:2 measure E6 voice:1 quarter stem:down staff:1 D6 eighth C6 quarter A5 eighth backup half backup quarter rest voice:5 rest:measure staff:2 measure C6 voice:1 quarter dot stem:down staff:1 slur:stop tenuto F5 quarter dot tenuto backup half backup quarter rest voice:5 rest:measure staff:2 measure A5 voice:1 quarter dot stem:down staff:1 tenuto C5 quarter dot tenuto backup half backup quarter rest voice:5 rest:measure staff:2 measure D5 voice:1 quarter dot stem:down staff:1 accent A4 quarter dot stem:up accent backup half backup quarter rest voice:5 rest:measure staff:2",
+ "linearizer_warnings": "",
+ "ser_edits": 20,
+ "ser_gold": 144,
+ "full": {
+  "edit": 57,
+  "gold": 254
+ },
+ "lmx": {
+  "edit": 17,
+  "gold": 214
+ },
+ "seconds": 0.8
+}

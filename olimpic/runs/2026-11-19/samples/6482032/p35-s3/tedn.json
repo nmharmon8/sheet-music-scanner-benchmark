@@ -1,0 +1,18 @@
+{
+ "id": "samples/6482032/p35-s3",
+ "scorer": 1,
+ "predicted": true,
+ "predLmx": "measure key:fifths:0 time beats:4 beat-type:4 clef:F4 staff:1 clef:F4 staff:2 F3 voice:1 half sharp stem:up staff:1 accent chord F4 half sharp tied:start F3 quarter chord F4 quarter tied:stop rest quarter backup whole E4 voice:2 quarter stem:down staff:1 slur:start staccato D4 quarter staccato C4 quarter slur:stop staccato B3 quarter staccato backup whole E2 voice:5 quarter stem:up staff:2 staccato chord E3 quarter D2 quarter staccato chord D3 quarter C2 quarter staccato chord C3 quarter B1 quarter staccato chord B2 quarter measure D3 voice:1 half stem:up staff:1 accent chord D4 half tied:start D3 quarter chord D4 quarter tied:stop rest quarter backup whole C4 voice:2 quarter stem:down staff:1 slur:start staccato B3 quarter staccato A3 quarter slur:stop staccato G3 quarter staccato backup whole C2 voice:5 quarter stem:up staff:2 staccato chord C3 quarter B1 quarter staccato chord B2 quarter A1 quarter staccato chord A2 quarter G1 quarter staccato chord G2 quarter measure E3 voice:1 half stem:up staff:1 tied:start accent chord E4 half tied:start E3 quarter tied:stop chord E4 quarter tied:stop rest quarter backup whole E3 voice:2 quarter stem:down staff:1 staccato chord A3 quarter E3 quarter staccato chord A3 quarter E3 quarter staccato chord A3 quarter E3 quarter staccato chord A3 quarter backup whole A1 voice:5 quarter stem:up staff:2 staccato chord A2 quarter A1 quarter staccato chord A2 quarter A1 quarter staccato chord A2 quarter A1 quarter staccato chord A2 quarter",
+ "linearizer_warnings": "",
+ "ser_edits": 11,
+ "ser_gold": 220,
+ "full": {
+  "edit": 61,
+  "gold": 532
+ },
+ "lmx": {
+  "edit": 13,
+  "gold": 484
+ },
+ "seconds": 21.3
+}

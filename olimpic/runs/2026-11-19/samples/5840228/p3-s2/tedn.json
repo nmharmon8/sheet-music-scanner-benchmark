@@ -1,0 +1,18 @@
+{
+ "id": "samples/5840228/p3-s2",
+ "scorer": 1,
+ "predicted": true,
+ "predLmx": "measure key:fifths:0 time beats:2 beat-type:4 clef:G2 staff:1 clef:G2 staff:2 G6 voice:1 16th stem:up staff:1 beam:begin beam:begin slur:start E6 16th E6 16th beam:end beam:end forward 16th forward 16th E6 16th beam:begin beam:begin E6 16th G6 16th beam:end beam:end backup half G5 voice:2 eighth dot stem:down staff:1 beam:begin G5 16th beam:end beam:backward-hook G5 quarter backup half E4 voice:5 half stem:up staff:2 chord G4 half chord C5 half measure G6 voice:1 16th stem:up staff:1 beam:begin beam:begin E6 16th E6 16th beam:end beam:end slur:stop forward 16th forward quarter backup half G5 voice:2 eighth dot stem:down staff:1 beam:begin G5 16th beam:end beam:backward-hook G5 quarter backup half C5 voice:5 eighth dot stem:up staff:2 beam:begin slur:start G4 16th beam:end beam:backward-hook G4 16th beam:begin beam:begin E5 16th E5 16th G5 16th beam:end beam:end slur:stop backup half E4 voice:6 quarter stem:down staff:2 chord G4 quarter forward quarter measure A6 voice:1 16th stem:up staff:1 beam:begin beam:begin slur:start F6 16th F6 16th beam:end beam:end forward 16th forward 16th F6 16th beam:begin beam:begin F6 16th A6 16th beam:end beam:end backup half A5 voice:2 eighth dot stem:down staff:1 beam:begin A5 16th beam:end beam:backward-hook A5 quarter backup half D4 voice:5 half stem:up staff:2 chord F4 half chord C5 half measure A6 voice:1 16th stem:up staff:1 beam:begin beam:begin F6 16th F6 16th beam:end beam:end slur:stop forward 16th forward quarter backup half A5 voice:2 eighth dot stem:down staff:1 beam:begin A5 16th beam:end beam:backward-hook A5 quarter backup half C5 voice:5 eighth dot stem:up staff:2 beam:begin slur:start A4 16th beam:end beam:backward-hook A4 16th beam:begin beam:begin F4 16th F4 16th A4 16th beam:end beam:end slur:stop backup half D4 voice:6 half stem:down staff:2 chord F4 half measure A5 voice:1 16th stem:up staff:1 beam:begin beam:begin slur:start C5 16th C5 16th beam:end beam:end forward 16th forward 16th C5 16th beam:begin beam:begin C5 16th A5 16th beam:end beam:end slur:stop backup half A4 voice:2 eighth dot stem:down staff:1 beam:begin A4 16th beam:end beam:backward-hook A4 quarter backup half D4 voice:5 half sharp stem:up staff:2 chord F4 half sharp",
+ "linearizer_warnings": "",
+ "ser_edits": 46,
+ "ser_gold": 325,
+ "full": {
+  "edit": 164,
+  "gold": 665
+ },
+ "lmx": {
+  "edit": 120,
+  "gold": 621
+ },
+ "seconds": 174.8
+}

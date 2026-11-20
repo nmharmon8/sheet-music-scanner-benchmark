@@ -1,0 +1,18 @@
+{
+ "id": "samples/6725471/p2-s3",
+ "scorer": 1,
+ "predicted": true,
+ "predLmx": "measure key:fifths:0 time beats:4 beat-type:4 clef:G2 staff:1 clef:F4 staff:2 rest voice:1 eighth staff:1 B3 eighth natural stem:up tenuto chord E4 eighth flat chord G4 eighth flat chord B4 eighth flat rest quarter rest eighth B4 eighth flat stem:down tenuto chord D5 eighth natural chord F5 eighth natural chord A5 eighth natural rest eighth B5 eighth flat tenuto chord D6 eighth natural chord F6 eighth natural chord A6 eighth natural backup whole E2 voice:5 eighth natural stem:up staff:2 staccato rest eighth rest eighth F3 eighth sharp stem:down slur:start C3 eighth natural stem:up beam:begin E2 eighth natural beam:end E1 eighth flat slur:stop rest eighth measure rest voice:1 eighth staff:1 E6 eighth flat stem:down tenuto chord G6 eighth flat rest eighth A5 eighth natural tenuto chord C6 eighth sharp rest eighth A4 eighth natural tenuto chord C5 eighth sharp backup half backup quarter rest voice:5 eighth staff:2 clef:G2 staff:2 B4 eighth natural stem:down tenuto chord G5 eighth natural rest eighth E4 eighth flat stem:up tenuto chord C5 eighth natural rest eighth clef:F4 staff:2 E3 eighth flat stem:down tenuto chord C4 eighth natural measure rest voice:1 eighth staff:1 B4 eighth flat stem:down chord E5 eighth flat chord A5 eighth flat rest eighth A4 eighth natural chord C5 eighth sharp rest eighth B4 eighth flat chord E5 eighth flat chord A5 eighth flat rest quarter backup whole rest voice:5 eighth staff:2 G3 eighth natural stem:down chord E4 eighth natural rest eighth E3 eighth flat chord C4 eighth natural rest eighth G3 eighth natural chord E4 eighth natural rest eighth D1 eighth natural stem:up tied:start measure E5 voice:1 quarter dot flat stem:up staff:1 slur:start G5 quarter flat forward quarter E5 eighth flat tied:start slur:stop backup whole E4 voice:2 half dot dot natural stem:down staff:1 chord B4 half dot dot flat E4 eighth natural tied:start chord B4 eighth flat tied:start backup whole F3 voice:5 half dot dot natural stem:up staff:2 chord C4 half dot dot sharp F3 eighth natural tied:start chord C4 eighth sharp tied:start backup whole D1 voice:6 quarter stem:down staff:2 tied:stop D1 half natural tied:start forward quarter",
+ "linearizer_warnings": "",
+ "ser_edits": 176,
+ "ser_gold": 361,
+ "full": {
+  "edit": 355,
+  "gold": 803
+ },
+ "lmx": {
+  "edit": 293,
+  "gold": 733
+ },
+ "seconds": 13.9
+}

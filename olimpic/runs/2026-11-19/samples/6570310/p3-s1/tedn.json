@@ -1,0 +1,18 @@
+{
+ "id": "samples/6570310/p3-s1",
+ "scorer": 1,
+ "predicted": true,
+ "predLmx": "measure key:fifths:-5 time beats:5 beat-type:4 clef:G2 staff:1 clef:F4 staff:2 G4 voice:1 quarter dot natural stem:up staff:1 tied:start G4 eighth tied:stop rest eighth F5 quarter dot E5 eighth natural rest eighth backup whole backup quarter B3 voice:2 quarter dot stem:down staff:1 tremolo:single tremolo:1 chord D4 quarter dot B3 eighth chord D4 eighth forward eighth G4 quarter dot tied:start tremolo:single tremolo:1 chord B4 quarter dot tied:start chord D5 quarter dot tied:start G4 eighth tied:stop chord B4 eighth tied:stop chord D5 eighth tied:stop forward eighth backup whole backup quarter B2 voice:5 quarter dot stem:down staff:2 tremolo:single tremolo:1 chord E3 quarter dot natural chord G3 quarter dot natural B2 eighth chord E3 eighth chord G3 eighth rest eighth A1 quarter dot natural stem:up tremolo:single tremolo:1 chord A2 quarter dot natural A1 eighth chord A2 eighth rest eighth measure G4 voice:1 quarter dot sharp stem:up staff:1 tied:start G4 eighth tied:stop rest eighth A4 quarter flat accent chord C5 quarter flat chord D5 quarter natural chord G5 quarter flat forward eighth F5 eighth beam:begin tenuto F5 eighth sharp beam:end tenuto backup whole backup quarter B3 voice:2 quarter dot natural stem:down staff:1 tremolo:single tremolo:1 chord D4 quarter dot natural B3 eighth chord D4 eighth forward half A4 quarter flat chord B4 quarter chord D5 quarter backup whole backup quarter B2 voice:5 quarter dot natural stem:down staff:2 tremolo:single tremolo:1 chord F3 quarter dot sharp chord G3 quarter dot B2 eighth chord F3 eighth chord G3 eighth rest eighth B1 quarter dot flat stem:up tremolo:single tremolo:1 chord B2 quarter dot flat B1 eighth chord B2 eighth rest eighth measure time beats:4 beat-type:4 G4 voice:1 quarter sharp stem:down staff:1 slur:start chord B4 quarter chord E5 quarter chord G5 quarter natural D5 quarter flat chord F5 quarter chord D6 quarter flat C5 quarter chord E5 quarter chord C6 quarter B4 quarter slur:stop chord D5 quarter chord B5 quarter backup whole E2 voice:5 eighth 3in2 stem:up staff:2 beam:begin tuplet:start slur:start B2 eighth 3in2 E3 eighth 3in2 beam:end tuplet:stop G3 eighth 3in2 natural stem:down beam:begin tuplet:start B3 eighth 3in2 E4 eighth 3in2 beam:end tuplet:stop slur:stop E2 eighth 3in2 stem:up beam:begin tuplet:start slur:start chord E3 eighth 3in2 G3 eighth 3in2 natural B3 eighth 3in2 beam:end tuplet:stop E4 eighth 3in2 stem:down beam:begin tuplet:start B4 eighth 3in2 E5 eighth 3in2 beam:end tuplet:stop slur:stop",
+ "linearizer_warnings": "",
+ "ser_edits": 74,
+ "ser_gold": 392,
+ "full": {
+  "edit": 147,
+  "gold": 813
+ },
+ "lmx": {
+  "edit": 118,
+  "gold": 782
+ },
+ "seconds": 98.9
+}

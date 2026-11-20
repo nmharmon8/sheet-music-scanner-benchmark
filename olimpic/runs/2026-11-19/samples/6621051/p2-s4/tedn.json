@@ -1,0 +1,18 @@
+{
+ "id": "samples/6621051/p2-s4",
+ "scorer": 1,
+ "predicted": true,
+ "predLmx": "measure key:fifths:-2 time beats:4 beat-type:4 clef:G2 staff:1 clef:F4 staff:2 C4 voice:1 eighth stem:up staff:1 beam:begin staccato chord E4 eighth natural chord G4 eighth C4 eighth staccato chord E4 eighth chord G4 eighth C4 eighth staccato chord E4 eighth chord G4 eighth C4 eighth beam:end staccato chord E4 eighth chord G4 eighth C4 eighth beam:begin staccato chord F4 eighth C4 eighth staccato chord F4 eighth C4 eighth staccato chord F4 eighth C4 eighth beam:end staccato chord F4 eighth backup whole B3 voice:5 eighth flat stem:down staff:2 beam:begin staccato B3 eighth staccato B3 eighth staccato B3 eighth beam:end staccato A3 eighth beam:begin staccato A3 eighth staccato A3 eighth staccato A3 eighth beam:end staccato measure C4 voice:1 eighth stem:up staff:1 beam:begin staccato chord E4 eighth natural C4 eighth staccato chord E4 eighth C4 eighth staccato chord E4 eighth chord G4 eighth C4 eighth beam:end staccato chord E4 eighth chord G4 eighth C4 eighth beam:begin staccato chord F4 eighth chord A4 eighth C4 eighth staccato chord F4 eighth chord A4 eighth C4 eighth staccato chord F4 eighth chord A4 eighth C4 eighth beam:end staccato chord E4 eighth chord B4 eighth backup whole G3 voice:5 eighth stem:down staff:2 beam:begin staccato G3 eighth staccato C3 eighth staccato C3 eighth beam:end staccato F3 eighth beam:begin staccato F3 eighth staccato F3 eighth staccato G3 eighth beam:end staccato",
+ "linearizer_warnings": "",
+ "ser_edits": 3,
+ "ser_gold": 216,
+ "full": {
+  "edit": 7,
+  "gold": 525
+ },
+ "lmx": {
+  "edit": 3,
+  "gold": 521
+ },
+ "seconds": 8.4
+}

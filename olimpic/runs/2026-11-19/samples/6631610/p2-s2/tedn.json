@@ -1,0 +1,18 @@
+{
+ "id": "samples/6631610/p2-s2",
+ "scorer": 1,
+ "predicted": true,
+ "predLmx": "measure key:fifths:-4 time beats:3 beat-type:4 clef:G2 staff:1 clef:F4 staff:2 G4 voice:1 eighth stem:up staff:1 beam:begin E4 eighth A4 eighth E4 eighth A4 eighth E4 eighth beam:end backup half backup quarter rest voice:5 quarter staff:2 C4 quarter stem:up slur:start C4 quarter flat slur:stop backup half backup quarter E3 voice:6 half stem:down staff:2 tied:start E3 quarter tied:stop measure A4 voice:1 eighth stem:up staff:1 beam:begin slur:start E4 eighth beam:end slur:stop G4 eighth beam:begin slur:start E4 eighth beam:end slur:stop A4 eighth stem:down beam:begin slur:start C5 eighth beam:end slur:stop backup half backup quarter B3 voice:5 quarter stem:up staff:2 slur:start D4 quarter slur:stop C4 eighth beam:begin slur:start A3 eighth beam:end slur:stop backup half backup quarter E3 voice:6 half dot stem:down staff:2 measure C5 voice:1 quarter stem:up staff:1 slur:start B4 quarter slur:stop fermata E4 quarter backup half backup quarter E4 voice:2 eighth stem:down staff:1 beam:begin D4 eighth natural beam:end E4 quarter forward quarter backup half backup quarter A3 voice:5 quarter stem:up staff:2 slur:start G3 quarter slur:stop forward quarter backup half backup quarter E3 voice:6 half stem:down staff:2 fermata rest quarter measure rest voice:1 quarter staff:1 F5 quarter stem:up slur:start E5 quarter slur:stop backup half backup quarter forward eighth E4 voice:2 eighth stem:down staff:1 beam:begin G4 eighth E4 eighth G4 eighth E4 eighth beam:end backup half backup quarter rest voice:5 quarter staff:2 D4 quarter stem:up slur:start B3 quarter slur:stop backup half backup quarter E3 voice:6 half stem:down staff:2 tied:start E3 quarter tied:stop measure rest voice:1 quarter staff:1 D5 quarter stem:up slur:start C5 quarter slur:stop backup half backup quarter forward eighth E4 voice:2 eighth stem:down staff:1 beam:begin F4 eighth D4 eighth E4 eighth C4 eighth beam:end backup half backup quarter A2 voice:5 half dot stem:down staff:2 chord A3 half dot",
+ "linearizer_warnings": "",
+ "ser_edits": 32,
+ "ser_gold": 294,
+ "full": {
+  "edit": 72,
+  "gold": 521
+ },
+ "lmx": {
+  "edit": 68,
+  "gold": 517
+ },
+ "seconds": 10.7
+}

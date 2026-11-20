@@ -1,0 +1,18 @@
+{
+ "id": "samples/6379527/p3-s2",
+ "scorer": 1,
+ "predicted": true,
+ "predLmx": "measure key:fifths:3 time beats:3 beat-type:4 clef:F4 staff:1 clef:F4 staff:2 rest voice:1 quarter staff:1 C3 quarter stem:up chord C4 quarter tied:start C3 eighth chord C4 eighth tied:stop rest eighth clef:G2 staff:1 backup half backup quarter forward quarter G3 voice:2 quarter stem:down staff:1 slur:start F3 eighth slur:stop forward eighth backup half backup quarter E2 voice:5 half stem:up staff:2 slur:start F2 eighth slur:stop rest eighth measure rest voice:1 quarter staff:1 rest eighth D4 32nd stem:up beam:begin beam:begin beam:begin slur:start F4 32nd A4 32nd C5 32nd beam:end beam:end beam:end slur:stop B4 eighth stem:down beam:begin tenuto C5 eighth beam:end tenuto backup half backup quarter D2 voice:5 32nd stem:up staff:2 beam:begin beam:begin beam:begin slur:start F2 32nd A2 32nd C3 32nd beam:end beam:end beam:end D3 32nd stem:down beam:begin beam:begin beam:begin F3 32nd A3 32nd C4 32nd beam:end beam:end beam:end D3 32nd beam:begin beam:begin beam:begin F3 32nd A3 32nd C4 32nd beam:end beam:end beam:end rest eighth B3 eighth beam:begin tenuto C4 eighth beam:end slur:stop tenuto measure rest voice:1 16th staff:1 B3 64th stem:up beam:begin beam:begin beam:begin beam:begin slur:start D4 64th F4 64th A4 64th beam:end beam:end beam:end beam:end B3 64th beam:begin beam:begin beam:begin beam:begin D4 64th F4 64th A4 64th beam:end beam:end beam:end beam:end B4 32nd 3in2 stem:down beam:begin beam:begin beam:begin tuplet:start D5 32nd 3in2 F5 32nd 3in2 beam:end beam:end beam:end tuplet:stop slur:stop F5 eighth 3in2 dot beam:begin tuplet:start slur:start chord A5 eighth 3in2 dot E5 16th 3in2 beam:end beam:backward-hook tuplet:stop slur:stop chord G5 16th 3in2 F5 eighth 3in2 tuplet:start tenuto chord A5 eighth 3in2 E5 eighth 3in2 beam:begin tenuto chord G5 eighth 3in2 D5 eighth 3in2 beam:end tuplet:stop tenuto chord F5 eighth 3in2 C5 eighth 3in2 natural tenuto chord E5 eighth 3in2 backup half backup quarter B2 voice:5 64th stem:down staff:2 beam:begin beam:begin beam:begin beam:begin D3 64th F3 64th A3 64th beam:end beam:end beam:end beam:end rest 16th rest eighth clef:G2 staff:2 F4 eighth 3in2 dot stem:up beam:begin tuplet:start slur:start chord A4 eighth 3in2 dot E4 16th 3in2 beam:end beam:backward-hook tuplet:stop slur:stop chord G4 16th 3in2 F4 eighth 3in2 tuplet:start tenuto chord A4 eighth 3in2 E4 eighth 3in2 beam:begin tenuto chord G4 eighth 3in2 D4 eighth 3in2 beam:end tuplet:stop tenuto chord F4 eighth 3in2 C4 eighth 3in2 natural tenuto chord E4 eighth 3in2 clef:F4 staff:2",
+ "linearizer_warnings": "",
+ "ser_edits": 132,
+ "ser_gold": 366,
+ "full": {
+  "edit": 306,
+  "gold": 895
+ },
+ "lmx": {
+  "edit": 218,
+  "gold": 799
+ },
+ "seconds": 112.6
+}

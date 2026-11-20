@@ -1,0 +1,18 @@
+{
+ "id": "samples/6565727/p5-s3",
+ "scorer": 1,
+ "predicted": true,
+ "predLmx": "measure key:fifths:-3 time beats:4 beat-type:4 clef:G2 staff:1 clef:F4 staff:2 B4 voice:1 eighth stem:up staff:1 beam:begin staccato B4 eighth beam:end staccato G4 quarter accent B3 eighth dot beam:begin slur:start chord D4 eighth dot A3 16th natural beam:end beam:backward-hook chord C4 16th G3 eighth beam:begin chord B3 eighth A3 eighth beam:end slur:stop chord C4 eighth backup whole D4 voice:2 half stem:down staff:1 forward half backup whole grace grace:slash C1 voice:5 eighth staff:2 grace grace:slash chord C2 eighth C3 half stem:down chord E3 half natural grace grace:slash F2 eighth sharp G2 half stem:up measure rest voice:1 rest:measure staff:1 backup whole B3 voice:5 eighth stem:up staff:2 beam:begin slur:start chord D4 eighth B3 eighth beam:end chord D4 eighth G3 half slur:stop chord B3 half G3 quarter slur:start chord B3 quarter backup whole E3 voice:6 whole natural staff:2 backup whole C2 voice:7 half stem:down staff:2 chord G2 half grace grace:slash F2 eighth sharp G2 half measure rest voice:1 rest:measure staff:1 backup whole B3 voice:5 eighth dot stem:up staff:2 beam:begin chord D4 eighth dot A3 16th natural beam:end beam:backward-hook chord C4 16th G3 half tied:start chord B3 half tied:start G3 eighth beam:begin tied:stop chord B3 eighth tied:stop A3 eighth beam:end chord C4 eighth backup whole E3 voice:6 whole flat staff:2 backup whole C2 voice:7 half stem:down staff:2 chord G2 half grace grace:slash F2 eighth sharp G2 half measure rest voice:1 rest:measure staff:1 backup whole B3 voice:5 eighth natural stem:up staff:2 beam:begin chord D4 eighth B3 eighth beam:end chord D4 eighth G3 half dot slur:stop chord B3 half dot backup whole D3 voice:6 half stem:down staff:2 grace grace:slash F2 eighth sharp G2 quarter grace grace:slash F2 eighth G2 quarter backup whole G1 voice:7 half stem:down staff:2 chord G2 half forward half measure rest voice:1 rest:measure staff:1 backup whole C2 voice:5 quarter stem:up staff:2 chord F2 quarter sharp chord G2 quarter C2 quarter chord F2 quarter chord G2 quarter C2 quarter chord F2 quarter chord G2 quarter C2 quarter chord F2 quarter chord G2 quarter",
+ "linearizer_warnings": "",
+ "ser_edits": 62,
+ "ser_gold": 319,
+ "full": {
+  "edit": 166,
+  "gold": 654
+ },
+ "lmx": {
+  "edit": 115,
+  "gold": 593
+ },
+ "seconds": 10.6
+}

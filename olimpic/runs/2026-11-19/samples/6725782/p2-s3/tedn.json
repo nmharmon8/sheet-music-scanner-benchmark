@@ -1,0 +1,18 @@
+{
+ "id": "samples/6725782/p2-s3",
+ "scorer": 1,
+ "predicted": true,
+ "predLmx": "measure key:fifths:0 time beats:4 beat-type:4 clef:G2 staff:1 clef:F4 staff:2 D5 voice:1 eighth 3in2 stem:up staff:1 beam:begin tuplet:start slur:start C5 eighth 3in2 natural beam:end slur:stop rest eighth 3in2 tuplet:stop forward eighth forward 32nd forward 128th forward 512th G4 16th 3in2 flat tuplet:stop slur:start B4 16th 3in2 flat tuplet:start F5 eighth natural tuplet:stop C5 eighth natural beam:begin A5 eighth flat E6 eighth natural beam:end backup whole G4 voice:2 eighth sharp stem:down staff:1 rest eighth forward half forward quarter backup whole E3 voice:5 eighth flat stem:down staff:2 chord A3 eighth natural chord C4 eighth sharp rest eighth rest 16th 3in2 tuplet:start D3 16th 3in2 natural beam:begin beam:begin slur:start G3 16th 3in2 natural beam:end beam:end tuplet:stop E4 16th 3in2 flat tuplet:start slur:stop forward 16th forward 64th forward 256th forward 1024th rest half measure E7 voice:1 quarter flat stem:down staff:1 slur:stop rest 16th 5in4 tuplet:start A5 16th 5in4 natural beam:begin beam:begin slur:start F5 16th 5in4 natural B4 16th 5in4 flat beam:end beam:end slur:stop forward eighth forward 16th forward 128th forward 256th forward 32nd forward 64th forward 512th forward 1024th G4 16th 5in4 sharp stem:up tied:start slur:start G4 16th 5in4 stem:down beam:begin beam:begin tied:stop A5 16th 5in4 natural E5 16th 5in4 natural beam:end beam:end tuplet:stop G4 16th 5in4 sharp stem:up beam:begin beam:begin tuplet:start D4 16th 5in4 natural beam:end beam:end tuplet:stop slur:stop backup whole rest voice:5 quarter staff:2 forward eighth forward 16th forward 128th forward 256th F4 16th 5in4 sharp stem:down tuplet:stop slur:start C4 16th 5in4 sharp beam:begin beam:begin tuplet:start G3 16th 5in4 natural beam:end beam:end slur:stop rest 16th 5in4 rest 16th 5in4 forward 32nd forward 64th forward 512th forward 1024th rest quarter",
+ "linearizer_warnings": "[ERROR][P:P1 M:1]: Duration could not be split up to note types for forward/backup. This is most likely a tuplet forward. Duration: 4480 Divisions: 6720\n[ERROR][P:P1 M:1]: Duration could not be split up to note types for forward/backup. This is most likely a tuplet forward. Duration: 2240 Divisions: 6720\n[ERROR][P:P1 M:2]: Duration could not be split up to note types for forward/backup. This is most likely a tuplet forward. Duration: 5376 Divisions: 6720\n[ERROR][P:P1 M:2]: Duration could not be split up to note types for forward/backup. This is most likely a tuplet forward. Duration: 1344 Divisions: 6720\n[ERROR][P:P1 M:2]: Duration could not be split up to note types for forward/backup. This is most likely a tuplet forward. Duration: 5376 Divisions: 6720\n[ERROR][P:P1 M:2]: Duration could not be split up to note types for forward/backup. This is most likely a tuplet forward. Duration: 1344 Divisions: 6720\n",
+ "ser_edits": 151,
+ "ser_gold": 218,
+ "full": {
+  "edit": 296,
+  "gold": 532
+ },
+ "lmx": {
+  "edit": 232,
+  "gold": 466
+ },
+ "seconds": 7.7
+}

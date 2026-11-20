@@ -1,0 +1,18 @@
+{
+ "id": "samples/6548435/p4-s1",
+ "scorer": 1,
+ "predicted": true,
+ "predLmx": "measure key:fifths:-1 time beats:4 beat-type:4 clef:G2 staff:1 clef:F4 staff:2 C4 voice:1 quarter stem:up staff:1 accent chord F4 quarter chord A4 quarter chord C5 quarter F3 quarter accent chord A3 quarter chord C4 quarter F3 quarter accent chord B3 quarter chord D4 quarter G3 quarter accent chord B3 quarter chord E4 quarter backup whole F1 voice:5 quarter stem:up staff:2 chord F2 quarter A1 quarter chord A2 quarter G1 quarter chord G2 quarter C2 quarter chord C3 quarter measure A3 voice:1 quarter stem:up staff:1 accent chord C4 quarter chord F4 quarter F3 quarter accent chord A3 quarter chord C4 quarter F3 quarter accent chord B3 quarter chord D4 quarter D4 eighth beam:begin E4 eighth beam:end backup whole forward half forward quarter B3 voice:2 quarter stem:down staff:1 accent chord G4 quarter backup whole F2 voice:5 quarter stem:up staff:2 chord C3 quarter A1 quarter chord A2 quarter G1 quarter chord G2 quarter C2 quarter chord C3 quarter measure A3 voice:1 eighth stem:up staff:1 beam:begin slur:start chord C4 eighth chord F4 eighth E4 eighth F4 eighth G4 eighth beam:end slur:stop D4 quarter accent chord F4 quarter chord A4 quarter D4 quarter accent chord F4 quarter chord D5 quarter backup whole F2 voice:5 quarter stem:up staff:2 chord C3 quarter C3 quarter stem:down chord F3 quarter chord A3 quarter D2 quarter stem:up chord D3 quarter D3 quarter stem:down chord F3 quarter chord A3 quarter measure E4 voice:1 half dot stem:up staff:1 strong-accent chord A4 half dot chord C5 half dot D4 eighth sharp beam:begin chord A4 eighth B4 eighth natural beam:end backup whole A1 voice:5 quarter stem:up staff:2 accent chord A2 quarter E3 quarter stem:down accent A3 quarter accent F2 quarter stem:up chord F3 quarter",
+ "linearizer_warnings": "",
+ "ser_edits": 48,
+ "ser_gold": 291,
+ "full": {
+  "edit": 112,
+  "gold": 612
+ },
+ "lmx": {
+  "edit": 86,
+  "gold": 586
+ },
+ "seconds": 7.0
+}

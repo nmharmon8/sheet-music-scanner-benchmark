@@ -1,0 +1,18 @@
+{
+ "id": "samples/6570310/p1-s2",
+ "scorer": 1,
+ "predicted": true,
+ "predLmx": "measure key:fifths:-5 time beats:3 beat-type:2 clef:G2 staff:1 clef:F4 staff:2 forward quarter D4 voice:1 16th 3in2 stem:up staff:1 beam:begin beam:begin tuplet:start slur:start F4 16th 3in2 A4 16th 3in2 beam:end beam:end tuplet:stop D5 16th 3in2 stem:down beam:begin beam:begin tuplet:start F5 16th 3in2 A5 16th 3in2 beam:end beam:end tuplet:stop slur:stop rest eighth rest eighth forward quarter D4 16th 3in2 stem:up beam:begin beam:begin tuplet:start slur:start F4 16th 3in2 A4 16th 3in2 natural beam:end beam:end tuplet:stop D5 16th 3in2 stem:down beam:begin beam:begin tuplet:start F5 16th 3in2 A5 16th 3in2 natural beam:end beam:end tuplet:stop slur:stop rest eighth rest eighth backup whole backup half D2 voice:5 16th stem:up staff:2 beam:begin beam:begin A2 16th beam:end beam:end D3 16th 3in2 stem:down beam:begin beam:begin tuplet:start F3 16th 3in2 A3 16th 3in2 beam:end beam:end tuplet:stop forward half D2 16th stem:up beam:begin beam:begin slur:start A2 16th natural beam:end beam:end D3 16th 3in2 stem:down beam:begin beam:begin tuplet:start F3 16th 3in2 A3 16th 3in2 natural beam:end beam:end tuplet:stop slur:stop forward half measure forward quarter D4 voice:1 16th 3in2 stem:up staff:1 beam:begin beam:begin tuplet:start slur:start G4 16th 3in2 B4 16th 3in2 beam:end beam:end tuplet:stop D5 16th 3in2 stem:down beam:begin beam:begin tuplet:start G5 16th 3in2 B5 16th 3in2 beam:end beam:end tuplet:stop slur:stop rest eighth rest eighth forward quarter D4 16th 3in2 stem:up beam:begin beam:begin tuplet:start slur:start G4 16th 3in2 B4 16th 3in2 beam:end beam:end tuplet:stop D5 16th 3in2 stem:down beam:begin beam:begin tuplet:start G5 16th 3in2 B5 16th 3in2 beam:end beam:end tuplet:stop slur:stop rest eighth rest eighth backup whole backup half D2 voice:5 16th stem:up staff:2 beam:begin beam:begin G2 16th beam:end beam:end D3 16th 3in2 stem:down beam:begin beam:begin tuplet:start G3 16th 3in2 B3 16th 3in2 beam:end beam:end tuplet:stop forward half G2 16th stem:up beam:begin beam:begin slur:start B2 16th beam:end beam:end D3 16th 3in2 stem:down beam:begin beam:begin tuplet:start G3 16th 3in2 B3 16th 3in2 beam:end beam:end tuplet:stop slur:stop forward half",
+ "linearizer_warnings": "",
+ "ser_edits": 122,
+ "ser_gold": 291,
+ "full": {
+  "edit": 231,
+  "gold": 616
+ },
+ "lmx": {
+  "edit": 227,
+  "gold": 610
+ },
+ "seconds": 21.1
+}

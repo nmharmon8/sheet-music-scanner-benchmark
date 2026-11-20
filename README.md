@@ -5,14 +5,17 @@ How accurately do sheet music scanner apps (optical music recognition, OMR) read
 Halbestunde, Scan2Notes, PlayScore 2 and Sheet Music Scanner**. Then we scored every exported MusicXML file bar by
 bar against checked answer keys with one scorer. Everything needed to check the numbers is in this repository:
 the uploads, the answer keys, every tool's raw export, the scorer, and the per-upload scores. We also ran PlayableNotes
-on [OLiMPiC](https://github.com/ufal/olimpic-icdar24), a public piano OMR test set from Charles University, and
-scored it with that dataset's own TEDn scorer; those 300 predictions are here too.
+on all 1,493 scanned test systems of [OLiMPiC](https://github.com/ufal/olimpic-icdar24), a public piano OMR test set from
+Charles University, and scored it with that dataset's own TEDn scorer; every prediction and a 60-system comparison with
+Sheetly and Audiveris 5.11.0 are here too.
 
 Run by PlayableNotes (Ozni Apps LLC). Every file is here so anyone can check it: the scorer runs in seconds
 (`python3 score.py`), and any upload can be re-run through any app.
 
-Run dates: competitors 16 November 2026 (each in its own app), PlayableNotes 18 November 2026. Summary page:
-[playablenotes.com/sheet-music-scanner-benchmark](https://playablenotes.com/sheet-music-scanner-benchmark).
+Run dates: competitors 16 November 2026 (each in its own app), PlayableNotes 18 November 2026 (17 uploads) and
+19 November 2026 (full OLiMPiC test set). Summary pages:
+[playablenotes.com/sheet-music-scanner-benchmark](https://playablenotes.com/sheet-music-scanner-benchmark) and
+[playablenotes.com/olimpic-benchmark](https://playablenotes.com/olimpic-benchmark).
 
 ## Results: bars read exactly right
 
@@ -98,22 +101,42 @@ On C3, for example, Soundslice got all 16 bars and PlayableNotes 14: `python3 di
 [OLiMPiC](https://github.com/ufal/olimpic-icdar24) (Mayer, Straka, Hajič jr., Pecina, *Practical End-to-End Optical
 Music Recognition for Pianoform Music*, ICDAR 2024) has 1,493 piano systems cut from real IMSLP scans of
 19th-century songs, each with a hand-made MusicXML answer. Scoring is the authors' own code: TEDn, a normalized tree
-edit distance between the predicted and the true MusicXML (roughly, the share of the score that needs editing).
-Lower is better.
+edit distance between the predicted and the true MusicXML (roughly, the share of the score that needs editing), and
+symbol error rate (SER) on linearized LMX tokens. Lower is better.
+
+### Full test set (all 1,493 scanned systems)
 
 | System | Test systems | TEDn full | TEDn (LMX) | Symbol error rate |
 |---|---|---:|---:|---:|
-| PlayableNotes (18 Nov 2026) | fixed sample of 300 | 14.05% | 9.87% | 11.82% |
-| Zeus, the dataset authors' model (paper, Table 3) | all 1,493 | 18.40% | 14.85% | 17.72% |
+| **PlayableNotes** (19 Nov 2026) | all 1,493 | **12.07%** | **8.08%** | **9.96%** |
+| U-MusT ([Jung et al. 2025](https://arxiv.org/abs/2505.12863), Table VII) | all 1,493 | – | – | 13.67% |
+| Zeus retrain (Jung et al. 2025, Table VII) | all 1,493 | – | – | 14.45% |
+| Zeus, the dataset authors' model (paper, Table 3, scanned, augmented) | all 1,493 | 18.40% | 14.85% | 17.72% |
 
-- The sample (`olimpic/sample.txt`) is 3 systems from each of the 100 test songs: those with the lowest SHA-256 of
-  their id, fixed before any run.
-- Every prediction is in `olimpic/runs/2026-11-18/samples/<song>/<system>/`: `prediction.musicxml` (what was
+- Every system was read once, unedited, in a single run (0 of 1,493 failed; note error rate 2.96%).
+- Every prediction is in `olimpic/runs/2026-11-19/samples/<song>/<system>/`: `prediction.musicxml` (what was
   scored), `tedn.json` (the scores) and `result.json` (whether it produced output, measures and seconds).
-  To score them yourself: `olimpic/setup.sh` (fetches the dataset and the authors' scorer at a pinned commit), then
-  `olimpic/.venv/bin/python olimpic/score.py 2026-11-18`, which scores every prediction again
-  with the authors' TEDn (slow; `--cached` reuses the committed `tedn.json` files). Exact figures: TEDn full 14.05%,
-  TEDn (LMX) 9.87%, SER 11.82%.
+- To score them yourself: `olimpic/setup.sh` (fetches the dataset and the authors' scorer at a pinned commit), then
+  `olimpic/.venv/bin/python olimpic/score.py 2026-11-19`, which scores every prediction again
+  with the authors' TEDn (slow; `--cached` reuses the committed `tedn.json` files).
+- **Earlier 300-system sample (18 Nov 2026):** kept in `olimpic/runs/2026-11-18/` as history. It scored the fixed
+  sample in `olimpic/sample.txt` (3 systems from each of the 100 test songs, lowest SHA-256 of their id): TEDn full
+  14.05%, TEDn (LMX) 9.87%, SER 11.82%.
+
+### Same 60 systems: PlayableNotes vs Sheetly and Audiveris 5.11.0
+
+On the 60 systems (the first system of 60 different songs) for which Sheetly published raw MusicXML outputs
+([`loveranmar/omr-benchmark`](https://github.com/loveranmar/omr-benchmark/tree/83f007724e16a9fa821f857606156c28a92bc5e9/olimpic60),
+`olimpic60/`, commit `83f007724e16a9fa821f857606156c28a92bc5e9`), all three engines' outputs were canonicalized
+identically (`olimpic/compare-60/sort_chords.py` and `voice_order.py`) before scoring with the authors' TEDn. Without
+that step Sheetly scores 59.7% TEDn full. Missing outputs score as empty. See `olimpic/compare-60/README.md` and
+`olimpic/compare-60/scores.json`.
+
+| System | TEDn full | TEDn (LMX) | Symbol error rate | No output |
+|---|---:|---:|---:|---:|
+| **PlayableNotes** | **12.66%** | **8.45%** | **9.55%** | 0 / 60 |
+| Sheetly | 38.78% | 35.92% | 35.68% | 0 / 60 |
+| Audiveris 5.11.0 | 45.14% | 42.52% | 47.96% | 10 / 60 |
 
 ## Method
 
@@ -166,7 +189,8 @@ results/runs.csv   per run: seconds, warnings, what the tool showed; tools.csv: 
 score.py           the scorer (with analyze.py); diffbars.py shows the bars a tool got wrong; ci.py the intervals;
                    audit.py the key bars to check (keys/AUDIT.md)
 make_plots.py      writes results/plots.html
-olimpic/           the OLiMPiC sample, PlayableNotes' 300 predictions, and the authors' scorer setup
+olimpic/           OLiMPiC full 1,493-system run (runs/2026-11-19/), earlier 300-system sample
+                   (runs/2026-11-18/, sample.txt), same-60 comparison (compare-60/), and authors' scorer setup
 ```
 
 ## Reproduce

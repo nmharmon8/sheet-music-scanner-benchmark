@@ -1,0 +1,18 @@
+{
+ "id": "samples/6243838/p2-s1",
+ "scorer": 1,
+ "predicted": true,
+ "predLmx": "measure key:fifths:3 time beats:3 beat-type:4 clef:G2 staff:1 clef:F4 staff:2 G4 voice:1 quarter dot natural stem:down staff:1 slur:start chord E5 quarter dot E4 eighth stem:up chord C5 eighth C4 eighth beam:begin chord A4 eighth sharp E4 eighth beam:end chord C5 eighth backup half backup quarter E4 voice:5 eighth stem:down staff:2 beam:begin E4 eighth E4 eighth E4 eighth E4 eighth E4 eighth beam:end measure D4 voice:1 half stem:up staff:1 slur:stop chord B4 half D4 quarter chord B4 quarter backup half backup quarter E4 voice:5 eighth stem:down staff:2 beam:begin E4 eighth E4 eighth E4 eighth E4 eighth E4 eighth beam:end",
+ "linearizer_warnings": "",
+ "ser_edits": 5,
+ "ser_gold": 94,
+ "full": {
+  "edit": 31,
+  "gold": 212
+ },
+ "lmx": {
+  "edit": 7,
+  "gold": 188
+ },
+ "seconds": 0.5
+}

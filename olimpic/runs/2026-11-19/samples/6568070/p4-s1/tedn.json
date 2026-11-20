@@ -1,0 +1,18 @@
+{
+ "id": "samples/6568070/p4-s1",
+ "scorer": 1,
+ "predicted": true,
+ "predLmx": "measure key:fifths:-4 time beats:4 beat-type:4 clef:G2 staff:1 clef:F4 staff:2 G3 voice:1 whole sharp staff:1 arpeggiate accent chord D4 whole natural arpeggiate chord E4 whole natural arpeggiate backup whole B2 voice:5 whole natural staff:2 arpeggiate accent chord E3 whole natural arpeggiate measure A3 voice:1 whole natural staff:1 arpeggiate chord D4 whole natural arpeggiate chord F4 whole sharp arpeggiate backup whole B2 voice:5 whole natural staff:2 arpeggiate chord F3 whole sharp arpeggiate measure B3 voice:1 whole natural staff:1 arpeggiate chord D4 whole natural arpeggiate chord E4 whole natural arpeggiate chord G4 whole sharp arpeggiate backup whole B2 voice:5 whole natural staff:2 arpeggiate chord G3 whole sharp arpeggiate measure B3 voice:1 whole natural staff:1 arpeggiate chord D4 whole natural arpeggiate chord F4 whole sharp arpeggiate chord A4 whole natural arpeggiate backup whole B2 voice:5 whole natural staff:2 arpeggiate chord F3 whole sharp arpeggiate chord A3 whole natural arpeggiate measure B3 voice:1 half natural stem:up staff:1 tied:start slur:start arpeggiate chord F4 half sharp arpeggiate chord B4 half natural tied:start arpeggiate B3 half tied:stop slur:stop chord E4 half natural chord B4 half tied:stop backup whole G3 voice:5 whole sharp staff:2 arpeggiate backup whole D3 voice:6 half dot natural stem:down staff:2 slur:start arpeggiate B2 quarter natural slur:stop",
+ "linearizer_warnings": "",
+ "ser_edits": 15,
+ "ser_gold": 186,
+ "full": {
+  "edit": 40,
+  "gold": 331
+ },
+ "lmx": {
+  "edit": 26,
+  "gold": 317
+ },
+ "seconds": 4.6
+}

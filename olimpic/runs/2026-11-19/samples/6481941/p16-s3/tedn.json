@@ -1,0 +1,18 @@
+{
+ "id": "samples/6481941/p16-s3",
+ "scorer": 1,
+ "predicted": true,
+ "predLmx": "measure key:fifths:0 time beats:6 beat-type:8 clef:G2 staff:1 clef:F4 staff:2 D4 voice:1 quarter stem:up staff:1 slur:start E4 eighth A4 quarter G4 eighth slur:stop backup half backup quarter E3 voice:5 quarter stem:down staff:2 slur:start F3 eighth sharp D4 quarter C4 eighth slur:stop measure D4 voice:1 quarter stem:up staff:1 slur:start E4 eighth A4 quarter G4 eighth slur:stop backup half backup quarter E3 voice:5 quarter stem:down staff:2 slur:start F3 eighth sharp D4 quarter C4 eighth slur:stop measure D4 voice:1 quarter stem:up staff:1 slur:start E4 eighth A4 quarter G4 eighth slur:stop backup half backup quarter E3 voice:5 quarter stem:down staff:2 slur:start F3 eighth sharp D4 quarter C4 eighth slur:stop measure D4 voice:1 quarter stem:up staff:1 slur:start E4 eighth A4 quarter G4 eighth slur:stop backup half backup quarter E3 voice:5 quarter stem:down staff:2 slur:start F3 eighth sharp D4 quarter C4 eighth slur:stop",
+ "linearizer_warnings": "",
+ "ser_edits": 3,
+ "ser_gold": 133,
+ "full": {
+  "edit": 9,
+  "gold": 256
+ },
+ "lmx": {
+  "edit": 3,
+  "gold": 250
+ },
+ "seconds": 0.5
+}

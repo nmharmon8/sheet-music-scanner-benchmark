@@ -1,0 +1,18 @@
+{
+ "id": "samples/6302395/p3-s1",
+ "scorer": 1,
+ "predicted": true,
+ "predLmx": "measure key:fifths:2 time beats:2 beat-type:4 clef:F4 staff:1 clef:F4 staff:2 rest voice:1 16th 3in2 staff:1 tuplet:start E3 16th 3in2 stem:down beam:begin beam:begin slur:start C4 16th 3in2 beam:end beam:end tied:start tuplet:stop chord E4 16th 3in2 tied:start C4 16th 3in2 beam:begin beam:begin tied:stop tuplet:start chord E4 16th 3in2 tied:stop E3 16th 3in2 G3 16th 3in2 sharp beam:end beam:end tied:start tuplet:stop chord D4 16th 3in2 tied:start G3 16th 3in2 beam:begin beam:begin tied:stop tuplet:start chord D4 16th 3in2 tied:stop E3 16th 3in2 A3 16th 3in2 tied:start tuplet:stop chord C4 16th 3in2 tied:start A3 16th 3in2 tied:stop tuplet:start chord C4 16th 3in2 tied:stop D3 16th 3in2 sharp A3 16th 3in2 beam:end beam:end tuplet:stop slur:stop backup half A1 voice:5 eighth stem:up staff:2 beam:begin slur:start chord A2 eighth B1 eighth chord B2 eighth C2 eighth chord C3 eighth F2 eighth beam:end slur:stop measure rest voice:1 16th 3in2 staff:1 tuplet:start E3 16th 3in2 stem:down beam:begin beam:begin slur:start A3 16th 3in2 beam:end beam:end tied:start tuplet:stop chord C4 16th 3in2 tied:start A3 eighth tied:stop slur:stop chord C4 eighth tied:stop rest 16th 3in2 tuplet:start D3 16th 3in2 natural beam:begin beam:begin G3 16th 3in2 sharp beam:end beam:end tied:start tuplet:stop chord B3 16th 3in2 tied:start G3 eighth tied:stop chord B3 eighth tied:stop backup half E2 voice:5 quarter stem:up staff:2 tied:start E1 quarter chord E2 quarter tied:stop measure clef:G2 staff:1 rest voice:1 eighth staff:1 B3 quarter natural stem:up chord D4 quarter chord E4 quarter B3 eighth tied:start chord D4 eighth tied:start chord E4 eighth tied:start backup half A1 voice:5 16th 3in2 stem:up staff:2 beam:begin beam:begin tuplet:start slur:start A2 16th 3in2 E3 16th 3in2 beam:end beam:end tuplet:stop slur:stop rest eighth A1 16th 3in2 beam:begin beam:begin tuplet:start slur:start A2 16th 3in2 E3 16th 3in2 beam:end beam:end tuplet:stop slur:stop rest eighth",
+ "linearizer_warnings": "",
+ "ser_edits": 40,
+ "ser_gold": 275,
+ "full": {
+  "edit": 75,
+  "gold": 630
+ },
+ "lmx": {
+  "edit": 59,
+  "gold": 614
+ },
+ "seconds": 53.4
+}

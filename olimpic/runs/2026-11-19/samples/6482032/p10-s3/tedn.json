@@ -1,0 +1,18 @@
+{
+ "id": "samples/6482032/p10-s3",
+ "scorer": 1,
+ "predicted": true,
+ "predLmx": "measure key:fifths:0 time beats:4 beat-type:4 clef:G2 staff:1 clef:F4 staff:2 C5 voice:1 quarter stem:up staff:1 slur:start chord F5 quarter sharp E5 quarter chord A5 quarter F5 quarter chord B5 quarter A5 quarter slur:stop chord D6 quarter backup whole E4 voice:2 quarter stem:down staff:1 slur:start chord A4 quarter F4 quarter sharp chord B4 quarter A4 quarter chord D5 quarter B4 quarter slur:stop chord E5 quarter backup whole forward whole measure B5 voice:1 quarter stem:up staff:1 slur:start chord E6 quarter A5 quarter chord D6 quarter G5 quarter slur:stop chord G6 quarter rest quarter backup whole E5 voice:2 quarter stem:down staff:1 slur:start chord G5 quarter D5 quarter chord F5 quarter sharp C5 quarter slur:stop chord E5 quarter rest quarter backup whole forward whole",
+ "linearizer_warnings": "",
+ "ser_edits": 13,
+ "ser_gold": 122,
+ "full": {
+  "edit": 19,
+  "gold": 249
+ },
+ "lmx": {
+  "edit": 19,
+  "gold": 249
+ },
+ "seconds": 0.8
+}

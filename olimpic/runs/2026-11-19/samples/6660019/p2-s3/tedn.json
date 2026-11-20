@@ -1,0 +1,18 @@
+{
+ "id": "samples/6660019/p2-s3",
+ "scorer": 1,
+ "predicted": true,
+ "predLmx": "measure key:fifths:3 time beats:4 beat-type:4 clef:G2 staff:1 clef:F4 staff:2 rest voice:1 eighth staff:1 B3 quarter stem:up chord E4 quarter B3 quarter chord E4 quarter B3 quarter chord D4 quarter sharp chord A4 quarter B3 eighth chord D4 eighth chord A4 eighth backup whole G2 voice:5 quarter stem:up staff:2 rest quarter F2 quarter rest quarter measure rest voice:1 eighth staff:1 B3 quarter stem:up chord D4 quarter natural chord A4 quarter B3 quarter chord D4 quarter chord A4 quarter B3 quarter chord D4 quarter chord G4 quarter B3 eighth chord D4 eighth chord E4 eighth backup whole F2 voice:5 quarter natural stem:up staff:2 rest quarter E2 quarter rest quarter measure rest voice:1 eighth staff:1 A3 quarter stem:up chord C4 quarter A3 quarter chord C4 quarter A3 quarter chord C4 quarter chord E4 quarter sharp A3 eighth chord C4 eighth chord F4 eighth backup whole F2 voice:5 quarter sharp stem:up staff:2 rest quarter A3 quarter stem:down slur:start C3 eighth stem:up slur:stop rest eighth measure rest voice:1 eighth staff:1 B3 quarter stem:up chord D4 quarter chord F4 quarter B3 quarter chord D4 quarter chord E4 quarter natural B3 quarter chord D4 quarter chord E4 quarter B3 eighth chord D4 eighth chord E4 eighth backup whole G2 voice:5 quarter stem:up staff:2 rest quarter rest quarter E3 quarter stem:down slur:start measure rest voice:1 eighth staff:1 E4 quarter stem:up chord G4 quarter natural E4 quarter chord G4 quarter E4 quarter chord G4 quarter E4 eighth chord G4 eighth backup whole A2 voice:5 quarter sharp stem:up staff:2 slur:stop chord E3 quarter rest quarter rest quarter C4 quarter stem:down",
+ "linearizer_warnings": "",
+ "ser_edits": 7,
+ "ser_gold": 258,
+ "full": {
+  "edit": 18,
+  "gold": 573
+ },
+ "lmx": {
+  "edit": 10,
+  "gold": 565
+ },
+ "seconds": 3.4
+}

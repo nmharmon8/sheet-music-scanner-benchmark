@@ -1,0 +1,18 @@
+{
+ "id": "samples/6482032/p20-s2",
+ "scorer": 1,
+ "predicted": true,
+ "predLmx": "measure key:fifths:0 time beats:4 beat-type:4 clef:G2 staff:1 clef:F4 staff:2 G4 voice:1 eighth sharp stem:up staff:1 beam:begin slur:start F4 eighth sharp A4 eighth F4 eighth beam:end B4 eighth beam:begin F4 eighth C5 eighth sharp F4 eighth beam:end slur:stop backup whole D3 voice:5 eighth stem:down staff:2 beam:begin slur:start C3 eighth sharp E3 eighth C3 eighth beam:end F3 eighth sharp beam:begin C3 eighth beam:end G3 eighth sharp slur:stop rest eighth measure G4 voice:1 eighth sharp stem:up staff:1 beam:begin slur:start F4 eighth sharp A4 eighth F4 eighth beam:end B4 eighth beam:begin F4 eighth C5 eighth sharp F4 eighth beam:end slur:stop backup whole D3 voice:5 eighth stem:down staff:2 beam:begin slur:start C3 eighth sharp E3 eighth C3 eighth beam:end F3 eighth sharp beam:begin C3 eighth beam:end G3 eighth sharp slur:stop rest eighth measure G4 voice:1 eighth sharp stem:up staff:1 beam:begin slur:start F4 eighth sharp A4 eighth F4 eighth beam:end B4 eighth beam:begin F4 eighth C5 eighth sharp F4 eighth beam:end slur:stop backup whole D3 voice:5 eighth stem:down staff:2 beam:begin slur:start C3 eighth sharp E3 eighth C3 eighth beam:end F3 eighth sharp beam:begin C3 eighth beam:end G3 eighth sharp slur:stop rest eighth",
+ "linearizer_warnings": "",
+ "ser_edits": 3,
+ "ser_gold": 182,
+ "full": {
+  "edit": 7,
+  "gold": 398
+ },
+ "lmx": {
+  "edit": 3,
+  "gold": 394
+ },
+ "seconds": 2.5
+}

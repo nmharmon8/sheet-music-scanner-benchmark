@@ -1,0 +1,18 @@
+{
+ "id": "samples/6209602/p3-s3",
+ "scorer": 1,
+ "predicted": true,
+ "predLmx": "measure key:fifths:2 time beats:4 beat-type:4 clef:G2 staff:1 clef:G2 staff:2 D5 voice:1 eighth stem:down staff:1 beam:begin slur:start chord F5 eighth chord B5 eighth B4 eighth D5 eighth chord F5 eighth chord B5 eighth B4 eighth beam:end D5 eighth beam:begin chord F5 eighth chord B5 eighth B4 eighth D5 eighth chord F5 eighth chord B5 eighth B4 eighth beam:end backup whole E4 voice:5 whole staff:2 chord A4 whole measure D5 voice:1 eighth stem:down staff:1 beam:begin chord F5 eighth chord B5 eighth B4 eighth D5 eighth chord F5 eighth chord B5 eighth B4 eighth beam:end D5 eighth beam:begin chord F5 eighth chord B5 eighth B4 eighth beam:end D5 quarter slur:stop chord E5 quarter backup whole grace A4 voice:5 32nd staff:2 grace B4 32nd A4 half dot stem:up G4 quarter sharp measure C5 voice:1 eighth stem:down staff:1 beam:begin slur:start chord E5 eighth chord A5 eighth A4 eighth C5 eighth chord E5 eighth chord A5 eighth A4 eighth beam:end C5 half slur:stop chord E5 half chord A5 half backup whole E4 voice:5 eighth stem:up staff:2 beam:begin slur:start F4 eighth E4 eighth F4 eighth beam:end E4 half slur:stop backup whole A3 voice:6 half dot stem:down staff:2 F3 quarter accent measure C5 voice:1 eighth stem:down staff:1 beam:begin slur:start chord E5 eighth chord A5 eighth A4 eighth C5 eighth chord E5 eighth chord A5 eighth A4 eighth beam:end C5 eighth beam:begin chord E5 eighth chord A5 eighth A4 eighth C5 eighth chord E5 eighth chord A5 eighth A4 eighth beam:end slur:stop backup whole E4 voice:5 eighth stem:up staff:2 beam:begin slur:start F4 eighth E4 eighth F4 eighth beam:end E4 eighth beam:begin F4 eighth E4 eighth F4 eighth beam:end slur:stop backup whole A3 voice:6 whole staff:2",
+ "linearizer_warnings": "",
+ "ser_edits": 14,
+ "ser_gold": 279,
+ "full": {
+  "edit": 19,
+  "gold": 602
+ },
+ "lmx": {
+  "edit": 19,
+  "gold": 602
+ },
+ "seconds": 7.1
+}

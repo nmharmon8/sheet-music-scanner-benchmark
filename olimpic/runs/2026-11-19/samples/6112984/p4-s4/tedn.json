@@ -1,0 +1,18 @@
+{
+ "id": "samples/6112984/p4-s4",
+ "scorer": 1,
+ "predicted": true,
+ "predLmx": "measure key:fifths:4 time beats:3 beat-type:4 clef:G2 staff:1 clef:F4 staff:2 E5 voice:1 eighth dot stem:down staff:1 beam:begin chord E6 eighth dot B4 16th beam:end beam:backward-hook chord B5 16th B4 quarter dot chord B5 quarter dot B4 eighth chord B5 eighth backup half backup quarter G3 voice:5 quarter stem:down staff:2 chord B3 quarter chord E4 quarter chord G4 quarter A3 quarter dot chord B3 quarter dot chord D4 quarter dot chord F4 quarter dot B1 eighth stem:up chord B2 eighth measure E5 voice:1 eighth dot stem:down staff:1 beam:begin chord E6 eighth dot B4 16th beam:end beam:backward-hook chord B5 16th B4 quarter dot chord B5 quarter dot B4 eighth chord B5 eighth backup half backup quarter G3 voice:5 quarter stem:down staff:2 chord B3 quarter chord E4 quarter chord G4 quarter A3 quarter dot chord B3 quarter dot chord D4 quarter dot chord F4 quarter dot B1 eighth stem:up chord B2 eighth measure B5 voice:1 half dot stem:down staff:1 trill-mark backup half backup quarter G3 voice:5 eighth dot stem:down staff:2 beam:begin chord B3 eighth dot chord E4 eighth dot F3 16th beam:end beam:backward-hook chord B3 16th chord D4 16th F3 quarter chord B3 quarter chord D4 quarter clef:G2 staff:2 B3 quarter stem:up chord D4 quarter chord A4 quarter clef:F4 staff:2 measure G5 voice:1 eighth dot stem:down staff:1 beam:begin chord B5 eighth dot chord E6 eighth dot chord G6 eighth dot E4 16th beam:end beam:backward-hook chord G4 16th E4 quarter stem:up chord G4 quarter rest eighth B4 eighth stem:down backup half backup quarter E3 voice:5 eighth dot stem:up staff:2 beam:begin chord B3 eighth dot E2 16th beam:end beam:backward-hook chord B2 16th chord E3 16th chord G3 16th chord B3 16th E2 quarter chord B2 quarter chord E3 quarter chord G3 quarter chord B3 quarter rest eighth B3 eighth stem:down measure G5 voice:1 eighth dot stem:down staff:1 beam:begin chord B5 eighth dot chord E6 eighth dot chord G6 eighth dot E4 16th beam:end beam:backward-hook chord G4 16th E4 half stem:up fermata chord G4 half backup half backup quarter E3 voice:5 eighth dot stem:up staff:2 beam:begin chord B3 eighth dot E2 16th beam:end beam:backward-hook chord B2 16th chord E3 16th chord G3 16th chord B3 16th E2 half fermata chord B2 half chord E3 half chord G3 half chord B3 half",
+ "linearizer_warnings": "",
+ "ser_edits": 148,
+ "ser_gold": 409,
+ "full": {
+  "edit": 254,
+  "gold": 794
+ },
+ "lmx": {
+  "edit": 201,
+  "gold": 739
+ },
+ "seconds": 23.0
+}

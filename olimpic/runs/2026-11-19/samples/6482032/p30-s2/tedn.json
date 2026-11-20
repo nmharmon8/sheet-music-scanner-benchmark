@@ -1,0 +1,18 @@
+{
+ "id": "samples/6482032/p30-s2",
+ "scorer": 1,
+ "predicted": true,
+ "predLmx": "measure key:fifths:0 time beats:4 beat-type:4 clef:G2 staff:1 clef:F4 staff:2 F3 voice:1 whole sharp staff:1 tied:start slur:start accent chord C4 whole sharp chord D4 whole sharp tied:start chord F4 whole sharp tied:start backup whole C3 voice:5 eighth sharp stem:up staff:2 staccato rest eighth C2 eighth sharp staccato rest eighth C3 eighth staccato rest eighth C2 eighth staccato rest eighth measure F3 voice:1 half sharp stem:up staff:1 tied:stop tied:start chord D4 half sharp tied:stop tied:start chord F4 half sharp tied:stop F3 eighth tied:stop slur:stop chord D4 eighth tied:stop C4 eighth sharp slur:start B3 eighth beam:begin A3 eighth beam:end slur:stop backup whole B3 voice:2 half stem:down staff:1 tied:start B3 eighth tied:stop forward quarter forward eighth backup whole B2 voice:5 eighth stem:up staff:2 staccato rest eighth B1 eighth staccato rest eighth B2 eighth staccato rest eighth rest quarter",
+ "linearizer_warnings": "",
+ "ser_edits": 31,
+ "ser_gold": 132,
+ "full": {
+  "edit": 38,
+  "gold": 274
+ },
+ "lmx": {
+  "edit": 38,
+  "gold": 274
+ },
+ "seconds": 1.3
+}

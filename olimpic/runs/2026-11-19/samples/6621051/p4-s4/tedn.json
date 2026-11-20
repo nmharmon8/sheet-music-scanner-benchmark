@@ -1,0 +1,18 @@
+{
+ "id": "samples/6621051/p4-s4",
+ "scorer": 1,
+ "predicted": true,
+ "predLmx": "measure key:fifths:-2 time beats:4 beat-type:4 clef:G2 staff:1 clef:F4 staff:2 G5 voice:1 16th stem:down staff:1 beam:begin beam:begin slur:start F5 16th beam:end beam:end slur:stop F5 16th beam:begin beam:begin slur:start E5 16th natural beam:end beam:end slur:stop E5 16th beam:begin beam:begin slur:start F5 16th beam:end beam:end slur:stop F5 16th beam:begin beam:begin slur:start E5 16th flat beam:end beam:end slur:stop E5 16th beam:begin beam:begin slur:start D5 16th beam:end beam:end slur:stop D5 16th beam:begin beam:begin slur:start C5 16th beam:end beam:end slur:stop C5 16th beam:begin beam:begin slur:start B4 16th beam:end beam:end slur:stop A4 16th stem:up beam:begin beam:begin slur:start B4 16th beam:end beam:end slur:stop backup whole forward eighth C4 voice:5 eighth stem:up staff:2 beam:begin chord F4 eighth C4 eighth chord F4 eighth C4 eighth beam:end chord F4 eighth B3 eighth beam:begin chord D4 eighth C4 eighth chord E4 eighth D4 eighth beam:end chord F4 eighth rest eighth backup whole A3 voice:6 half stem:down staff:2 forward half measure D5 voice:1 16th stem:up staff:1 beam:begin beam:begin C5 16th B4 16th natural C5 16th beam:end beam:end F4 eighth beam:begin E5 eighth beam:end chord A5 eighth D5 quarter chord B5 quarter flat rest quarter backup whole G4 voice:2 quarter stem:down staff:1 forward half forward quarter backup whole E3 voice:5 quarter stem:down staff:2 chord G3 quarter chord C4 quarter F3 eighth beam:begin chord B3 eighth chord D4 eighth F3 eighth beam:end chord C4 eighth B2 quarter chord B3 quarter rest quarter",
+ "linearizer_warnings": "",
+ "ser_edits": 32,
+ "ser_gold": 226,
+ "full": {
+  "edit": 100,
+  "gold": 486
+ },
+ "lmx": {
+  "edit": 71,
+  "gold": 457
+ },
+ "seconds": 5.1
+}

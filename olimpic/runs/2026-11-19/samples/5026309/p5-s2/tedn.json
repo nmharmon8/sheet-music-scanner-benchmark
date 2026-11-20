@@ -1,0 +1,18 @@
+{
+ "id": "samples/5026309/p5-s2",
+ "scorer": 1,
+ "predicted": true,
+ "predLmx": "measure key:fifths:5 time beats:4 beat-type:4 clef:G2 staff:1 clef:F4 staff:2 F4 voice:1 half stem:up staff:1 chord C5 half D5 eighth stem:down beam:begin slur:start E5 eighth sharp D5 eighth E5 eighth beam:end backup whole F2 voice:5 quarter stem:up staff:2 staccato C3 quarter staccato A3 quarter stem:down staccato C3 quarter stem:up staccato measure C5 voice:1 eighth stem:down staff:1 beam:begin D5 eighth C5 eighth D5 eighth beam:end A4 eighth stem:up beam:begin B4 eighth A4 eighth B4 eighth beam:end backup whole F2 voice:5 quarter stem:up staff:2 staccato C3 quarter staccato A3 quarter stem:down staccato C3 quarter stem:up staccato measure C5 voice:1 half stem:down staff:1 slur:stop D5 quarter slur:start E5 eighth sharp beam:begin F5 eighth beam:end backup whole F2 voice:5 quarter stem:up staff:2 staccato C3 quarter staccato A3 quarter stem:down staccato C3 quarter stem:up staccato measure E5 voice:1 quarter sharp stem:down staff:1 D5 quarter C5 quarter A4 quarter stem:up backup whole F2 voice:5 quarter stem:up staff:2 staccato C3 quarter staccato A3 quarter stem:down staccato C3 quarter stem:up staccato measure B3 voice:1 half stem:up staff:1 slur:stop chord C4 half chord G4 half B4 eighth beam:begin slur:start A4 eighth G4 eighth D5 eighth beam:end slur:stop backup whole forward half D4 voice:2 half stem:down staff:1 backup whole F2 voice:5 quarter stem:up staff:2 staccato C3 quarter staccato G3 quarter stem:down staccato C3 quarter stem:up staccato",
+ "linearizer_warnings": "",
+ "ser_edits": 12,
+ "ser_gold": 215,
+ "full": {
+  "edit": 19,
+  "gold": 435
+ },
+ "lmx": {
+  "edit": 17,
+  "gold": 433
+ },
+ "seconds": 4.8
+}

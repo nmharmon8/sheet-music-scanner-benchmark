@@ -1,0 +1,18 @@
+{
+ "id": "samples/6115317/p2-s4",
+ "scorer": 1,
+ "predicted": true,
+ "predLmx": "measure key:fifths:-3 time beats:2 beat-type:4 clef:G2 staff:1 clef:F4 staff:2 C4 voice:1 quarter stem:up staff:1 slur:start strong-accent chord E4 quarter chord G4 quarter C5 eighth slur:stop arpeggiate chord E5 eighth arpeggiate chord G5 eighth arpeggiate chord C6 eighth arpeggiate rest eighth backup half G3 voice:2 16th stem:down staff:1 beam:begin beam:begin G3 16th C4 16th G3 16th beam:end beam:end forward 16th C4 16th beam:begin beam:begin E4 16th C4 16th beam:end beam:end backup half G1 voice:5 16th stem:up staff:2 beam:begin beam:begin chord G2 16th C3 16th E3 16th C3 16th beam:end beam:end clef:G2 staff:2 G3 16th beam:begin beam:begin arpeggiate chord C4 16th arpeggiate chord E4 16th arpeggiate chord G4 16th arpeggiate clef:F4 staff:2 E3 16th G3 16th E3 16th beam:end beam:end measure B3 voice:1 quarter natural stem:up staff:1 slur:start chord D4 quarter chord G4 quarter B4 eighth natural slur:stop arpeggiate chord D5 eighth arpeggiate chord G5 eighth arpeggiate chord B5 eighth natural arpeggiate rest eighth backup half G3 voice:2 16th stem:down staff:1 beam:begin beam:begin B3 16th natural D4 16th B3 16th beam:end beam:end forward 16th B3 16th beam:begin beam:begin D4 16th B3 16th beam:end beam:end backup half G1 voice:5 16th stem:up staff:2 beam:begin beam:begin chord G2 16th D3 16th G3 16th D3 16th beam:end beam:end clef:G2 staff:2 G3 16th beam:begin beam:begin chord D4 16th chord G4 16th clef:F4 staff:2 D3 16th G3 16th D3 16th beam:end beam:end measure D4 voice:1 quarter stem:up staff:1 slur:start chord G4 quarter chord A4 quarter natural A4 eighth slur:stop arpeggiate chord C5 eighth arpeggiate chord D5 eighth arpeggiate chord A5 eighth natural arpeggiate forward eighth backup half A3 voice:2 16th natural stem:down staff:1 beam:begin beam:begin A3 16th D4 16th A3 16th beam:end beam:end forward 16th A3 16th beam:begin beam:begin C4 16th 3in2 tuplet:start slur:start chord D4 16th 3in2 chord A4 16th 3in2 B3 16th 3in2 natural chord B4 16th 3in2 natural C4 16th 3in2 beam:end beam:end tuplet:stop slur:stop chord C5 16th 3in2 backup half D2 voice:5 16th stem:up staff:2 beam:begin beam:begin chord D3 16th G3 16th C4 16th G3 16th beam:end beam:end F3 16th sharp stem:down beam:begin beam:begin D3 16th tied:start D3 16th 3in2 tied:stop tuplet:start slur:start chord F3 16th 3in2 G3 16th 3in2 A3 16th 3in2 beam:end beam:end tuplet:stop slur:stop measure D4 voice:1 quarter stem:up staff:1 chord A4 quarter natural chord C5 quarter B3 quarter natural chord D4 quarter chord G4 quarter chord B4 quarter natural backup half C4 voice:2 16th stem:down staff:1 beam:begin beam:begin A3 16th natural D4 16th A3 16th beam:end beam:end forward 16th B3 16th natural beam:begin beam:begin D4 16th B3 16th beam:end beam:end backup half G2 voice:5 16th stem:up staff:2 beam:begin beam:begin D3 16th F3 16th sharp D3 16th beam:end beam:end G2 16th beam:begin beam:begin D3 16th G3 16th D3 16th beam:end beam:end",
+ "linearizer_warnings": "",
+ "ser_edits": 133,
+ "ser_gold": 458,
+ "full": {
+  "edit": 282,
+  "gold": 987
+ },
+ "lmx": {
+  "edit": 252,
+  "gold": 955
+ },
+ "seconds": 196.1
+}

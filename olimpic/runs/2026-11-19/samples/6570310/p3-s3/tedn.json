@@ -1,0 +1,18 @@
+{
+ "id": "samples/6570310/p3-s3",
+ "scorer": 1,
+ "predicted": true,
+ "predLmx": "measure key:fifths:-5 time beats:4 beat-type:4 clef:G2 staff:1 clef:F4 staff:2 B4 voice:1 half flat stem:up staff:1 chord E5 half flat chord B5 half flat C5 quarter chord E5 quarter chord A5 quarter chord E6 quarter D5 eighth natural beam:begin chord D6 eighth natural C6 eighth beam:end backup whole E4 voice:2 16th 6in4 flat stem:down staff:1 tuplet:start chord G4 16th 6in4 natural forward eighth forward 16th forward 64th forward 256th forward 1024th E4 16th 6in4 tuplet:stop slur:start G4 16th 6in4 beam:begin beam:begin tuplet:start B4 16th 6in4 E5 16th 6in4 G5 16th 6in4 B5 16th 6in4 beam:end beam:end slur:stop E4 16th 6in4 tuplet:stop chord A4 16th 6in4 forward eighth forward 16th forward 64th forward 256th forward 1024th C4 16th 6in4 tuplet:stop E4 16th 6in4 beam:begin beam:begin tuplet:start G4 16th 6in4 C5 16th 6in4 E5 16th 6in4 A5 16th 6in4 beam:end beam:end tuplet:stop backup whole forward 32nd forward 128th forward 512th E2 voice:5 16th 6in4 flat stem:up staff:2 beam:begin beam:begin slur:start B2 16th 6in4 flat E3 16th 6in4 G3 16th 6in4 natural B3 16th 6in4 beam:end beam:end tuplet:stop slur:stop forward quarter forward 32nd forward 128th forward 512th E2 16th 6in4 beam:begin beam:begin A2 16th 6in4 C3 16th 6in4 E3 16th 6in4 A3 16th 6in4 beam:end beam:end tuplet:stop forward quarter measure B4 voice:1 half stem:up staff:1 chord E5 half chord B5 half B4 half natural chord D5 half sharp chord F5 half sharp chord B5 half natural backup whole E4 voice:2 16th 6in4 stem:down staff:1 tuplet:start chord G4 16th 6in4 natural forward eighth forward 16th forward 64th forward 256th forward 1024th E4 16th 6in4 tuplet:stop slur:start G4 16th 6in4 beam:begin beam:begin tuplet:start B4 16th 6in4 E5 16th 6in4 G5 16th 6in4 natural B5 16th 6in4 beam:end beam:end slur:stop forward quarter D4 16th 6in4 sharp beam:begin beam:begin tuplet:start slur:start F4 16th 6in4 sharp B4 16th 6in4 natural D5 16th 6in4 sharp F5 16th 6in4 sharp B5 16th 6in4 natural beam:end beam:end tuplet:stop slur:stop backup whole forward 32nd forward 128th forward 512th E2 voice:5 16th 6in4 stem:up staff:2 beam:begin beam:begin slur:start B2 16th 6in4 E3 16th 6in4 G3 16th 6in4 natural B3 16th 6in4 beam:end beam:end tuplet:stop slur:stop forward quarter B1 16th 6in4 natural beam:begin beam:begin tuplet:start slur:start F2 16th 6in4 sharp B2 16th 6in4 natural D3 16th 6in4 sharp F3 16th 6in4 sharp B3 16th 6in4 natural beam:end beam:end tuplet:stop slur:stop forward quarter",
+ "linearizer_warnings": "[ERROR][P:P1 M:1]: Duration could not be split up to note types for forward/backup. This is most likely a tuplet forward. Duration: 2240 Divisions: 6720\n[ERROR][P:P1 M:1]: Duration could not be split up to note types for forward/backup. This is most likely a tuplet forward. Duration: 2240 Divisions: 6720\n[ERROR][P:P1 M:1]: Duration could not be split up to note types for forward/backup. This is most likely a tuplet forward. Duration: 1120 Divisions: 6720\n[ERROR][P:P1 M:1]: Duration could not be split up to note types for forward/backup. This is most likely a tuplet forward. Duration: 1120 Divisions: 6720\n[ERROR][P:P1 M:2]: Duration could not be split up to note types for forward/backup. This is most likely a tuplet forward. Duration: 2240 Divisions: 6720\n[ERROR][P:P1 M:2]: Duration could not be split up to note types for forward/backup. This is most likely a tuplet forward. Duration: 1120 Divisions: 6720\n",
+ "ser_edits": 183,
+ "ser_gold": 330,
+ "full": {
+  "edit": 283,
+  "gold": 782
+ },
+ "lmx": {
+  "edit": 270,
+  "gold": 768
+ },
+ "seconds": 87.3
+}

@@ -1,0 +1,18 @@
+{
+ "id": "samples/6565727/p6-s4",
+ "scorer": 1,
+ "predicted": true,
+ "predLmx": "measure key:fifths:-3 time beats:2 beat-type:4 clef:G2 staff:1 clef:F4 staff:2 D4 voice:1 eighth dot stem:up staff:1 beam:begin slur:start chord B4 eighth dot natural chord D5 eighth dot C4 16th beam:end beam:backward-hook chord A4 16th natural chord C5 16th B3 eighth natural beam:begin chord G4 eighth chord B4 eighth C4 eighth beam:end chord A4 eighth chord C5 eighth backup half G2 voice:5 eighth stem:up staff:2 beam:begin D3 eighth beam:end chord E3 eighth natural chord G3 eighth D3 eighth chord E3 eighth chord G3 eighth forward eighth backup half G1 voice:6 quarter stem:down staff:2 D2 quarter measure D4 voice:1 eighth stem:up staff:1 beam:begin chord B4 eighth natural chord D5 eighth B3 eighth natural beam:end slur:stop chord D4 eighth rest eighth B3 eighth slur:start chord D4 eighth backup half forward eighth D3 voice:5 eighth stem:up staff:2 chord E3 eighth natural chord G3 eighth forward eighth D3 eighth chord E3 eighth chord G3 eighth backup half G2 voice:6 quarter stem:down staff:2 D2 quarter measure C4 voice:1 16th stem:up staff:1 beam:begin beam:forward-hook chord E4 16th natural E4 eighth chord G4 eighth E4 16th beam:end beam:backward-hook tied:start chord G4 16th tied:start E4 eighth beam:begin tied:stop chord G4 eighth tied:stop E4 eighth flat beam:end chord G4 eighth chord A4 eighth natural backup half forward eighth E3 voice:5 eighth natural stem:up staff:2 chord G3 eighth chord A3 eighth natural forward eighth E3 eighth flat chord G3 eighth chord A3 eighth backup half G2 voice:6 quarter stem:down staff:2 C2 quarter measure D4 voice:1 quarter stem:up staff:1 slur:stop chord G4 quarter chord B4 quarter natural rest quarter backup half forward eighth D3 voice:5 eighth stem:up staff:2 chord E3 eighth natural chord G3 eighth chord B3 eighth natural rest eighth forward eighth backup half G1 voice:6 quarter stem:down staff:2 forward eighth D2 eighth measure rest voice:1 rest:measure staff:1 backup half rest voice:5 eighth staff:2 D3 eighth stem:up chord E3 eighth natural chord G3 eighth chord B3 eighth natural rest quarter backup half G1 voice:6 eighth stem:down staff:2 chord G2 eighth rest eighth rest eighth D2 eighth",
+ "linearizer_warnings": "",
+ "ser_edits": 52,
+ "ser_gold": 344,
+ "full": {
+  "edit": 114,
+  "gold": 685
+ },
+ "lmx": {
+  "edit": 89,
+  "gold": 660
+ },
+ "seconds": 18.6
+}

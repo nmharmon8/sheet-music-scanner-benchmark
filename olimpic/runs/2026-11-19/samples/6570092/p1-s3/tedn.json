@@ -1,0 +1,18 @@
+{
+ "id": "samples/6570092/p1-s3",
+ "scorer": 1,
+ "predicted": true,
+ "predLmx": "measure key:fifths:-3 time beats:4 beat-type:4 clef:G2 staff:1 clef:F4 staff:2 B4 voice:1 eighth stem:down staff:1 beam:begin slur:start chord E5 eighth chord G5 eighth flat B5 eighth beam:end slur:stop G4 eighth flat stem:up beam:begin slur:start E4 eighth beam:end slur:stop B4 eighth stem:down beam:begin slur:start chord E5 eighth chord G5 eighth B5 eighth beam:end slur:stop G4 eighth stem:up beam:begin slur:start E4 eighth beam:end slur:stop backup whole rest voice:5 rest:measure staff:2 measure B4 voice:1 eighth stem:up staff:1 beam:begin slur:start chord D5 eighth chord F5 eighth B5 eighth beam:end slur:stop F4 eighth beam:begin slur:start B3 eighth beam:end A4 eighth dot beam:begin B4 32nd beam:begin beam:begin C5 32nd flat beam:end beam:end beam:end B4 eighth beam:begin A4 eighth beam:end slur:stop backup whole forward half forward eighth F4 voice:2 eighth stem:down staff:1 D4 eighth beam:begin B3 eighth beam:end backup whole rest voice:5 rest:measure staff:2 measure B4 voice:1 eighth stem:down staff:1 beam:begin slur:start chord E5 eighth chord G5 eighth B5 eighth beam:end slur:stop G4 eighth stem:up beam:begin slur:start E4 eighth beam:end slur:stop B4 eighth stem:down beam:begin slur:start chord F5 eighth chord A5 eighth B5 eighth beam:end slur:stop F4 eighth stem:up beam:begin slur:start D4 eighth beam:end slur:stop backup whole rest voice:5 rest:measure staff:2 measure G5 voice:1 eighth flat stem:down staff:1 beam:begin slur:start chord C6 eighth flat chord E6 eighth G6 eighth beam:end slur:stop C5 eighth flat beam:begin slur:start chord E5 eighth G4 eighth flat beam:end slur:stop E5 eighth beam:begin slur:start chord G5 eighth chord C6 eighth E6 eighth beam:end slur:stop G4 eighth stem:up beam:begin slur:start chord C5 eighth C4 eighth flat beam:end slur:stop backup whole rest voice:5 rest:measure staff:2",
+ "linearizer_warnings": "",
+ "ser_edits": 145,
+ "ser_gold": 291,
+ "full": {
+  "edit": 260,
+  "gold": 583
+ },
+ "lmx": {
+  "edit": 239,
+  "gold": 559
+ },
+ "seconds": 7.4
+}

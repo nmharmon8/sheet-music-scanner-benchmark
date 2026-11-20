@@ -1,0 +1,18 @@
+{
+ "id": "samples/5026306/p3-s2",
+ "scorer": 1,
+ "predicted": true,
+ "predLmx": "measure key:fifths:-1 time beats:9 beat-type:8 clef:G2 staff:1 clef:F4 staff:2 E4 voice:1 quarter dot flat stem:up staff:1 chord E5 quarter dot flat E4 eighth beam:begin slur:start G4 eighth B4 eighth beam:end slur:stop E4 quarter dot strong-accent chord E5 quarter dot backup whole backup eighth G2 voice:5 quarter stem:up staff:2 chord E3 quarter flat chord G3 quarter D4 eighth stem:down rest quarter rest eighth G2 quarter stem:up chord C3 quarter chord G3 quarter F4 eighth natural stem:down measure F4 voice:1 eighth sharp stem:up staff:1 beam:begin slur:start A4 eighth C5 eighth beam:end slur:stop E4 quarter dot flat strong-accent chord E5 quarter dot flat forward quarter forward eighth backup whole backup eighth rest voice:5 quarter staff:2 rest eighth G2 quarter stem:up chord D3 quarter chord G3 quarter E3 eighth sharp slur:start rest quarter rest eighth backup whole backup eighth forward half forward quarter F3 voice:6 eighth sharp stem:down staff:2 beam:begin slur:start A3 eighth C4 eighth beam:end slur:stop measure E4 voice:1 eighth flat stem:up staff:1 forward half E4 eighth forward quarter forward eighth clef:F4 staff:1 backup whole backup eighth forward eighth F3 voice:5 eighth natural stem:up staff:2 beam:begin F3 eighth sharp beam:end A3 eighth beam:begin C4 eighth beam:end slur:stop forward eighth F3 eighth natural beam:begin slur:start F3 eighth sharp A3 eighth beam:end slur:stop backup whole backup eighth rest voice:6 eighth staff:2 G2 quarter stem:down chord D3 quarter forward quarter forward eighth G2 quarter chord D3 quarter forward eighth measure C4 voice:1 eighth stem:down staff:1 beam:begin slur:start E4 eighth flat beam:end slur:stop forward eighth F3 16th 4in6 sharp beam:begin beam:begin tuplet:start slur:start A3 16th 4in6 C4 16th 4in6 E4 16th 4in6 beam:end beam:end tuplet:stop C4 eighth beam:begin A3 eighth F3 eighth beam:end slur:stop backup whole backup eighth forward quarter G2 voice:5 eighth stem:up staff:2 chord D3 eighth chord F3 eighth natural forward quarter forward eighth forward quarter forward eighth",
+ "linearizer_warnings": "",
+ "ser_edits": 127,
+ "ser_gold": 303,
+ "full": {
+  "edit": 248,
+  "gold": 612
+ },
+ "lmx": {
+  "edit": 215,
+  "gold": 576
+ },
+ "seconds": 24.2
+}

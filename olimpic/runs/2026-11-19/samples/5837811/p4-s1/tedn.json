@@ -1,0 +1,18 @@
+{
+ "id": "samples/5837811/p4-s1",
+ "scorer": 1,
+ "predicted": true,
+ "predLmx": "measure key:fifths:5 time beats:4 beat-type:4 clef:G2 staff:1 clef:F4 staff:2 A3 voice:1 quarter stem:up staff:1 chord E4 quarter chord F4 quarter E4 eighth 3in2 beam:begin tuplet:start chord G4 eighth 3in2 B3 eighth 3in2 E4 eighth 3in2 beam:end tuplet:stop chord G4 eighth 3in2 C4 quarter dot chord E4 quarter dot chord A4 quarter dot A3 eighth chord E4 eighth chord F4 eighth backup whole E3 voice:5 quarter stem:down staff:2 slur:start chord F3 quarter E3 eighth beam:begin chord G3 eighth E3 eighth beam:end chord G3 eighth E3 eighth slur:stop chord F3 eighth chord A3 eighth C2 eighth stem:up beam:begin accent chord C3 eighth F2 eighth beam:end accent chord F3 eighth E3 eighth stem:down chord F3 eighth measure A3 voice:1 quarter stem:up staff:1 chord E4 quarter chord F4 quarter E4 eighth 3in2 beam:begin tuplet:start chord G4 eighth 3in2 B3 eighth 3in2 E4 eighth 3in2 beam:end tuplet:stop chord G4 eighth 3in2 C4 quarter chord E4 quarter chord F4 quarter chord C5 quarter rest eighth C4 eighth chord E4 eighth chord F4 eighth chord A4 eighth backup whole E3 voice:5 quarter stem:down staff:2 slur:start chord F3 quarter E3 eighth beam:begin chord G3 eighth E3 eighth beam:end chord G3 eighth E3 eighth slur:stop chord F3 eighth chord A3 eighth C2 eighth stem:up beam:begin accent chord C3 eighth F2 eighth beam:end accent chord F3 eighth E3 eighth stem:down chord F3 eighth measure C4 voice:1 quarter stem:up staff:1 chord E4 quarter chord F4 quarter chord A4 quarter F4 eighth 3in2 beam:begin tuplet:start slur:start chord B4 eighth 3in2 D4 eighth 3in2 F4 eighth 3in2 beam:end tuplet:stop chord B4 eighth 3in2 G4 quarter stem:down slur:stop chord B4 quarter chord E5 quarter F4 eighth 3in2 stem:up beam:begin tuplet:start slur:start chord B4 eighth 3in2 chord D5 eighth 3in2 F4 eighth 3in2 B4 eighth 3in2 beam:end tuplet:stop slur:stop chord D5 eighth 3in2 backup whole E3 voice:5 quarter stem:down staff:2 slur:start chord F3 quarter D3 eighth beam:begin chord F3 eighth chord B3 eighth D3 eighth beam:end chord F3 eighth chord B3 eighth G3 quarter chord B3 quarter chord E4 quarter F3 eighth beam:begin chord B3 eighth chord D4 eighth F2 eighth beam:end slur:stop chord F3 eighth",
+ "linearizer_warnings": "",
+ "ser_edits": 137,
+ "ser_gold": 402,
+ "full": {
+  "edit": 301,
+  "gold": 920
+ },
+ "lmx": {
+  "edit": 266,
+  "gold": 880
+ },
+ "seconds": 31.1
+}

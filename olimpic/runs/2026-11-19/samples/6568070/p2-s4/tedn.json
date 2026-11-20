@@ -1,0 +1,18 @@
+{
+ "id": "samples/6568070/p2-s4",
+ "scorer": 1,
+ "predicted": true,
+ "predLmx": "measure key:fifths:-4 time beats:4 beat-type:4 clef:G2 staff:1 clef:F4 staff:2 B4 voice:1 quarter stem:up staff:1 B4 half C5 quarter backup whole G4 voice:2 eighth stem:down staff:1 beam:begin B3 eighth G4 eighth B3 eighth beam:end G4 eighth beam:begin B3 eighth E4 eighth chord G4 eighth flat C4 eighth beam:end backup whole E1 voice:5 quarter stem:up staff:2 chord E2 quarter B1 quarter chord B2 quarter E2 quarter chord E3 quarter A1 quarter chord A2 quarter measure F4 voice:1 half stem:up staff:1 F4 quarter dot E4 eighth backup whole D4 voice:2 eighth stem:down staff:1 beam:begin A3 eighth D4 eighth A3 eighth beam:end D4 eighth beam:begin B3 eighth A3 eighth G3 eighth flat beam:end backup whole D2 voice:5 quarter stem:up staff:2 chord D3 quarter C2 quarter chord C3 quarter B1 quarter chord B2 quarter C2 quarter chord C3 quarter measure F4 voice:1 half stem:up staff:1 B4 half backup whole A3 voice:2 eighth stem:down staff:1 beam:begin F3 eighth E4 eighth A3 eighth natural beam:end D4 eighth beam:begin B3 eighth F4 eighth D4 eighth beam:end backup whole D2 voice:5 quarter stem:up staff:2 chord D3 quarter C2 quarter chord C3 quarter B1 quarter chord B2 quarter A1 quarter chord A2 quarter measure D5 voice:1 half stem:up staff:1 C5 quarter B4 quarter backup whole E4 voice:2 eighth stem:down staff:1 beam:begin chord B4 eighth D4 eighth E4 eighth chord B4 eighth D4 eighth beam:end E4 eighth beam:begin chord A4 eighth D4 eighth E4 eighth D4 eighth beam:end backup whole G1 voice:5 quarter stem:up staff:2 chord G2 quarter E1 quarter chord E2 quarter F1 quarter chord F2 quarter G1 quarter chord G2 quarter measure E5 voice:1 half stem:up staff:1 E5 quarter dot D5 eighth backup whole A4 voice:2 eighth stem:down staff:1 beam:begin chord C5 eighth E4 eighth A4 eighth chord C5 eighth E4 eighth beam:end A4 eighth beam:begin chord C5 eighth E4 eighth B4 eighth E4 eighth beam:end backup whole A1 voice:5 quarter stem:up staff:2 chord A2 quarter G2 quarter chord G3 quarter F2 quarter chord F3 quarter G2 quarter chord G3 quarter",
+ "linearizer_warnings": "",
+ "ser_edits": 28,
+ "ser_gold": 353,
+ "full": {
+  "edit": 96,
+  "gold": 805
+ },
+ "lmx": {
+  "edit": 73,
+  "gold": 782
+ },
+ "seconds": 17.7
+}

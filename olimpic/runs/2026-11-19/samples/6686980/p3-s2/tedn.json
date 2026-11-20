@@ -1,0 +1,18 @@
+{
+ "id": "samples/6686980/p3-s2",
+ "scorer": 1,
+ "predicted": true,
+ "predLmx": "measure key:fifths:4 time beats:4 beat-type:2 clef:F4 staff:1 clef:F4 staff:2 E3 voice:1 quarter stem:down staff:1 chord G3 quarter chord C4 quarter E3 quarter chord G3 quarter chord C4 quarter F3 quarter sharp chord B3 quarter sharp chord D4 quarter F3 quarter chord B3 quarter chord D4 quarter G3 whole chord C4 whole chord E4 whole backup breve G1 voice:5 whole staff:2 chord G2 whole G2 whole chord E3 whole measure E3 voice:1 half stem:down staff:1 chord A3 half sharp chord C4 half A3 half natural chord B3 half natural chord D4 half A3 whole chord C4 whole chord E4 whole backup breve G1 voice:5 half natural stem:up staff:2 chord G2 half natural F1 half chord F2 half E1 whole tied:start chord E2 whole tied:start measure G3 voice:1 whole natural staff:1 chord B3 whole chord E4 whole F3 half stem:up chord B3 half rest half clef:G2 staff:1 backup breve forward whole E4 voice:2 quarter stem:down staff:1 slur:start fermata D4 quarter slur:stop fermata forward half backup breve E1 voice:5 half stem:up staff:2 tied:stop slur:start chord E2 half tied:stop G1 half natural slur:stop chord G2 half natural B1 half fermata chord B2 half rest half",
+ "linearizer_warnings": "",
+ "ser_edits": 36,
+ "ser_gold": 183,
+ "full": {
+  "edit": 125,
+  "gold": 446
+ },
+ "lmx": {
+  "edit": 55,
+  "gold": 372
+ },
+ "seconds": 2.8
+}

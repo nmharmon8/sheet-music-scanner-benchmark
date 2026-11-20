@@ -1,0 +1,18 @@
+{
+ "id": "samples/5098713/p2-s3",
+ "scorer": 1,
+ "predicted": true,
+ "predLmx": "measure key:fifths:-4 time beats:9 beat-type:8 clef:G2 staff:1 clef:F4 staff:2 rest voice:1 eighth staff:1 E4 eighth stem:up beam:begin chord A4 eighth chord C5 eighth E4 eighth beam:end chord A4 eighth chord C5 eighth E4 eighth beam:begin chord A4 eighth chord C5 eighth E4 eighth chord A4 eighth chord C5 eighth E4 eighth beam:end chord A4 eighth chord C5 eighth E4 eighth beam:begin chord A4 eighth chord C5 eighth E4 eighth chord A4 eighth chord C5 eighth E4 eighth beam:end chord A4 eighth chord C5 eighth backup whole backup eighth A1 voice:5 eighth stem:up staff:2 beam:begin chord A2 eighth E3 eighth chord A3 eighth chord C4 eighth E3 eighth beam:end chord A3 eighth chord C4 eighth E3 eighth stem:down beam:begin chord A3 eighth chord C4 eighth E3 eighth chord A3 eighth chord C4 eighth E3 eighth beam:end chord A3 eighth chord C4 eighth E3 eighth beam:begin chord A3 eighth chord C4 eighth E3 eighth chord A3 eighth chord C4 eighth E3 eighth beam:end chord A3 eighth chord C4 eighth measure rest voice:1 eighth staff:1 E4 eighth stem:up beam:begin chord C5 eighth F4 eighth beam:end chord C5 eighth chord D5 eighth natural F4 eighth beam:begin chord C5 eighth chord D5 eighth F4 eighth chord C5 eighth chord D5 eighth F4 eighth beam:end chord C5 eighth chord D5 eighth F4 eighth beam:begin chord C5 eighth chord D5 eighth F4 eighth chord C5 eighth chord D5 eighth F4 eighth beam:end chord C5 eighth chord D5 eighth backup whole backup eighth A2 voice:5 eighth stem:down staff:2 chord A3 eighth E3 eighth beam:begin chord C4 eighth F3 eighth beam:end chord C4 eighth chord D4 eighth natural F3 eighth beam:begin chord C4 eighth chord D4 eighth F3 eighth chord C4 eighth chord D4 eighth F3 eighth beam:end chord C4 eighth chord D4 eighth F3 eighth beam:begin chord C4 eighth chord D4 eighth F3 eighth chord C4 eighth chord D4 eighth F3 eighth beam:end chord C4 eighth chord D4 eighth measure rest voice:1 eighth staff:1 G4 eighth stem:down beam:begin chord C5 eighth chord D5 eighth natural G4 eighth beam:end chord C5 eighth chord D5 eighth G4 eighth beam:begin chord C5 eighth chord D5 eighth G4 eighth chord C5 eighth chord D5 eighth G4 eighth beam:end chord C5 eighth chord E5 eighth A4 eighth beam:begin chord C5 eighth chord E5 eighth A4 eighth chord C5 eighth chord E5 eighth A4 eighth beam:end chord C5 eighth chord E5 eighth chord A5 eighth backup whole backup eighth G2 voice:5 eighth stem:up staff:2 chord G3 eighth G3 eighth stem:down beam:begin chord C4 eighth chord D4 eighth natural G3 eighth beam:end chord C4 eighth chord D4 eighth G3 eighth beam:begin chord C4 eighth chord D4 eighth G3 eighth chord C4 eighth chord D4 eighth G3 eighth beam:end chord C4 eighth chord E4 eighth F2 eighth stem:up chord F3 eighth F3 eighth stem:down beam:begin chord A3 eighth chord C4 eighth chord E4 eighth F3 eighth beam:end chord A3 eighth chord C4 eighth chord E4 eighth",
+ "linearizer_warnings": "",
+ "ser_edits": 205,
+ "ser_gold": 672,
+ "full": {
+  "edit": 569,
+  "gold": 1639
+ },
+ "lmx": {
+  "edit": 555,
+  "gold": 1625
+ },
+ "seconds": 141.8
+}

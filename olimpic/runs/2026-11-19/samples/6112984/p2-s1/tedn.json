@@ -1,0 +1,18 @@
+{
+ "id": "samples/6112984/p2-s1",
+ "scorer": 1,
+ "predicted": true,
+ "predLmx": "measure key:fifths:4 time beats:3 beat-type:4 clef:G2 staff:1 clef:F4 staff:2 E5 voice:1 eighth dot stem:down staff:1 beam:begin chord E6 eighth dot B4 16th beam:end beam:backward-hook chord B5 16th B4 quarter dot chord B5 quarter dot B4 eighth chord B5 eighth backup half backup quarter G3 voice:5 quarter stem:down staff:2 chord B3 quarter chord E4 quarter chord G4 quarter B1 quarter stem:up chord B2 quarter A3 quarter stem:down chord B3 quarter chord D4 quarter chord F4 quarter measure E5 voice:1 eighth dot stem:down staff:1 beam:begin chord E6 eighth dot B4 16th beam:end beam:backward-hook chord B5 16th B4 quarter dot chord B5 quarter dot B4 eighth backup half backup quarter G3 voice:5 quarter stem:down staff:2 chord B3 quarter chord E4 quarter chord G4 quarter B1 quarter stem:up chord B2 quarter A3 quarter stem:down chord B3 quarter chord D4 quarter chord F4 quarter measure B5 voice:1 half dot stem:down staff:1 trill-mark backup half backup quarter G3 voice:5 eighth dot stem:down staff:2 beam:begin chord B3 eighth dot chord E4 eighth dot F3 16th beam:end beam:backward-hook chord B3 16th chord D4 16th F3 quarter chord B3 quarter chord D4 quarter grace grace:slash B2 eighth B3 quarter chord D4 quarter chord A4 quarter measure G5 voice:1 eighth dot stem:down staff:1 beam:begin arpeggiate chord B5 eighth dot arpeggiate chord E6 eighth dot arpeggiate chord G6 eighth dot arpeggiate E3 16th beam:end beam:backward-hook chord G3 16th chord B3 16th chord E4 16th chord G4 16th G3 half stem:up fermata chord B3 half chord E4 half chord G4 half backup half backup quarter E3 voice:5 eighth dot stem:down staff:2 beam:begin arpeggiate chord B3 eighth dot arpeggiate chord G4 eighth dot arpeggiate E2 16th beam:end beam:backward-hook chord B2 16th E2 half stem:up fermata chord B2 half chord E3 half measure key:fifths:1 E4 voice:1 quarter stem:up staff:1 chord G4 quarter chord B4 quarter B4 eighth stem:down beam:begin B4 eighth grace grace:slash D5 eighth C5 eighth B4 eighth beam:end backup half backup quarter E3 voice:5 quarter stem:down staff:2 chord G3 quarter chord B3 quarter B3 eighth beam:begin B3 eighth grace grace:slash D4 eighth C4 eighth B3 eighth beam:end",
+ "linearizer_warnings": "",
+ "ser_edits": 78,
+ "ser_gold": 379,
+ "full": {
+  "edit": 163,
+  "gold": 725
+ },
+ "lmx": {
+  "edit": 125,
+  "gold": 687
+ },
+ "seconds": 11.5
+}
